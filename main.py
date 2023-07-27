@@ -1,12 +1,42 @@
 from dataclasses import dataclass
 from typing import Dict, List
 import os.path
+import re
 
 import story
 
 
 def edit(byte_array: bytearray, index: int, contents: bytes):
     byte_array[index : index + len(contents)] = contents
+
+
+def translate(byte_array: bytearray, index: int, source: str, target: str):
+    bs = source.encode("cp932")
+    bt = target.encode("cp932")
+    assert byte_array[index : index + len(bs)] == bs
+    assert len(bt) <= len(bs)
+    byte_array[index : index + len(bs)] = bt.ljust(len(bs))
+
+
+def find_strings(ws_data):
+
+    for m in re.finditer(b"(([\x81-\x9f][\x40-\xfc]|\x20){2,})", ws_data):
+        try:
+            s = m.group(1)
+            i = m.start(0)
+            d = s.decode("cp932")
+            if (
+                d.strip()
+                and "己" not in d
+                and not (0x7000 < i < 0xD000 or 0x2000 < i < 0x5000)
+            ):
+                rd = repr(d).replace("\\u3000", "\u3000")
+                print(
+                    "translate(ws_data, 0x%04x, %s, %s) # %02x"
+                    % (i, rd, rd, ws_data[i + len(s)])
+                )
+        except UnicodeDecodeError:
+            pass
 
 
 @dataclass
@@ -43,6 +73,7 @@ if __name__ == "__main__":
         end = start + length
         data = rom[start:end]
         fs[name] = Entry(i, name, start, end, data)
+        print(name, data.count("道具".encode("cp932")))
         if not os.path.isdir("dump"):
             os.mkdir("dump")
         path = os.path.join("dump", name)
@@ -66,7 +97,6 @@ if __name__ == "__main__":
         )
         size = (fcp_file[i + 17] << 8) + fcp_file[i + 16]
         contents = fcp_file[address : address + size]
-        # print(name, contents.count(b"\x0d\x0b"))
         if name == b"STORY.DAT":
             story_contents = contents
             edit(fcp_file, address + 0x288, b"\x0d\x0b\x00\x0a\x02\x07\x0a")
@@ -76,12 +106,17 @@ if __name__ == "__main__":
 
     story.dump(story_contents, table)
 
+    ws = fs["WS.COM"]
+    ws_data = bytearray(ws.data)
+    if False:
+        find_strings(ws_data)
+
     patched = rom[:]
 
     drbios = fs["DRBIOS.COM"]
     bios_data = bytearray(drbios.data)
 
-    if False:
+    if True:
         # halfwidth text
         edit(
             bios_data,
@@ -92,18 +127,149 @@ if __name__ == "__main__":
         edit(bios_data, 0xA56, b"\x90\x90")
         # make the text wrap at the end of the screen, not halfway through
         edit(bios_data, 0xA4D, b"\x90")
-        patched[drbios.start : drbios.end] = bios_data
 
-        ws = fs["WS.COM"]
-        ws_data = bytearray(ws.data)
         # left window cursor
         edit(ws_data, 0x2532, b"\x0e")
         # right window cursor
         edit(ws_data, 0x25B5, b"\x30")
-        patched[ws.start : ws.end] = ws_data
 
-    wsdata = fs["WSDATA.FCP"]
-    patched[wsdata.start : wsdata.end] = fcp_file
+    translate(ws_data, 0x03A9, "ＧＡＭＥ　ＯＶＥＲ", "ＧＡＭＥ　ＯＶＥＲ")  # ff
+    translate(ws_data, 0x13C4, "が組み込まれていません", " not installed")  # 0d
+    translate(ws_data, 0x13F5, "のバージョンが違います", " version is wrong")  # 0d
+    translate(ws_data, 0x1428, " を組み込んで実行して下さい", " needs install and run")  # 0d
+    translate(ws_data, 0x1446, "メモリが不足しています。", "Not enough memory.")  # 0d
+    translate(ws_data, 0x1460, "メインメモリ空き容量をメインプログラム実行時に", "Please ensure at least ")  # 0d
+    translate(ws_data, 0x14A9, "以上確保して下さい。", "is available")  # 0d
+    translate(ws_data, 0x14C0, "メモリブロックの変更が出来ませんでした！！", "Memory block change failed!")  # 24
+    translate(ws_data, 0x14EB, "メモリの確保が出来ませんでした！！！", "Memory allocation failed!")  # 24
+    translate(ws_data, 0x1510, "ファイル", "File ")  # 5b
+    translate(ws_data, 0x1526, "が読み込めません！！", " could not be read!")  # 24
+    translate(ws_data, 0x153F, "ＦＣＰファイルテーブルが読み込めません！！", "FCP file could not be read!")  # 24
+    translate(ws_data, 0x156A, "ＦＣＰファイル内に", "FCP file lacks ")  # 5b
+    translate(ws_data, 0x158A, "が存在しません！！", "!!")  # 24
+    translate(ws_data, 0x159D, "致命的エラーが発生しました", "A fatal error has occurred")  # 24
+    translate(ws_data, 0x19F8, "ミーナ", "Mina  ")  # 01
+    translate(ws_data, 0x1A05, "オットー", "Otto    ")  # ff
+    translate(ws_data, 0x5755, "ＹＯＵ　ＷＯＮ！！", "ＹＯＵ　ＷＯＮ！！")  # ff
+    translate(ws_data, 0x576D, "ＥＸＰ：　    ", "ＥＸＰ：　    ")  # 21
+    translate(ws_data, 0x5782, "ＥＸＰ：　－－－－－", "ＥＸＰ：　－－－－－")  # ff
+    translate(ws_data, 0x579C, "　　　：　    ", "　　　：　    ")  # 21
+    translate(ws_data, 0x57B1, "　　ミーナ　レベルアップ！　　", "    Mina leveled up!")  # ff
+    translate(ws_data, 0x57D5, "　　オットー　レベルアップ！　", "    Otto leveled up!")  # ff
+    translate(ws_data, 0x57F9, "レベル：   ", "Level:")  # 21
+    translate(ws_data, 0x5808, "体力　：   ", "HP:")  # 21
+    translate(ws_data, 0x5814, "（＋   ", "（＋   ")  # 21
+    translate(ws_data, 0x5821, "攻撃力：   ", "Attack:")  # 21
+    translate(ws_data, 0x582D, "（＋   ", "（＋   ")  # 21
+    translate(ws_data, 0x583A, "防御力：   ", "Defense:")  # 21
+    translate(ws_data, 0x5846, "（＋   ", "（＋   ")  # 21
+    translate(ws_data, 0x5853, "素早さ：   ", "Speed:")  # 21
+    translate(ws_data, 0x585F, "（＋   ", "（＋   ")  # 21
+    translate(ws_data, 0x5BE5, "イシオニ", "Golem")  # ff
+    translate(ws_data, 0x5BF3, "かたいイシオニ", "Hard Golem")  # ff
+    translate(ws_data, 0x5C07, "すごいイシオニ", "Great Golem")  # ff
+    translate(ws_data, 0x5C1B, "コトダマ", "Kotodama")  # ff
+    translate(ws_data, 0x5C29, "カナキリゴエ", "Siren")  # ff
+    translate(ws_data, 0x5C3B, "イワトカゲ", "RockLizard")  # ff
+    translate(ws_data, 0x5C4B, "ミドリイワトカゲ", "Green RockLizard")  # ff
+    translate(ws_data, 0x5C61, "レーザー砲", "Cannon")  # ff
+    translate(ws_data, 0x5C71, "下級兵士", "Private")  # ff
+    translate(ws_data, 0x5C7F, "中級兵士", "Sergeant")  # ff
+    translate(ws_data, 0x5C8D, "上級兵士", "Major")  # ff
+    translate(ws_data, 0x5C9B, "ギャリオット", "Garriott")  # ff
+    translate(ws_data, 0x5CAD, "トライアンフ", "Triumph")  # ff
+    translate(ws_data, 0x5CBF, "ウォ－レン", "Warren")  # ff
+    translate(ws_data, 0x5CCF, "トライアンフ", "Triumph")  # ff
+    translate(ws_data, 0x5CE1, "イシオニ", "Golem")  # ff
+    translate(ws_data, 0x5CEF, "かたいイシオニ", "Hard Golem")  # ff
+    translate(ws_data, 0x5D03, "すごいイシオニ", "Great Golem")  # ff
+    translate(ws_data, 0x5D17, "コトダマ", "Kotodama")  # ff
+    translate(ws_data, 0x5D25, "カナキリゴエ", "Siren")  # ff
+    translate(ws_data, 0x5D37, "ミッキ－", "Mickey")  # ff
+    translate(ws_data, 0x5D45, "下級兵士", "Private")  # ff
+    translate(ws_data, 0x5D53, "中級兵士", "Sergeant")  # ff
+    translate(ws_data, 0x5D61, "上級兵士", "Major")  # ff
+    translate(ws_data, 0x5DFE, "　最初から　", "　Start")  # ff
+    translate(ws_data, 0x5E0E, "　途中から　", "　Continue")  # ff
+    translate(ws_data, 0x5E9A, "どうぐ　", "Items")  # ff
+    translate(ws_data, 0x5EA6, "つよさ　", "Status")  # ff
+    translate(ws_data, 0x5EB2, "システム", "System")  # ff
+    translate(ws_data, 0x5F38, "データセーブ", "Save")  # ff
+    translate(ws_data, 0x5F48, "データロード", "Load")  # ff
+    translate(ws_data, 0x5F58, "ゲームそくど", "Game Speed")  # ff
+    translate(ws_data, 0x5F68, "サウンド　　", "Sound")  # ff
+    translate(ws_data, 0x6200, "　　　　　　　　お祈り草の実　　", "　　　　　　　　Praygrass")  # ff
+    translate(ws_data, 0x6222, "紫ミカンの実　　", "Purple Tangerine")  # ff
+    translate(ws_data, 0x6234, "ドリドリの葉　　", "Dori Leaf       ")  # ff
+    translate(ws_data, 0x6246, "ザウワークラウト", "Sauerkraut      ")  # ff
+    translate(ws_data, 0x6258, "四つ葉のドリドリ", "Four-Leaf Dori  ")  # ff
+    translate(ws_data, 0x626A, "メディヴァイン　", "Medivine        ")  # ff
+    translate(ws_data, 0x627C, "超肉体玉　　　　", "Super Orb       ")  # ff # wtf is this?
+    translate(ws_data, 0x62B9, "　▲　", "　▲　")  # 03
+    translate(ws_data, 0x62E7, "　▼　", "　▼　")  # 03
+    translate(ws_data, 0x62F5, "どちらが？", "Who?")  # ff
+    translate(ws_data, 0x6303, "どちらに？", "To whom?")  # ff
+    translate(ws_data, 0x6354, "　ミーナ　", "Mina")  # ff
+    translate(ws_data, 0x6368, "オットー", "Otto")  # 03
+    translate(ws_data, 0x6466, "どちらの？", "Whose?")  # ff
+    translate(ws_data, 0x6474, "　ミーナ　", "Mina")  # ff
+    translate(ws_data, 0x6488, "オットー", "Otto")  # 03
+    translate(ws_data, 0x657C, "ミーナ", "Mina")  # ff
+    translate(ws_data, 0x6586, "オットー", "Otto")  # ff
+    translate(ws_data, 0x6594, "レベル     ", "Level      ")  # 21
+    translate(ws_data, 0x65A3, "攻撃力     ", "Attack     ")  # 21
+    translate(ws_data, 0x65B2, "防御力     ", "Defense    ")  # 21
+    translate(ws_data, 0x65C1, "素早さ     ", "Speed      ")  # 21
+    translate(ws_data, 0x65D0, "体力　     ", "HP         ")  # 21
+    translate(ws_data, 0x65DC, "／    ", "／    ")  # 21
+    translate(ws_data, 0x65E9, "経験値     ", "  Exp.     ")  # 21
+    translate(ws_data, 0x65F5, "／    ", "／    ")  # 21
+    translate(ws_data, 0x6602, "経験値　－－－－－／－－－－－", "  Exp.　－－－－－／－－－－－")  # ff
+    translate(ws_data, 0x6769, "　　データ　セーブ　　", "　　Save game     　　")  # ff
+    translate(ws_data, 0x6783, "セーブしますか？", "Really save?")  # ff
+    translate(ws_data, 0x686C, "　　データ　ロード　　", "　　Load game     　　")  # ff
+    translate(ws_data, 0x6886, "ロードしますか？", "Really load?")  # ff
+    translate(ws_data, 0x689A, "データがありません", "No game saved.")  # ff
+    translate(ws_data, 0x68F0, "　　Ｙｅｓ　　", "　　Ｙｅｓ　　")  # 03
+    translate(ws_data, 0x6906, "　　　Ｎｏ　　　", "　　　Ｎｏ　　　")  # ff
+    translate(ws_data, 0x6958, "　　Ｙｅｓ　　", "　　Ｙｅｓ　　")  # ff
+    translate(ws_data, 0x6970, "　　Ｎｏ　　", "　　Ｎｏ　　")  # 03
+    translate(ws_data, 0x69EC, "ゲームそくど", "Game Speed  ")  # ff
+    translate(ws_data, 0x6A02, "　はやい　", "　Fast  　")  # 03
+    translate(ws_data, 0x6A1A, "　ふつう　", "　Normal　")  # 03
+    translate(ws_data, 0x6A8B, "サウンド", "Sound   ")  # ff
+    translate(ws_data, 0x6A97, "　きく　", "　On  　")  # ff
+    translate(ws_data, 0x6AA3, "きかない", "　Off 　")  # ff
+    translate(ws_data, 0x6B55, "ザウワークラウト", "Sauerkraut      ")  # ff
+    translate(ws_data, 0x6B69, "メディヴァイン　", "Medivine        ")  # ff
+    translate(ws_data, 0x6B7D, "紫ミカンの実　　", "Purple Tangerine")  # ff
+    translate(ws_data, 0x6B91, "何も買わない　　", "Never mind      ")  # ff
+
+    translate(ws_data, 0x6C7A, "個体攻撃", "FightOne")  # ff
+    translate(ws_data, 0x6C88, "全体攻撃", "FightAll")  # ff
+    translate(ws_data, 0x6C96, "コール１", "Call (1)")  # ff
+    translate(ws_data, 0x6CA4, "防御　　", "Defend  ")  # ff
+    translate(ws_data, 0x6CB2, "道具　　", "Item    ")  # ff
+    translate(ws_data, 0x6CC0, "逃げる　", "Run     ")  # ff
+    translate(ws_data, 0x6CCE, "コール１", "Call (1)")  # ff
+    translate(ws_data, 0x6CDC, "コール２", "Call (2)")  # ff
+    translate(ws_data, 0x6CEA, "コール３", "Call (3)")  # ff
+    translate(ws_data, 0x6CF8, "必殺技　", "SuperAtk")  # ff
+    translate(ws_data, 0x6DCD, "攻撃　　", "Fight   ")  # ff
+    translate(ws_data, 0x6DDB, "回復　　", "Heal    ")  # ff
+    translate(ws_data, 0x6DE9, "コール１", "Call (1)")  # ff
+    translate(ws_data, 0x6DF7, "防御　　", "Defend  ")  # ff
+    translate(ws_data, 0x6E05, "道具　　", "Item    ")  # ff
+    translate(ws_data, 0x6E13, "逃げる　", "Run     ")  # ff
+    translate(ws_data, 0x6E21, "コール１", "Call (1)")  # ff
+    translate(ws_data, 0x6E2F, "コール２", "Call (2)")  # ff
+    translate(ws_data, 0x6E3D, "コール３", "Call (3)")  # ff
+    translate(ws_data, 0x6E4B, "必殺技　", "SuperAtk")  # ff
+
+    patched[drbios.start : drbios.end] = bios_data
+    patched[ws.start : ws.end] = ws_data
+    fcp = fs["WSDATA.FCP"]
+    patched[fcp.start : fcp.end] = fcp_file
 
     with open("patched.fdi", "wb") as of:
         print("Writing patched.fdi")
