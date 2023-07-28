@@ -1,25 +1,29 @@
+import re
+
 cc = {
     0x03: "<Something>",
-    0x07: "<Else=",
+    0x07: "<Idk ",
     # Newline
     0x04: "<NL>",
     # Prompt for next message
     0x05: "<Next>\n",
     # Set text color
-    0x08: "<Color=",
+    0x08: "<Color ",
     # End text routine
     0xFF: "<End>\n\n",
     # Size
-    0x0a: "<Size=",
+    0x0a: "<Size ",
     # Set left speaker sprite
-    0x0B: "<LS=",
+    0x0B: "<LS ",
     # Set right speaker sprite
-    0x0C: "<RS=",
+    0x0C: "<RS ",
     # Use left box
     0x0D: "<LB>",
     # Use right box
     0x0E: "<RB>",
 }
+
+cc_inv = { v.strip("\n <>"): k for k, v in cc.items() }
 
 speaker = {
     0x00: "Mina",
@@ -49,6 +53,7 @@ speaker = {
     0x1d: "Warren",
 }
 
+speaker_inv = {v: k for k, v in speaker.items()}
 
 def dump(story, table):
     output = []
@@ -71,12 +76,12 @@ def dump(story, table):
                     print("Unknown control code: %02x" % byte)
                     char = "<%02x>" % byte
                 ptr += 1
-                if char == "<LS=" or char == "<RS=":
+                if char == "<LS " or char == "<RS ":
                     char += speaker.get(story[ptr], "%02x" % story[ptr]) + ">"
                     if story[ptr] not in speaker:
                         print("Unknown speaker: %02x" % story[ptr])
                     ptr += 1
-                elif char.endswith("="):
+                elif char.endswith(" "):
                     char += "%02x" % story[ptr] + ">"
                     ptr += 1
             elif 0x21 <= byte <= 0x7F:
@@ -98,3 +103,31 @@ def dump(story, table):
 
     with open("story.txt", "w") as of:
         of.write("".join(output))
+
+
+def parse():
+    with open("story-eng.txt") as f:
+        translation = f.read()
+    event_id = None
+    buffer = bytearray(0x201)
+    # Null event idk
+    buffer[0x200] = 0xFF
+    for line in translation.split("\n"):
+        if line.startswith("<!--"):
+            event_id = int(line.split()[2], 16)
+            ptr = len(buffer)
+            buffer[event_id] = ptr & 0xFF
+            buffer[event_id + 1] = ptr >> 8
+        else:
+            for m in re.finditer(r"<(\w+)>|<(\w+) ([^>]+)>|(.)", line):
+                cmd, cmd1, arg, ch = m.groups()
+                if cmd:
+                    buffer.append(cc_inv[cmd])
+                elif cmd1:
+                    buffer.append(cc_inv[cmd1])
+                    i = speaker_inv.get(arg)
+                    if i is None: i = int(arg, 16)
+                    buffer.append(i)
+                elif ch:
+                    buffer.extend(ch.encode("ascii", errors="replace"))
+    return buffer

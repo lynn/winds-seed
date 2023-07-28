@@ -11,7 +11,7 @@
 <End>
 
 <!-- event 0x0008 at 0x0288 -->
-<LB><LS Mina>ほらっ<NL>着いたよ、オットー！<Next>
+<LB><LS Mina>Look, Otto, we made it!<Next>
 <End>
 
 <!-- event 0x000a at 0x029c -->
