@@ -1,27 +1,60 @@
-<!-- event 0x0002 at 0x16be -->
+= event 0x0002 at 0x16be
+
+<!-- <RB><RS God>そうか…<NL>時計屋がのう…<Next> -->
+<!-- <End> -->
 <RB><RS God>そうか…<NL>時計屋がのう…<Next>
 <End>
 
-<!-- event 0x0004 at 0x2f68 -->
+
+= event 0x0004 at 0x2f68
+
+<!-- <RB><RS InnGuest>わしはどんな魔物よりも<NL>人間が一番こわい…<Next> -->
+<!-- <End> -->
 <RB><RS InnGuest>わしはどんな魔物よりも<NL>人間が一番こわい…<Next>
 <End>
 
-<!-- event 0x0006 at 0x2ff3 -->
+
+= event 0x0006 at 0x2ff3
+
+<!-- <RB><RS CurryEater>ここのうまいカレーも<NL>あと何回食えるだろう<Next> -->
+<!-- <End> -->
 <RB><RS CurryEater>ここのうまいカレーも<NL>あと何回食えるだろう<Next>
 <End>
 
-<!-- event 0x0008 at 0x0288 -->
+
+= event 0x0008 at 0x0288
+
+<!-- <LB><LS Mina>ほらっ<NL>着いたよ、オットー！<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ほらっ<NL>着いたよ、オットー！<Next>
 <End>
 
-<!-- event 0x000a at 0x029c -->
+
+= event 0x000a at 0x029c
+
+<!-- <LB><LS Mina>ふぅ、くったびれた<Next> -->
+<!-- この村って、やっぱ<NL>けっこう遠いなあ<Next> -->
+<!-- <LB>でも、ま、いいか<Next> -->
+<!-- おかげでオットーも<NL>力を<Color 0b>“コール”<Color 0f>する<NL>コツを覚えてきた<NL>みたいだし<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ふぅ、くったびれた<Next>
 この村って、やっぱ<NL>けっこう遠いなあ<Next>
 <LB>でも、ま、いいか<Next>
 おかげでオットーも<NL>力を<Color 0b>“コール”<Color 0f>する<NL>コツを覚えてきた<NL>みたいだし<Next>
 <End>
 
-<!-- event 0x000c at 0x02f6 -->
+
+= event 0x000c at 0x02f6
+
+<!-- <RB><RS Otto>ふぇええええ<NL>つかれたぁ…<Next> -->
+<!-- <LB><LS Mina>そうね、あたしも<NL>もうくたくただよ<Next> -->
+<!-- グレイお兄ちゃんに<NL>来たよ、って挨拶したら<NL>今日はもう休みましょ<Next> -->
+<!-- <RB><RS Otto>うん！<NL>それで、グレイ兄ちゃん<NL>どこで働いているの？<Next> -->
+<!-- <LB><LS Mina>村の東にあるお店だよ<NL>時計屋さんなんだ<Next> -->
+<!-- そっか、オットーは<NL>お兄ちゃんのお店は<NL>初めてだっけ？<Next> -->
+<!-- <RB><RS Otto>うん！<NL>早く行こうよ<NL>おねぇちゃん！<Next> -->
+<!-- <LB>はいはい<Next> -->
+<!-- <End> -->
 <RB><RS Otto>ふぇええええ<NL>つかれたぁ…<Next>
 <LB><LS Mina>そうね、あたしも<NL>もうくたくただよ<Next>
 グレイお兄ちゃんに<NL>来たよ、って挨拶したら<NL>今日はもう休みましょ<Next>
@@ -32,11 +65,24 @@
 <LB>はいはい<Next>
 <End>
 
-<!-- event 0x000e at 0x03c2 -->
+
+= event 0x000e at 0x03c2
+
+<!-- <LB><LS Mina>さて、と<Next> -->
+<!-- <End> -->
 <LB><LS Mina>さて、と<Next>
 <End>
 
-<!-- event 0x0010 at 0x03cb -->
+
+= event 0x0010 at 0x03cb
+
+<!-- <RB><RS TownMan>よう、ミーナちゃん<NL>今年も<Color 0b>“お祈り草”<Color 0f>を<NL>とりに来たのかぁ！<Next> -->
+<!-- <LB><LS Mina>うん、またしばらく<NL>この村のお世話になるね！<Next> -->
+<!-- <RB>おお、まかせとけ！<NL>いもうとの方もなあ！<NL>よろしくなぁ！<Next> -->
+<!-- <LB><LS Otto>あの、えと、ぼく…男…<Next> -->
+<!-- <RB>なんだオトコかぁ！<NL>しかし元気がないなぁ！<NL>なぁ、おい！<Next> -->
+<!-- <LB>… … … …<Next> -->
+<!-- <End> -->
 <RB><RS TownMan>よう、ミーナちゃん<NL>今年も<Color 0b>“お祈り草”<Color 0f>を<NL>とりに来たのかぁ！<Next>
 <LB><LS Mina>うん、またしばらく<NL>この村のお世話になるね！<Next>
 <RB>おお、まかせとけ！<NL>いもうとの方もなあ！<NL>よろしくなぁ！<Next>
@@ -45,11 +91,24 @@
 <LB>… … … …<Next>
 <End>
 
-<!-- event 0x0012 at 0x0473 -->
+
+= event 0x0012 at 0x0473
+
+<!-- <RB><RS TownMan>元気が一番！<NL>なぁ～！ うんうん<Next> -->
+<!-- <End> -->
 <RB><RS TownMan>元気が一番！<NL>なぁ～！ うんうん<Next>
 <End>
 
-<!-- event 0x0014 at 0x048d -->
+
+= event 0x0014 at 0x048d
+
+<!-- <RB><RS TownLady>あらぁ、ミーナちゃん<NL>ひさしぶりだねぇ<Next> -->
+<!-- <LB><LS Mina>やっほー、おばさん！<Next> -->
+<!-- <RB><RS TownLady>また、西の森向こうの<NL>草原まで行くのかい？<Next> -->
+<!-- <LB><LS Mina>うん！<NL>お祈り草をとりにね！<Next> -->
+<!-- <RB><RS TownLady>そうかいそうかい<NL>毎年、ご苦労さま<Next> -->
+<!-- あんたたちの街では<NL>カーニバルに<NL>お祈り草のパンが<NL>つきものだものね<Next> -->
+<!-- <End> -->
 <RB><RS TownLady>あらぁ、ミーナちゃん<NL>ひさしぶりだねぇ<Next>
 <LB><LS Mina>やっほー、おばさん！<Next>
 <RB><RS TownLady>また、西の森向こうの<NL>草原まで行くのかい？<Next>
@@ -58,70 +117,144 @@
 あんたたちの街では<NL>カーニバルに<NL>お祈り草のパンが<NL>つきものだものね<Next>
 <End>
 
-<!-- event 0x0016 at 0x0528 -->
+
+= event 0x0016 at 0x0528
+
+<!-- <RB><RS TownLady>気をつけんだよ<Next> -->
+<!-- あの辺りにはバケモノが<NL>いっぱいいるからねぇ<Next> -->
+<!-- <LB><LS Mina>いるのよねぇ<NL>大変よねぇ<Next> -->
+<!-- <LB><LS Otto>あうぅ…こわい…<Next> -->
+<!-- <End> -->
 <RB><RS TownLady>気をつけんだよ<Next>
 あの辺りにはバケモノが<NL>いっぱいいるからねぇ<Next>
 <LB><LS Mina>いるのよねぇ<NL>大変よねぇ<Next>
 <LB><LS Otto>あうぅ…こわい…<Next>
 <End>
 
-<!-- event 0x0018 at 0x0570 -->
+
+= event 0x0018 at 0x0570
+
+<!-- <RB><RS TownKid>オネーチャン！<NL><Color 09>ぱんつ<Color 0f>何色だぁ？<Next> -->
+<!-- <LB><LS Mina>あのねぇロミュくん…<NL>疲れるから<NL>バカはよしてね…<Next> -->
+<!-- <End> -->
 <RB><RS TownKid>オネーチャン！<NL><Color 09>ぱんつ<Color 0f>何色だぁ？<Next>
 <LB><LS Mina>あのねぇロミュくん…<NL>疲れるから<NL>バカはよしてね…<Next>
 <End>
 
-<!-- event 0x001a at 0x05ac -->
+
+= event 0x001a at 0x05ac
+
+<!-- <RB><RS TownKid>クーボーターン<NL>あーそーぼー<Next> -->
+<!-- <LB><LS Mina>誰よ、クボタンって<Next> -->
+<!-- <End> -->
 <RB><RS TownKid>クーボーターン<NL>あーそーぼー<Next>
 <LB><LS Mina>誰よ、クボタンって<Next>
 <End>
 
-<!-- event 0x001c at 0x05cd -->
+
+= event 0x001c at 0x05cd
+
+<!-- <LB><LS Mina><RS WindsSeed>おひさしぶりでーす<NL>おっきな顔の神様☆<Next> -->
+<!-- <End> -->
 <LB><LS Mina><RS WindsSeed>おひさしぶりでーす<NL>おっきな顔の神様☆<Next>
 <End>
 
-<!-- event 0x001e at 0x05eb -->
+
+= event 0x001e at 0x05eb
+
+<!-- <LB><LS God><NL><Size 03><Idk 0a>誰がでかい顔<RB><RS WindsSeed><NL><Size 03><Idk 0a>じゃいや～！<Idk 00><Next> -->
+<!-- <LB><End> -->
 <LB><LS God><NL><Size 03><Idk 0a>誰がでかい顔<RB><RS WindsSeed><NL><Size 03><Idk 0a>じゃいや～！<Idk 00><Next>
 <LB><End>
 
-<!-- event 0x0020 at 0x060e -->
+
+= event 0x0020 at 0x060e
+
+<!-- <LB><LS GodAngry><RS God>…？？？？？…<Next> -->
+<!-- <LB><LS Mina>わわわわ！<NL>落ち着いて落ち着いて…<Next> -->
+<!-- <RB><RS God>この村の地神<NL>ガレスピィさまを<NL>バカにした罰じゃいや<Next> -->
+<!-- <LB>へぇ…神様って顔は<NL>おっきいけど<NL>ココロはせまいんだ<Next> -->
+<!-- <End> -->
 <LB><LS GodAngry><RS God>…？？？？？…<Next>
 <LB><LS Mina>わわわわ！<NL>落ち着いて落ち着いて…<Next>
 <RB><RS God>この村の地神<NL>ガレスピィさまを<NL>バカにした罰じゃいや<Next>
 <LB>へぇ…神様って顔は<NL>おっきいけど<NL>ココロはせまいんだ<Next>
 <End>
 
-<!-- event 0x0022 at 0x0679 -->
+
+= event 0x0022 at 0x0679
+
+<!-- <LB><LS God><Size 04><Idk 0a>むきー<RB><RS WindsSeed><Size 04><Idk 0a>ー！！<Idk 00><Next> -->
+<!-- <LB><End> -->
 <LB><LS God><Size 04><Idk 0a>むきー<RB><RS WindsSeed><Size 04><Idk 0a>ー！！<Idk 00><Next>
 <LB><End>
 
-<!-- event 0x0024 at 0x0692 -->
+
+= event 0x0024 at 0x0692
+
+<!-- <LB><LS Mina>あいかわらずねー<Next> -->
+<!-- <RB><RS God>最近、からだが<NL>ナマっとるんじゃいや<Next> -->
+<!-- <LB><LS Otto>な、なに…いまの…<Next> -->
+<!-- <End> -->
 <LB><LS Mina>あいかわらずねー<Next>
 <RB><RS God>最近、からだが<NL>ナマっとるんじゃいや<Next>
 <LB><LS Otto>な、なに…いまの…<Next>
 <End>
 
-<!-- event 0x0026 at 0x06c4 -->
+
+= event 0x0026 at 0x06c4
+
+<!-- <RB><RS God>エエ子にしておれば<NL>わしゃァ怒らんけぇの<Next> -->
+<!-- <End> -->
 <RB><RS God>エエ子にしておれば<NL>わしゃァ怒らんけぇの<Next>
 <End>
 
-<!-- event 0x0028 at 0x06e1 -->
+
+= event 0x0028 at 0x06e1
+
+<!-- <RB><RS Gray>そんなことを<NL>言われてもねえ<Next> -->
+<!-- <LB><LS Robert>そこをなんとか頼むわ<Next> -->
+<!-- どんなバケモノだって<NL>退治してやっから<Next> -->
+<!-- <RB><RS Gray>といわれても…<NL>ぼくが決められる事じゃ<NL>ないんだよなあ<Next> -->
+<!-- 村の用心棒はいいけど<NL>頼む相手が違うよ<Next> -->
+<!-- <LB><LS Robert>じゃあ<NL>誰に言えばいいんだ？<Next> -->
+<!-- <RB><RS Gray>そうだなあ…<NL>そんな話は誰が…<Next> -->
+<!-- <End> -->
 <RB><RS Gray>そんなことを<NL>言われてもねえ<Next>
-<LB><LS Kronk>そこをなんとか頼むわ<Next>
+<LB><LS Robert>そこをなんとか頼むわ<Next>
 どんなバケモノだって<NL>退治してやっから<Next>
 <RB><RS Gray>といわれても…<NL>ぼくが決められる事じゃ<NL>ないんだよなあ<Next>
 村の用心棒はいいけど<NL>頼む相手が違うよ<Next>
-<LB><LS Kronk>じゃあ<NL>誰に言えばいいんだ？<Next>
+<LB><LS Robert>じゃあ<NL>誰に言えばいいんだ？<Next>
 <RB><RS Gray>そうだなあ…<NL>そんな話は誰が…<Next>
 <End>
 
-<!-- event 0x002a at 0x08c3 -->
+
+= event 0x002a at 0x08c3
+
+<!-- <LB><LS Mina>さっきのお客さんは？<Next> -->
+<!-- <RB><RS Gray>もう帰ったよ<NL>どうして？<Next> -->
+<!-- <LB><LS Mina>なんか<NL>ヘンな人だなーって<Next> -->
+<!-- <LB><LS Otto>だめだよ<NL>おねぇちゃん<NL>そんな事いっちゃ<Next> -->
+<!-- <End> -->
 <LB><LS Mina>さっきのお客さんは？<Next>
 <RB><RS Gray>もう帰ったよ<NL>どうして？<Next>
 <LB><LS Mina>なんか<NL>ヘンな人だなーって<Next>
 <LB><LS Otto>だめだよ<NL>おねぇちゃん<NL>そんな事いっちゃ<Next>
 <End>
 
-<!-- event 0x002c at 0x1ccf -->
+
+= event 0x002c at 0x1ccf
+
+<!-- <LB><LS Donald>ウォーレン閣下！<NL>ミッキー二尉が<NL>夜襲に失敗しました！<Next> -->
+<!-- <RB><RS Warren>ミッキーが…？<NL>ふん、油断しおったな<Next> -->
+<!-- それで奴はどうした？<Next> -->
+<!-- <LB>はっ、なんでも<NL>『子供をマークしろ』と<NL>だけおっしゃって…<Next> -->
+<!-- 今は自室にさがって<NL>おられます！<Next> -->
+<!-- <RB>子供…ふむ、わかった<Next> -->
+<!-- 報告ごくろう<NL>さがっていろ<Next> -->
+<!-- <LB>はっ<Next> -->
+<!-- <LS Blank><End> -->
 <LB><LS Donald>ウォーレン閣下！<NL>ミッキー二尉が<NL>夜襲に失敗しました！<Next>
 <RB><RS Warren>ミッキーが…？<NL>ふん、油断しおったな<Next>
 それで奴はどうした？<Next>
@@ -132,54 +265,113 @@
 <LB>はっ<Next>
 <LS Blank><End>
 
-<!-- event 0x002e at 0x1d77 -->
+
+= event 0x002e at 0x1d77
+
+<!-- <RB><RS Warren>聞いたか？ グレイ<Next> -->
+<!-- <LB><LS Gray>ミーナちゃん<NL>オットーくん…<Next> -->
+<!-- <RB><RS Warren>なかなかに素晴らしい<NL>子供たちじゃないか<Next> -->
+<!-- 楽しくなってくるよ<NL>レーザーユニットを<NL>ブッ潰してくれるとはな<Next> -->
+<!-- <End> -->
 <RB><RS Warren>聞いたか？ グレイ<Next>
 <LB><LS Gray>ミーナちゃん<NL>オットーくん…<Next>
 <RB><RS Warren>なかなかに素晴らしい<NL>子供たちじゃないか<Next>
 楽しくなってくるよ<NL>レーザーユニットを<NL>ブッ潰してくれるとはな<Next>
 <End>
 
-<!-- event 0x0030 at 0x0c41 -->
+
+= event 0x0030 at 0x0c41
+
+<!-- <RB><RS Otto>おねえちゃん？<Next> -->
+<!-- <LB><LS Mina>どしたの？<NL>オットー<Next> -->
+<!-- <RB>ほら、ドリドリの葉が！<Next> -->
+<!-- <End> -->
 <RB><RS Otto>おねえちゃん？<Next>
 <LB><LS Mina>どしたの？<NL>オットー<Next>
 <RB>ほら、ドリドリの葉が！<Next>
 <End>
 
-<!-- event 0x0032 at 0x0c69 -->
+
+= event 0x0032 at 0x0c69
+
+<!-- <RB><RS Otto>ドリドリの葉を<NL>取っておくね<Next> -->
+<!-- <End> -->
 <RB><RS Otto>ドリドリの葉を<NL>取っておくね<Next>
 <End>
 
-<!-- event 0x0034 at 0x0c7e -->
+
+= event 0x0034 at 0x0c7e
+
+<!-- <LB><LS Mina>今回はやめときましょ<Next> -->
+<!-- それに これ以上は<NL>もう持てないわよ<Next> -->
+<!-- <End> -->
 <LB><LS Mina>今回はやめときましょ<Next>
 それに これ以上は<NL>もう持てないわよ<Next>
 <End>
 
-<!-- event 0x0036 at 0x0cf3 -->
+
+= event 0x0036 at 0x0cf3
+
+<!-- <LB><LS Mina>うわおっ<NL>見てみて、オットー！<Next> -->
+<!-- <RB><RS Otto>うんっ<NL>お祈り草が、<NL>こんなにたくさん！<Next> -->
+<!-- <End> -->
 <LB><LS Mina>うわおっ<NL>見てみて、オットー！<Next>
 <RB><RS Otto>うんっ<NL>お祈り草が、<NL>こんなにたくさん！<Next>
 <End>
 
-<!-- event 0x0038 at 0x0d22 -->
+
+= event 0x0038 at 0x0d22
+
+<!-- <LB><LS Mina>いい？ オットー<NL>たっぷりとるよー<Next> -->
+<!-- <End> -->
 <LB><LS Mina>いい？ オットー<NL>たっぷりとるよー<Next>
 <End>
 
-<!-- event 0x003a at 0x0d39 -->
+
+= event 0x003a at 0x0d39
+
+<!-- <RB><RS Otto>これがお祈り草なんだぁ<Next> -->
+<!-- <End> -->
 <RB><RS Otto>これがお祈り草なんだぁ<Next>
 <End>
 
-<!-- event 0x003c at 0x0d4c -->
+
+= event 0x003c at 0x0d4c
+
+<!-- <LB><LS Mina>ちゃんと取ってる？<Next> -->
+<!-- <RB><RS Otto>うん！<NL>ちゃんと取ってるよ<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ちゃんと取ってる？<Next>
 <RB><RS Otto>うん！<NL>ちゃんと取ってるよ<Next>
 <End>
 
-<!-- event 0x003e at 0x0d6d -->
+
+= event 0x003e at 0x0d6d
+
+<!-- <RB><RS Otto>おねえちゃん、<NL>これくらいでいいかな？<Next> -->
+<!-- <LB><LS Mina>うんっ、これだけ取れば<NL>上等ってもんよ！<Next> -->
+<!-- じゃ、帰ろうか<Next> -->
+<!-- あと２、３日はあの村で<NL>ゆっくりしようね<Next> -->
+<!-- <End> -->
 <RB><RS Otto>おねえちゃん、<NL>これくらいでいいかな？<Next>
 <LB><LS Mina>うんっ、これだけ取れば<NL>上等ってもんよ！<Next>
 じゃ、帰ろうか<Next>
 あと２、３日はあの村で<NL>ゆっくりしようね<Next>
 <End>
 
-<!-- event 0x0040 at 0x0dc0 -->
+
+= event 0x0040 at 0x0dc0
+
+<!-- <RB><RS Garriott>ねぇお嬢ちゃん？<Next> -->
+<!-- <LB><LS MinaG>え？<NL>あたし？<Next> -->
+<!-- <RB>こんなところまで<NL>お散歩？<Next> -->
+<!-- <LB>えへへ～<NL>オ・シ・ゴ・ト<Next> -->
+<!-- <RB>へぇ… … …<NL>勤労少女なんだ<Next> -->
+<!-- で、どこから来たの？<NL>東の、森の村から？<Next> -->
+<!-- <LB>あったり～<Next> -->
+<!-- <RB>そう、あそこから…<NL>ふぅん… …<Next> -->
+<!-- <LB>じゃ、そゆことで<NL>ばいばい<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>ねぇお嬢ちゃん？<Next>
 <LB><LS MinaG>え？<NL>あたし？<Next>
 <RB>こんなところまで<NL>お散歩？<Next>
@@ -191,15 +383,31 @@
 <LB>じゃ、そゆことで<NL>ばいばい<Next>
 <End>
 
-<!-- event 0x0042 at 0x0e54 -->
+
+= event 0x0042 at 0x0e54
+
+<!-- <RB><RS Garriott><NL><Size 03>待たんかい！<Next> -->
+<!-- <End> -->
 <RB><RS Garriott><NL><Size 03>待たんかい！<Next>
 <End>
 
-<!-- event 0x0044 at 0x0e63 -->
+
+= event 0x0044 at 0x0e63
+
+<!-- <LB><LS MinaG>はい？<Next> -->
+<!-- <End> -->
 <LB><LS MinaG>はい？<Next>
 <End>
 
-<!-- event 0x0046 at 0x0e6b -->
+
+= event 0x0046 at 0x0e6b
+
+<!-- <RB><RS Garriott>あらﾊ<Next> -->
+<!-- 地がでちゃった<Next> -->
+<!-- <LB><LS MinaG>なんでしょう？<Next> -->
+<!-- <RB><RS Garriott>あなたたち<NL>グレイっていう男を<NL>知ってるわね？<Next> -->
+<!-- <LB><LS MinaG>知ってるよ<NL>身長２メートルで<NL>紫色の肌をした人でしょ？<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>あらﾊ<Next>
 地がでちゃった<Next>
 <LB><LS MinaG>なんでしょう？<Next>
@@ -207,7 +415,15 @@
 <LB><LS MinaG>知ってるよ<NL>身長２メートルで<NL>紫色の肌をした人でしょ？<Next>
 <End>
 
-<!-- event 0x0048 at 0x0fd6 -->
+
+= event 0x0048 at 0x0fd6
+
+<!-- <RB><RS Garriott>ふむ…、となると… …<Next> -->
+<!-- <LB><LS MinaG>あらら<NL>もう用済み？<Next> -->
+<!-- <LB><LS OttoG>おねぇちゃぁん<NL>もう行こうよぉ…<Next> -->
+<!-- ぼく、この人、きらい<Next> -->
+<!-- <LB><LS MinaG>女の子に間違えられる<NL>あんたが悪いの<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>ふむ…、となると… …<Next>
 <LB><LS MinaG>あらら<NL>もう用済み？<Next>
 <LB><LS OttoG>おねぇちゃぁん<NL>もう行こうよぉ…<Next>
@@ -215,35 +431,71 @@
 <LB><LS MinaG>女の子に間違えられる<NL>あんたが悪いの<Next>
 <End>
 
-<!-- event 0x004a at 0x1035 -->
+
+= event 0x004a at 0x1035
+
+<!-- <LB><LS MinaShop>うわっ<NL>なに、このデッカイの！<Next> -->
+<!-- <RB><RS OttoShop>ひゃぁああああ！！<Next> -->
+<!-- <LS Blank><RS Blank><End> -->
 <LB><LS MinaShop>うわっ<NL>なに、このデッカイの！<Next>
 <RB><RS OttoShop>ひゃぁああああ！！<Next>
 <LS Blank><RS Blank><End>
 
-<!-- event 0x004c at 0x105b -->
-<RB><RS Kronk>ケガはないか？<Next>
+
+= event 0x004c at 0x105b
+
+<!-- <RB><RS Robert>ケガはないか？<Next> -->
+<!-- <LB><LS MinaShop>あわわわわわわ…<Next> -->
+<!-- <LB><LS OttoShop>ふ… … …<NL>ふぇ… … …<Next> -->
+<!-- <LS Mina><End> -->
+<RB><RS Robert>ケガはないか？<Next>
 <LB><LS MinaShop>あわわわわわわ…<Next>
 <LB><LS OttoShop>ふ… … …<NL>ふぇ… … …<Next>
 <LS Mina><End>
 
-<!-- event 0x004e at 0x1088 -->
-<RB><RS Kronk>ありゃぁイワトカゲだ<Next>
+
+= event 0x004e at 0x1088
+
+<!-- <RB><RS Robert>ありゃぁイワトカゲだ<Next> -->
+<!-- ガタイはあるが<NL>そう恐いモンでもない<Next> -->
+<!-- とはいえ、子供なら<NL>一撃だからな<Next> -->
+<!-- 気をつけるこった<Next> -->
+<!-- <End> -->
+<RB><RS Robert>ありゃぁイワトカゲだ<Next>
 ガタイはあるが<NL>そう恐いモンでもない<Next>
 とはいえ、子供なら<NL>一撃だからな<Next>
 気をつけるこった<Next>
 <End>
 
-<!-- event 0x0050 at 0x10cb -->
+
+= event 0x0050 at 0x10cb
+
+<!-- <RB><RS Otto>… … … … …<NL>… …カッコいい… …<Next> -->
+<!-- <LB><LS Mina>…た、助かったぁ…<NL>…けど…なんか…<NL>ひっかかるような…<Next> -->
+<!-- <End> -->
 <RB><RS Otto>… … … … …<NL>… …カッコいい… …<Next>
 <LB><LS Mina>…た、助かったぁ…<NL>…けど…なんか…<NL>ひっかかるような…<Next>
 <End>
 
-<!-- event 0x0052 at 0x1e46 -->
+
+= event 0x0052 at 0x1e46
+
+<!-- <RB><LS Blank><RS Otto>おねぇちゃん、まだぁ？<Next> -->
+<!-- <LB><LS Mina>はいはいはいはい！<Next> -->
+<!-- <End> -->
 <RB><LS Blank><RS Otto>おねぇちゃん、まだぁ？<Next>
 <LB><LS Mina>はいはいはいはい！<Next>
 <End>
 
-<!-- event 0x0054 at 0x1e67 -->
+
+= event 0x0054 at 0x1e67
+
+<!-- <RB><RS Otto>遅いよ、おねぇちゃん<Next> -->
+<!-- 朝からお風呂になんか<NL>入るんだもん<Next> -->
+<!-- <LB><LS Mina>るさぁ～い！<NL>あたしも女の子だもん<NL>身だしなみくらいは<NL>ちゃんとするのよ！<Next> -->
+<!-- <RB>ふぅん…<NL>そんなもんなんだ<Next> -->
+<!-- <LB>そうよ<NL>そんなもんそんなもん<Next> -->
+<!-- <End> -->
 <RB><RS Otto>遅いよ、おねぇちゃん<Next>
 朝からお風呂になんか<NL>入るんだもん<Next>
 <LB><LS Mina>るさぁ～い！<NL>あたしも女の子だもん<NL>身だしなみくらいは<NL>ちゃんとするのよ！<Next>
@@ -251,47 +503,102 @@
 <LB>そうよ<NL>そんなもんそんなもん<Next>
 <End>
 
-<!-- event 0x0056 at 0x1edb -->
+
+= event 0x0056 at 0x1edb
+
+<!-- <LB><LS Mina>ね、オットー？<NL>これからどうしようか<Next> -->
+<!-- <RB><RS Otto>グレイにいちゃん<NL>無事だったらいい…け…<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ね、オットー？<NL>これからどうしようか<Next>
 <RB><RS Otto>グレイにいちゃん<NL>無事だったらいい…け…<Next>
 <End>
 
-<!-- event 0x0058 at 0x1f0c -->
+
+= event 0x0058 at 0x1f0c
+
+<!-- <RB><RS Donald><LS Blank>うわっ！<NL>なななななな！！<Next> -->
+<!-- <End> -->
 <RB><RS Donald><LS Blank>うわっ！<NL>なななななな！！<Next>
 <End>
 
-<!-- event 0x005a at 0x1f20 -->
+
+= event 0x005a at 0x1f20
+
+<!-- <RB><RS Donald><LS Blank>くそ、エ、エンジンが<NL>ぶっこわれちまった！<Next> -->
+<!-- だ、だれかいねぇのか！<Next> -->
+<!-- おれをここから出せ！<Next> -->
+<!-- <LB><LS Mina>あんたも黒い一角獣！？<Next> -->
+<!-- <End> -->
 <RB><RS Donald><LS Blank>くそ、エ、エンジンが<NL>ぶっこわれちまった！<Next>
 だ、だれかいねぇのか！<Next>
 おれをここから出せ！<Next>
 <LB><LS Mina>あんたも黒い一角獣！？<Next>
 <End>
 
-<!-- event 0x005c at 0x1f68 -->
+
+= event 0x005c at 0x1f68
+
+<!-- <RB>そーだよ！！<NL>早く助けねぇと<NL>ブッ殺すぞてめぇら！<Next> -->
+<!-- <LB>あんた、どこから<NL>来たの？<Next> -->
+<!-- あんたたちの本拠地は<NL>どこにあるの？<Next> -->
+<!-- それに答えてくれれ…<Next> -->
+<!-- <End> -->
 <RB>そーだよ！！<NL>早く助けねぇと<NL>ブッ殺すぞてめぇら！<Next>
 <LB>あんた、どこから<NL>来たの？<Next>
 あんたたちの本拠地は<NL>どこにあるの？<Next>
 それに答えてくれれ…<Next>
 <End>
 
-<!-- event 0x005e at 0x1fbb -->
+
+= event 0x005e at 0x1fbb
+
+<!-- <RB><RS Donald>るせぇよバァカ！<NL>早く出せよ！<Next> -->
+<!-- いーかげんにしねぇと<NL>本気で怒るぞコラァ！<Next> -->
+<!-- <LS God><RS Blank><LB><NL><Size 03>バカはおまえ<Size 00><RB><NL><Size 03>じゃいや～！<Next> -->
+<!-- <Size 00><End> -->
 <RB><RS Donald>るせぇよバァカ！<NL>早く出せよ！<Next>
 いーかげんにしねぇと<NL>本気で怒るぞコラァ！<Next>
 <LS God><RS Blank><LB><NL><Size 03>バカはおまえ<Size 00><RB><NL><Size 03>じゃいや～！<Next>
 <Size 00><End>
 
-<!-- event 0x0060 at 0x200b -->
+
+= event 0x0060 at 0x200b
+
+<!-- <RB><RS Donald>うぎゃ<Next> -->
+<!-- <LB><LS God>ミーナちゃんの質問に<NL>きりきりと答えれ！<Next> -->
+<!-- <RB><RS Donald>だ、だれが…<Next> -->
+<!-- <End> -->
 <RB><RS Donald>うぎゃ<Next>
 <LB><LS God>ミーナちゃんの質問に<NL>きりきりと答えれ！<Next>
 <RB><RS Donald>だ、だれが…<Next>
 <End>
 
-<!-- event 0x0062 at 0x2038 -->
+
+= event 0x0062 at 0x2038
+
+<!-- <RB><RS Donald>わ、わかったよ！<Next> -->
+<!-- 言えばいいんだろ！<NL>言えばよぉ！<Next> -->
+<!-- <End> -->
 <RB><RS Donald>わ、わかったよ！<Next>
 言えばいいんだろ！<NL>言えばよぉ！<Next>
 <End>
 
-<!-- event 0x0064 at 0x2059 -->
+
+= event 0x0064 at 0x2059
+
+<!-- <RB><RS Donald>す、すみません！<NL>言います！ 言います！<NL>ごめんなさい！<NL>言わせて下さい！<Next> -->
+<!-- 水晶の洞窟です！<Next> -->
+<!-- <RB><RS Donald>あそこの奥に<NL>物質転送装置があって<NL>それを使っているのです！<Next> -->
+<!-- <LB><LS Mina>物質転送装置？<Next> -->
+<!-- <RB><RS Donald>使えばわかります！<Next> -->
+<!-- あっという間に<NL>我々の本部へと<NL>行ける機械です！<Next> -->
+<!-- <LB><LS Mina>それで<NL>水晶の洞窟は<NL>どこにあるの？<Next> -->
+<!-- <RB><RS Donald>湖の奥です！<Next> -->
+<!-- この村の東側にある<NL>湖を抜けたところです！<Next> -->
+<!-- <LB><LS Mina>水晶の洞窟ね…<NL>よーし！<Next> -->
+<!-- <RB><RS Donald>で、俺… … …<NL>もとい、アタクシは？<Next> -->
+<!-- <LB><LS God>もうちょっとばかし<NL>ここで頭を冷やしんさい<Next> -->
+<!-- <End> -->
 <RB><RS Donald>す、すみません！<NL>言います！ 言います！<NL>ごめんなさい！<NL>言わせて下さい！<Next>
 水晶の洞窟です！<Next>
 <RB><RS Donald>あそこの奥に<NL>物質転送装置があって<NL>それを使っているのです！<Next>
@@ -306,70 +613,142 @@
 <LB><LS God>もうちょっとばかし<NL>ここで頭を冷やしんさい<Next>
 <End>
 
-<!-- event 0x0066 at 0x2289 -->
+
+= event 0x0066 at 0x2289
+
+<!-- <LB><LS Mina>ここが、兵隊の言ってた<NL>水晶の洞窟ね…<Next> -->
+<!-- <RB><RS Otto>ここの一番奥に<NL>装置があるのかな？<Next> -->
+<!-- <LB><LS Mina>たぶん…ね<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ここが、兵隊の言ってた<NL>水晶の洞窟ね…<Next>
 <RB><RS Otto>ここの一番奥に<NL>装置があるのかな？<Next>
 <LB><LS Mina>たぶん…ね<Next>
 <End>
 
-<!-- event 0x0068 at 0x22cb -->
+
+= event 0x0068 at 0x22cb
+
+<!-- <RB><RS Garriott>搬出がおわったら<NL>お前たちは<NL>戻ってなさい！<Next> -->
+<!-- <LB><LS Mina>あっ！！<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>搬出がおわったら<NL>お前たちは<NL>戻ってなさい！<Next>
 <LB><LS Mina>あっ！！<Next>
 <End>
 
-<!-- event 0x006a at 0x28e2 -->
+
+= event 0x006a at 0x28e2
+
+<!-- <RB><RS Garriott>おぼえてなさい！！<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>おぼえてなさい！！<Next>
 <End>
 
-<!-- event 0x006c at 0x28f0 -->
+
+= event 0x006c at 0x28f0
+
+<!-- <RB><RS Garriott>いつか、ぜったいに…<Next> -->
+<!-- 復讐してや…<Next> -->
+<!-- <LB><LS Robert><NL><Size 03> あんさん<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>いつか、ぜったいに…<Next>
 復讐してや…<Next>
-<LB><LS Kronk><NL><Size 03> あんさん<Next>
+<LB><LS Robert><NL><Size 03> あんさん<Next>
 <End>
 
-<!-- event 0x006e at 0x2914 -->
+
+= event 0x006e at 0x2914
+
+<!-- <RB><RS Garriott>… …え… …？<Next> -->
+<!-- <LB><LS Robert><NL><Size 03>ええかげんに<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>… …え… …？<Next>
-<LB><LS Kronk><NL><Size 03>ええかげんに<Next>
+<LB><LS Robert><NL><Size 03>ええかげんに<Next>
 <End>
 
-<!-- event 0x0070 at 0x292e -->
-<LB><LS Kronk><NL><Size 03> しなはれ<Next>
+
+= event 0x0070 at 0x292e
+
+<!-- <LB><LS Robert><NL><Size 03> しなはれ<Next> -->
+<!-- <RB><RS Garriott>きゃぁーーーーーー<NL>ぁぁぁーーーーー…<Next> -->
+<!-- <End> -->
+<LB><LS Robert><NL><Size 03> しなはれ<Next>
 <RB><RS Garriott>きゃぁーーーーーー<NL>ぁぁぁーーーーー…<Next>
 <End>
 
-<!-- event 0x0072 at 0x18e9 -->
+
+= event 0x0072 at 0x18e9
+
+<!-- <LB><LS Mickey><RS Blank>おい、ドナルド<NL>本部からの連絡は？<Next> -->
+<!-- <RB><RS Donald>はっ、ミッキー上官どの！<NL>すでに発射指令は<NL>下りています！<Next> -->
+<!-- <LB>よし、わかった…<NL>手っ取り早く済ませるぞ<Next> -->
+<!-- <RB>ははっ！<Next> -->
+<!-- <End> -->
 <LB><LS Mickey><RS Blank>おい、ドナルド<NL>本部からの連絡は？<Next>
 <RB><RS Donald>はっ、ミッキー上官どの！<NL>すでに発射指令は<NL>下りています！<Next>
 <LB>よし、わかった…<NL>手っ取り早く済ませるぞ<Next>
 <RB>ははっ！<Next>
 <End>
 
-<!-- event 0x0074 at 0x194d -->
+
+= event 0x0074 at 0x194d
+
+<!-- <LB><LS Mickey><RS Blank>ったく、なんつーか<NL>下っ端はつれぇなあ<Next> -->
+<!-- <LB>なにが夜襲だってんだ<NL>安眠妨害ったらないぜ<Next> -->
+<!-- <LB>昼間のウチに<NL>片付けとけってんだ<NL>こんなクソ村は<Next> -->
+<!-- <RB><RS Donald>ミッキー上官どの！<NL>発射準備はもう<NL>完了でありますが！<Next> -->
+<!-- <End> -->
 <LB><LS Mickey><RS Blank>ったく、なんつーか<NL>下っ端はつれぇなあ<Next>
 <LB>なにが夜襲だってんだ<NL>安眠妨害ったらないぜ<Next>
 <LB>昼間のウチに<NL>片付けとけってんだ<NL>こんなクソ村は<Next>
 <RB><RS Donald>ミッキー上官どの！<NL>発射準備はもう<NL>完了でありますが！<Next>
 <End>
 
-<!-- event 0x0076 at 0x19cd -->
+
+= event 0x0076 at 0x19cd
+
+<!-- <LB><LS Mickey><RS Blank>よーし！<NL>派手にぶっ放せ！<Next> -->
+<!-- <LB>眠気ざましだ！<Next> -->
+<!-- <End> -->
 <LB><LS Mickey><RS Blank>よーし！<NL>派手にぶっ放せ！<Next>
 <LB>眠気ざましだ！<Next>
 <End>
 
-<!-- event 0x0078 at 0x19ef -->
+
+= event 0x0078 at 0x19ef
+
+<!-- <LB><LS Mickey><RS Blank><Size 04>てー！<Next> -->
+<!-- <End> -->
 <LB><LS Mickey><RS Blank><Size 04>てー！<Next>
 <End>
 
-<!-- event 0x007a at 0x19fb -->
+
+= event 0x007a at 0x19fb
+
+<!-- <LB><LS Mickey><RS Blank>いいぞ<NL>もう一発いっちまえ！<Next> -->
+<!-- <End> -->
 <LB><LS Mickey><RS Blank>いいぞ<NL>もう一発いっちまえ！<Next>
 <End>
 
-<!-- event 0x007c at 0x1a12 -->
-<LB><LS KronkCharge><NL><Size 03>でりゃぁー！<Next>
+
+= event 0x007c at 0x1a12
+
+<!-- <LB><LS RobertCharge><NL><Size 03>でりゃぁー！<Next> -->
+<!-- <RB><RS God><NL><Size 03>どっせ～い！<Next> -->
+<!-- <End> -->
+<LB><LS RobertCharge><NL><Size 03>でりゃぁー！<Next>
 <RB><RS God><NL><Size 03>どっせ～い！<Next>
 <End>
 
-<!-- event 0x007e at 0x1a2e -->
+
+= event 0x007e at 0x1a2e
+
+<!-- <LB><LS Mickey>んなっ…！！<NL>なにがどうした！！<Next> -->
+<!-- <RB><RS Donald>た、大変ですっ<NL>じょじょじょ上官ン！<Next> -->
+<!-- <LB><LS Mickey>なんだ！？<Next> -->
+<!-- <RB>なにかがレーザーを<NL>反射しました！<NL>キャノンに逆被弾！<Next> -->
+<!-- <RB>ダメージレベル７！！<NL>出力６０％低下！！<Next> -->
+<!-- <LB><LS Mickey>なんだと！？！<Next> -->
+<!-- <End> -->
 <LB><LS Mickey>んなっ…！！<NL>なにがどうした！！<Next>
 <RB><RS Donald>た、大変ですっ<NL>じょじょじょ上官ン！<Next>
 <LB><LS Mickey>なんだ！？<Next>
@@ -378,7 +757,18 @@
 <LB><LS Mickey>なんだと！？！<Next>
 <End>
 
-<!-- event 0x0080 at 0x1bc6 -->
+
+= event 0x0080 at 0x1bc6
+
+<!-- <LB><LS Mina>ど、どうしたの？<NL>なにがおきたの？<Next> -->
+<!-- <RB><RS God>そ、それが、わしにも<NL>なにがなにやら<Next> -->
+<!-- <LB>… …黒い一角獣ね！<Next> -->
+<!-- オットー、いい？<NL>行くわよ！<Next> -->
+<!-- <RB><RS God>やめんかアホタレ！<NL>危険じゃいや！<Next> -->
+<!-- <LB>オットー！<Next> -->
+<!-- <RB><RS Otto>おねぇちゃん<NL>ぼくなら大丈夫だよ<Next> -->
+<!-- <LB>そうこなくっちゃ！<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ど、どうしたの？<NL>なにがおきたの？<Next>
 <RB><RS God>そ、それが、わしにも<NL>なにがなにやら<Next>
 <LB>… …黒い一角獣ね！<Next>
@@ -389,55 +779,112 @@
 <LB>そうこなくっちゃ！<Next>
 <End>
 
-<!-- event 0x0082 at 0x1c53 -->
+
+= event 0x0082 at 0x1c53
+
+<!-- <RB><RS Mickey>なんだ、お前たちは？<NL>ガキはお寝んねの<NL>時間だぜ<Next> -->
+<!-- <LB><LS Mina>さっそく来たわね<NL>黒い一角獣！<Next> -->
+<!-- <RB><RS Mickey>うるさいガキどもめ<NL>レーザーのサビに<NL>してやるぜ！<Next> -->
+<!-- <End> -->
 <RB><RS Mickey>なんだ、お前たちは？<NL>ガキはお寝んねの<NL>時間だぜ<Next>
 <LB><LS Mina>さっそく来たわね<NL>黒い一角獣！<Next>
 <RB><RS Mickey>うるさいガキどもめ<NL>レーザーのサビに<NL>してやるぜ！<Next>
 <End>
 
-<!-- event 0x0084 at 0x1ca9 -->
+
+= event 0x0084 at 0x1ca9
+
+<!-- <RB><RS Mickey>なんだ、なんなんだ<NL>畜生！ てめぇら<NL>ただのガキじゃねぇ！<Next> -->
+<!-- <End> -->
 <RB><RS Mickey>なんだ、なんなんだ<NL>畜生！ てめぇら<NL>ただのガキじゃねぇ！<Next>
 <End>
 
-<!-- event 0x0086 at 0x1dd6 -->
+
+= event 0x0086 at 0x1dd6
+
+<!-- <RB><RS Warren>ふはははははは<NL>面白くて仕方がない<Next> -->
+<!-- <End> -->
 <RB><RS Warren>ふはははははは<NL>面白くて仕方がない<Next>
 <End>
 
-<!-- event 0x0088 at 0x1df0 -->
+
+= event 0x0088 at 0x1df0
+
+<!-- <LB><LS Gray>師匠…いや… …<NL>ウォーレン！<Next> -->
+<!-- もし、あの子たちに<NL>少しでも何かあったら…<Next> -->
+<!-- <End> -->
 <LB><LS Gray>師匠…いや… …<NL>ウォーレン！<Next>
 もし、あの子たちに<NL>少しでも何かあったら…<Next>
 <End>
 
-<!-- event 0x008a at 0x21cc -->
+
+= event 0x008a at 0x21cc
+
+<!-- <RB><RS TownMan>なんだなんだ？<Next> -->
+<!-- <End> -->
 <RB><RS TownMan>なんだなんだ？<Next>
 <End>
 
-<!-- event 0x008c at 0x21d8 -->
+
+= event 0x008c at 0x21d8
+
+<!-- <RB><RS TownMan>とりあえず<NL>奴は後でボコにしてやる<Next> -->
+<!-- <End> -->
 <RB><RS TownMan>とりあえず<NL>奴は後でボコにしてやる<Next>
 <End>
 
-<!-- event 0x008e at 0x21f0 -->
+
+= event 0x008e at 0x21f0
+
+<!-- <RB><RS TownLady>なんだい？<NL>いまスッ飛んでったのは<Next> -->
+<!-- <End> -->
 <RB><RS TownLady>なんだい？<NL>いまスッ飛んでったのは<Next>
 <End>
 
-<!-- event 0x0090 at 0x2207 -->
+
+= event 0x0090 at 0x2207
+
+<!-- <RB><RS TownLady>おそろしい世の中だねぇ<Next> -->
+<!-- <End> -->
 <RB><RS TownLady>おそろしい世の中だねぇ<Next>
 <End>
 
-<!-- event 0x0092 at 0x221a -->
+
+= event 0x0092 at 0x221a
+
+<!-- <RB><RS TownKid>すりっっっっ<NL>っっとぉ～～～！<NL>ぽこめーん！<Next> -->
+<!-- <End> -->
 <RB><RS TownKid>すりっっっっ<NL>っっとぉ～～～！<NL>ぽこめーん！<Next>
 <End>
 
-<!-- event 0x0094 at 0x2237 -->
+
+= event 0x0094 at 0x2237
+
+<!-- <LB><LS Mina>あのね、ロミュくん…<Next> -->
+<!-- <RB><RS TownKid>わたしはウソが嫌いだ！<NL>もけもけ！！！<Next> -->
+<!-- <End> -->
 <LB><LS Mina>あのね、ロミュくん…<Next>
 <RB><RS TownKid>わたしはウソが嫌いだ！<NL>もけもけ！！！<Next>
 <End>
 
-<!-- event 0x0096 at 0x1e20 -->
+
+= event 0x0096 at 0x1e20
+
+<!-- <LB><LS Gray>いくらあんたが<NL>ぼくの師匠でも…<NL>絶対に許さないからな！<Next> -->
+<!-- <End> -->
 <LB><LS Gray>いくらあんたが<NL>ぼくの師匠でも…<NL>絶対に許さないからな！<Next>
 <End>
 
-<!-- event 0x0098 at 0x22f2 -->
+
+= event 0x0098 at 0x22f2
+
+<!-- <RB><RS Garriott>ん？ あらあんた<Next> -->
+<!-- … …いたの？<Next> -->
+<!-- <LB><LS Mina>うるさい！<Next> -->
+<!-- あんたたちが<NL>うっちゃり健康装置で<NL>ここまで来てるのは<NL>もうわかってんのよ！<Next> -->
+<!-- <RB><RS Garriott>へぇ…<NL>よく調べたわねぇ<Next> -->
+<!-- その努力を評価して<NL>最新ウェポンの実験台に<NL>してあげるわ<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>ん？ あらあんた<Next>
 … …いたの？<Next>
 <LB><LS Mina>うるさい！<Next>
@@ -446,20 +893,42 @@
 その努力を評価して<NL>最新ウェポンの実験台に<NL>してあげるわ<Next>
 <End>
 
-<!-- event 0x009a at 0x2377 -->
+
+= event 0x009a at 0x2377
+
+<!-- <RB><RS Garriott>おいで！<NL>トライアンフ！<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>おいで！<NL>トライアンフ！<Next>
 <End>
 
-<!-- event 0x009c at 0x2186 -->
+
+= event 0x009c at 0x2186
+
+<!-- <RB><RS Otto>水晶の洞窟は<NL>東だっていってたよ？<Next> -->
+<!-- <End> -->
 <RB><RS Otto>水晶の洞窟は<NL>東だっていってたよ？<Next>
 <End>
 
-<!-- event 0x009e at 0x21a1 -->
+
+= event 0x009e at 0x21a1
+
+<!-- <RB><RS Otto>ねぇ、おねぇちゃん<Next> -->
+<!-- いま飛んでったの<NL>なんだったのか<NL>気になんない？<Next> -->
+<!-- <End> -->
 <RB><RS Otto>ねぇ、おねぇちゃん<Next>
 いま飛んでったの<NL>なんだったのか<NL>気になんない？<Next>
 <End>
 
-<!-- event 0x00a0 at 0x2388 -->
+
+= event 0x00a0 at 0x2388
+
+<!-- <RB><RS Garriott>なんてことするの！？<NL>トライアンフを<NL>こわしちゃうなんて！<Next> -->
+<!-- <LB><LS MinaG>あんなもん<NL>いくらでも<NL>ブッ壊したげるわ！<Next> -->
+<!-- <RB>んん… … …<NL>覚えてなさい！！<Next> -->
+<!-- <LB><LS MinaG>あぁ～～！ また、あの<NL>必殺拳法装置で<NL>逃げるつもりね！<Next> -->
+<!-- <RB>物質転送装置！！<Next> -->
+<!-- <LB>どっちでも同じよ！<NL>逃がすもんか！<NL>行くよオットー！！<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>なんてことするの！？<NL>トライアンフを<NL>こわしちゃうなんて！<Next>
 <LB><LS MinaG>あんなもん<NL>いくらでも<NL>ブッ壊したげるわ！<Next>
 <RB>んん… … …<NL>覚えてなさい！！<Next>
@@ -468,7 +937,17 @@
 <LB>どっちでも同じよ！<NL>逃がすもんか！<NL>行くよオットー！！<Next>
 <End>
 
-<!-- event 0x00a2 at 0x242f -->
+
+= event 0x00a2 at 0x242f
+
+<!-- <LB><LS Mina>ここ、どこ…？<Next> -->
+<!-- <RB><RS Otto>大丈夫？<NL>おねえちゃん…<Next> -->
+<!-- <LB>うん、へーきへーき<Next> -->
+<!-- … … …くすっ<Next> -->
+<!-- <RB>ど、どうしたの？<NL>なにかおかしかった？<Next> -->
+<!-- <LB>こわくないの？<NL>オットー<Next> -->
+<!-- <RB>… … …<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ここ、どこ…？<Next>
 <RB><RS Otto>大丈夫？<NL>おねえちゃん…<Next>
 <LB>うん、へーきへーき<Next>
@@ -478,50 +957,104 @@
 <RB>… … …<Next>
 <End>
 
-<!-- event 0x00a4 at 0x24f0 -->
+
+= event 0x00a4 at 0x24f0
+
+<!-- <RB><RS Warren>おまえらか？<Next> -->
+<!-- 再三にわたって<NL>われわれのジャマを<NL>しているのは<Next> -->
+<!-- <LB><LS Mina>グレイお兄ちゃんは<NL>どこにいるのよ！<Next> -->
+<!-- <RB>安心しろ、あいつは<NL>わたしの片腕として<NL>育てるつもりだ<Next> -->
+<!-- <End> -->
 <RB><RS Warren>おまえらか？<Next>
 再三にわたって<NL>われわれのジャマを<NL>しているのは<Next>
 <LB><LS Mina>グレイお兄ちゃんは<NL>どこにいるのよ！<Next>
 <RB>安心しろ、あいつは<NL>わたしの片腕として<NL>育てるつもりだ<Next>
 <End>
 
-<!-- event 0x00a6 at 0x254f -->
+
+= event 0x00a6 at 0x254f
+
+<!-- <LB><LS Mina>なにいってんのよ！<Next> -->
+<!-- お兄ちゃんが、そんな<NL>悪人になるわけ<NL>ないじゃない！<Next> -->
+<!-- <RB><RS Warren>なるとも<Next> -->
+<!-- なにしろ、奴は<NL>わたしの弟子なのだからな<Next> -->
+<!-- <End> -->
 <LB><LS Mina>なにいってんのよ！<Next>
 お兄ちゃんが、そんな<NL>悪人になるわけ<NL>ないじゃない！<Next>
 <RB><RS Warren>なるとも<Next>
 なにしろ、奴は<NL>わたしの弟子なのだからな<Next>
 <End>
 
-<!-- event 0x00a8 at 0x259b -->
+
+= event 0x00a8 at 0x259b
+
+<!-- <LS Mina><RS Otto><LB><Size 03>えぇっ！！？<RB><Size 03>えぇっ！？<Next> -->
+<!-- <Size 00><LB>じゃ、じゃあ…<Next> -->
+<!-- 行方不明の師匠って…<Next> -->
+<!-- <RB><RS Warren>そう…<NL>わたしのことだ<Next> -->
+<!-- <End> -->
 <LS Mina><RS Otto><LB><Size 03>えぇっ！！？<RB><Size 03>えぇっ！？<Next>
 <Size 00><LB>じゃ、じゃあ…<Next>
 行方不明の師匠って…<Next>
 <RB><RS Warren>そう…<NL>わたしのことだ<Next>
 <End>
 
-<!-- event 0x00aa at 0x25df -->
+
+= event 0x00aa at 0x25df
+
+<!-- <LB><LS Mina>たとえ師匠でも！<Next> -->
+<!-- 悪い人の味方になるような<NL>お兄ちゃんじゃない！<Next> -->
+<!-- <RB><RS Blank>もちろんだとも<Next> -->
+<!-- <End> -->
 <LB><LS Mina>たとえ師匠でも！<Next>
 悪い人の味方になるような<NL>お兄ちゃんじゃない！<Next>
 <RB><RS Blank>もちろんだとも<Next>
 <End>
 
-<!-- event 0x00ac at 0x2616 -->
+
+= event 0x00ac at 0x2616
+
+<!-- <RB><RS Gray>師匠…いや、ウォーレン<Next> -->
+<!-- あんたはもうぼくとは<NL>何の関係もない<Next> -->
+<!-- ただの大悪党だ<Next> -->
+<!-- いくらおどしても<NL>ぼくは屈しないよ<Next> -->
+<!-- <End> -->
 <RB><RS Gray>師匠…いや、ウォーレン<Next>
 あんたはもうぼくとは<NL>何の関係もない<Next>
 ただの大悪党だ<Next>
 いくらおどしても<NL>ぼくは屈しないよ<Next>
 <End>
 
-<!-- event 0x00ae at 0x265d -->
+
+= event 0x00ae at 0x265d
+
+<!-- <RB><RS Warren>その話は、後だ<Next> -->
+<!-- <RB><RS Warren>おまえと話す前に…<Next> -->
+<!-- <End> -->
 <RB><RS Warren>その話は、後だ<Next>
 <RB><RS Warren>おまえと話す前に…<Next>
 <End>
 
-<!-- event 0x00b0 at 0x267a -->
+
+= event 0x00b0 at 0x267a
+
+<!-- <RB><RS Warren>ここの、ゴミムシを<NL>片付けねばならん<Next> -->
+<!-- <End> -->
 <RB><RS Warren>ここの、ゴミムシを<NL>片付けねばならん<Next>
 <End>
 
-<!-- event 0x00b2 at 0x2693 -->
+
+= event 0x00b2 at 0x2693
+
+<!-- <LB><LS Mina>な…なに、ここは！？<Next> -->
+<!-- <LB><LS Otto>ここ…こここ…<NL>こわくない！<Next> -->
+<!-- こわくないこわくない！<Next> -->
+<!-- <RB><RS Warren>ゴミムシは死ね！<Next> -->
+<!-- この異次元空間で！<Next> -->
+<!-- <LB><LS Mina>殺しても死なないわよ！<NL>あたしのお兄ちゃんが<NL>帰ってくるまでは！<Next> -->
+<!-- <RB><RS Warren>ふん、つまらん…<NL>奴の選択肢はふたつのみ<Next> -->
+<!-- 協力か、さもなくば…<Next> -->
+<!-- <End> -->
 <LB><LS Mina>な…なに、ここは！？<Next>
 <LB><LS Otto>ここ…こここ…<NL>こわくない！<Next>
 こわくないこわくない！<Next>
@@ -532,34 +1065,75 @@
 協力か、さもなくば…<Next>
 <End>
 
-<!-- event 0x00b4 at 0x272d -->
+
+= event 0x00b4 at 0x272d
+
+<!-- <RB><RS Warren><Size 04>死だ！<Next> -->
+<!-- <End> -->
 <RB><RS Warren><Size 04>死だ！<Next>
 <End>
 
-<!-- event 0x00b6 at 0x2738 -->
+
+= event 0x00b6 at 0x2738
+
+<!-- <LB><LS Mina>ゴミムシは<NL>あんたの方よ！！<Next> -->
+<!-- <RB><RS Warren>ふは、ふははは…<NL>なんてこった！<NL>ははは…はははは！<Next> -->
+<!-- <RB><RS Gray>まずい、逃げよう！<Next> -->
+<!-- ここはもうすぐ<NL>くずれてしまう！<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ゴミムシは<NL>あんたの方よ！！<Next>
 <RB><RS Warren>ふは、ふははは…<NL>なんてこった！<NL>ははは…はははは！<Next>
 <RB><RS Gray>まずい、逃げよう！<Next>
 ここはもうすぐ<NL>くずれてしまう！<Next>
 <End>
 
-<!-- event 0x00b8 at 0x2789 -->
+
+= event 0x00b8 at 0x2789
+
+<!-- <RB><RS Warren>だははははは！<Next> -->
+<!-- わーっはっはっはっは！<Next> -->
+<!-- <End> -->
 <RB><RS Warren>だははははは！<Next>
 わーっはっはっはっは！<Next>
 <End>
 
-<!-- event 0x00ba at 0x27a1 -->
+
+= event 0x00ba at 0x27a1
+
+<!-- <RB><RS Gray>タフでなければ<NL>生きて行けない…<Next> -->
+<!-- 優しくなければ<NL>生きて行く資格がない<NL>… …か<Next> -->
+<!-- <LB><LS Otto>なんなの？ それ…<Next> -->
+<!-- <RB><RS Gray>むかし読んだ小説に<NL>そんな一節があったんだ<Next> -->
+<!-- <End> -->
 <RB><RS Gray>タフでなければ<NL>生きて行けない…<Next>
 優しくなければ<NL>生きて行く資格がない<NL>… …か<Next>
 <LB><LS Otto>なんなの？ それ…<Next>
 <RB><RS Gray>むかし読んだ小説に<NL>そんな一節があったんだ<Next>
 <End>
 
-<!-- event 0x00bc at 0x2800 -->
+
+= event 0x00bc at 0x2800
+
+<!-- <RB><RS Blank>おかえりなさい…<Next> -->
+<!-- <End> -->
 <RB><RS Blank>おかえりなさい…<Next>
 <End>
 
-<!-- event 0x00be at 0x280d -->
+
+= event 0x00be at 0x280d
+
+<!-- <RB><RS Garriott>さぞお疲れでしょ？<NL>休ませてあげるわ<Next> -->
+<!-- …あの世でね！！<Next> -->
+<!-- <LB><LS Mina>ギャリオット！？<Next> -->
+<!-- <RB><RS Garriott>あたしってねぇ…<Next> -->
+<!-- 正義づらかました<NL>ガキどもを見ると<NL>吐き気がするの…<Next> -->
+<!-- <LB><LS Otto>こんのやろぉ…<Next> -->
+<!-- <RB><RS Garriott>なにリキんでんのよ<NL>甲斐性なしのくせに<Next> -->
+<!-- <RB><RS Gray>ミーナちゃん！<NL>オットーくん！<Next> -->
+<!-- <LB><LS Otto>お兄ちゃん…<NL>さがってて…<Next> -->
+<!-- <RB><RS Gray>しかし…<Next> -->
+<!-- <LB><LS Otto><NL><Size 03> はやく！<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>さぞお疲れでしょ？<NL>休ませてあげるわ<Next>
 …あの世でね！！<Next>
 <LB><LS Mina>ギャリオット！？<Next>
@@ -573,18 +1147,37 @@
 <LB><LS Otto><NL><Size 03> はやく！<Next>
 <End>
 
-<!-- event 0x00c0 at 0x28c9 -->
+
+= event 0x00c0 at 0x28c9
+
+<!-- <RB><RS Garriott>なぜ！？<Next> -->
+<!-- どうして！？<Next> -->
+<!-- このあたしが！！<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>なぜ！？<Next>
 どうして！？<Next>
 このあたしが！！<Next>
 <End>
 
-<!-- event 0x00c2 at 0x2956 -->
+
+= event 0x00c2 at 0x2956
+
+<!-- <LB><LS Mina>オットー<NL>用意はできた？<Next> -->
+<!-- <LB><LS Otto>うん！<NL>いつでもいいよ！<Next> -->
+<!-- <End> -->
 <LB><LS Mina>オットー<NL>用意はできた？<Next>
 <LB><LS Otto>うん！<NL>いつでもいいよ！<Next>
 <End>
 
-<!-- event 0x00c4 at 0x2979 -->
+
+= event 0x00c4 at 0x2979
+
+<!-- <RB><RS Gray>もう、帰るのかい？<NL>さみしくなるなぁ<Next> -->
+<!-- <LB><LS Mina>最初の予定より<NL>遅くなっちゃったから…<Next> -->
+<!-- <RB><RS Gray>そうかい…<NL>うん、それじゃ<NL>街の人たちによろしく<Next> -->
+<!-- <LB><LS Mina>また、遊びにくるね！<Next> -->
+<!-- <RB><RS Blank><Size 03>なにーー！？<Next> -->
+<!-- <End> -->
 <RB><RS Gray>もう、帰るのかい？<NL>さみしくなるなぁ<Next>
 <LB><LS Mina>最初の予定より<NL>遅くなっちゃったから…<Next>
 <RB><RS Gray>そうかい…<NL>うん、それじゃ<NL>街の人たちによろしく<Next>
@@ -592,19 +1185,41 @@
 <RB><RS Blank><Size 03>なにーー！？<Next>
 <End>
 
-<!-- event 0x00c6 at 0x29e7 -->
-<RB><RS Kronk>おまえら、おれに<NL>なんのことわりもなく！<Next>
+
+= event 0x00c6 at 0x29e7
+
+<!-- <RB><RS Robert>おまえら、おれに<NL>なんのことわりもなく！<Next> -->
+<!-- <LB><LS Mina>あ、風来坊さん…<Next> -->
+<!-- <End> -->
+<RB><RS Robert>おまえら、おれに<NL>なんのことわりもなく！<Next>
 <LB><LS Mina>あ、風来坊さん…<Next>
 <End>
 
-<!-- event 0x00c8 at 0x2a0f -->
-<RB><RS Kronk>なんだかんだで結局<NL>仕事にはありつけんし<Next>
+
+= event 0x00c8 at 0x2a0f
+
+<!-- <RB><RS Robert>なんだかんだで結局<NL>仕事にはありつけんし<Next> -->
+<!-- おまぁらも帰っちまうし！<Next> -->
+<!-- <LB><LS Mina>あ…ごめんなさい…<Next> -->
+<!-- <End> -->
+<RB><RS Robert>なんだかんだで結局<NL>仕事にはありつけんし<Next>
 おまぁらも帰っちまうし！<Next>
 <LB><LS Mina>あ…ごめんなさい…<Next>
 <End>
 
-<!-- event 0x00ca at 0x1aae -->
-<RB><LS Blank><RS Kronk>やった！<NL>ありがとうよ、切り株！<Next>
+
+= event 0x00ca at 0x1aae
+
+<!-- <RB><LS Blank><RS Robert>やった！<NL>ありがとうよ、切り株！<Next> -->
+<!-- <LB><LS God>誰が切り株じゃいや！<Next> -->
+<!-- それにしても、なんで<NL>連中が襲って来るのが<NL>分かったんじゃいや<Next> -->
+<!-- <RB>るせぇなあ<Next> -->
+<!-- 行くところがなくて<NL>ここで寝てたんだよ<Next> -->
+<!-- <RB>ま、とりあえずこれで<NL>連中の戦力は落ちた<Next> -->
+<!-- あとは…<Next> -->
+<!-- <LB><LS Blank>な、なに！<NL>いまの騒ぎは！<Next> -->
+<!-- <End> -->
+<RB><LS Blank><RS Robert>やった！<NL>ありがとうよ、切り株！<Next>
 <LB><LS God>誰が切り株じゃいや！<Next>
 それにしても、なんで<NL>連中が襲って来るのが<NL>分かったんじゃいや<Next>
 <RB>るせぇなあ<Next>
@@ -614,112 +1229,225 @@
 <LB><LS Blank>な、なに！<NL>いまの騒ぎは！<Next>
 <End>
 
-<!-- event 0x00cc at 0x1b4d -->
-<RB><RS Kronk>ん、あの声は…<NL>ミーナとかいう娘だな<Next>
+
+= event 0x00cc at 0x1b4d
+
+<!-- <RB><RS Robert>ん、あの声は…<NL>ミーナとかいう娘だな<Next> -->
+<!-- おい、切り株<NL>あとはまかせたぜ<Next> -->
+<!-- <LB><LS God>どこ行くんじゃいや！<Next> -->
+<!-- <RB><RS Robert>ちょっとワケアリでな<NL>あの子たちには<NL>会えないんだ<Next> -->
+<!-- じゃあな！<Next> -->
+<!-- <End> -->
+<RB><RS Robert>ん、あの声は…<NL>ミーナとかいう娘だな<Next>
 おい、切り株<NL>あとはまかせたぜ<Next>
 <LB><LS God>どこ行くんじゃいや！<Next>
-<RB><RS Kronk>ちょっとワケアリでな<NL>あの子たちには<NL>会えないんだ<Next>
+<RB><RS Robert>ちょっとワケアリでな<NL>あの子たちには<NL>会えないんだ<Next>
 じゃあな！<Next>
 <End>
 
-<!-- event 0x00ce at 0x1bac -->
+
+= event 0x00ce at 0x1bac
+
+<!-- <LB><LS Mickey><RS Blank>いったいぜんたい<NL>どこのどいつなんだ！<Next> -->
+<!-- <End> -->
 <LB><LS Mickey><RS Blank>いったいぜんたい<NL>どこのどいつなんだ！<Next>
 <End>
 
-<!-- event 0x00d0 at 0x225e -->
+
+= event 0x00d0 at 0x225e
+
+<!-- <RB><RS God>なんじゃいや<NL>いまのは<Next> -->
+<!-- <End> -->
 <RB><RS God>なんじゃいや<NL>いまのは<Next>
 <End>
 
-<!-- event 0x00d2 at 0x226e -->
+
+= event 0x00d2 at 0x226e
+
+<!-- <LB><LS God>ここはわしに<NL>まかせときんさい<Next> -->
+<!-- <RB><RS Donald>キュウ<Next> -->
+<!-- <End> -->
 <LB><LS God>ここはわしに<NL>まかせときんさい<Next>
 <RB><RS Donald>キュウ<Next>
 <End>
 
-<!-- event 0x00d4 at 0x2ade -->
-<RB><RS Kronk>おうとも！ 元気でな<Next>
+
+= event 0x00d4 at 0x2ade
+
+<!-- <RB><RS Robert>おうとも！ 元気でな<Next> -->
+<!-- <RB><RS Gray>また来年だね<Next> -->
+<!-- あ、そうそう…それから<Next> -->
+<!-- わかってるとは思うけど<NL>石鬼には気をつけるんだよ<Next> -->
+<!-- <LB><LS Otto>それなら大丈夫<Next> -->
+<!-- <End> -->
+<RB><RS Robert>おうとも！ 元気でな<Next>
 <RB><RS Gray>また来年だね<Next>
 あ、そうそう…それから<Next>
 わかってるとは思うけど<NL>石鬼には気をつけるんだよ<Next>
 <LB><LS Otto>それなら大丈夫<Next>
 <End>
 
-<!-- event 0x00d6 at 0x2b32 -->
+
+= event 0x00d6 at 0x2b32
+
+<!-- <LB><LS Otto>だって、ぼくが<NL>ついてるんだから！<Next> -->
+<!-- <End> -->
 <LB><LS Otto>だって、ぼくが<NL>ついてるんだから！<Next>
 <End>
 
-<!-- event 0x00d8 at 0x2a48 -->
-<RB><RS Kronk>いや、まあ…<NL>そこはその…<NL>おれも悪かった訳だが<Next>
+
+= event 0x00d8 at 0x2a48
+
+<!-- <RB><RS Robert>いや、まあ…<NL>そこはその…<NL>おれも悪かった訳だが<Next> -->
+<!-- <LB><LS Mina>くす…<NL>かっこよかったよ<NL>イワトカゲから<NL>守ってくれた時<Next> -->
+<!-- <RB><RS Robert>ん？ あ、ああ<Next> -->
+<!-- <End> -->
+<RB><RS Robert>いや、まあ…<NL>そこはその…<NL>おれも悪かった訳だが<Next>
 <LB><LS Mina>くす…<NL>かっこよかったよ<NL>イワトカゲから<NL>守ってくれた時<Next>
-<RB><RS Kronk>ん？ あ、ああ<Next>
+<RB><RS Robert>ん？ あ、ああ<Next>
 <End>
 
-<!-- event 0x00da at 0x2a94 -->
-<RB><RS Kronk>だはははははは<Next>
+
+= event 0x00da at 0x2a94
+
+<!-- <RB><RS Robert>だはははははは<Next> -->
+<!-- まぁな、おれは<NL>カッコイイからな！<Next> -->
+<!-- <LB><LS Mina>くすくす…<NL>それでは…<Next> -->
+<!-- <LB><LS Otto>おにいちゃん<NL>風来坊さん<NL>また会おうね！<Next> -->
+<!-- <End> -->
+<RB><RS Robert>だはははははは<Next>
 まぁな、おれは<NL>カッコイイからな！<Next>
 <LB><LS Mina>くすくす…<NL>それでは…<Next>
 <LB><LS Otto>おにいちゃん<NL>風来坊さん<NL>また会おうね！<Next>
 <End>
 
-<!-- event 0x00dc at 0x2ba6 -->
+
+= event 0x00dc at 0x2ba6
+
+<!-- <RB><RS Innkeeper>おぉ、ミーナちゃん<NL>一晩２０ポリゴンだが<NL>休んでいくのかな？<Next> -->
+<!-- <End> -->
 <RB><RS Innkeeper>おぉ、ミーナちゃん<NL>一晩２０ポリゴンだが<NL>休んでいくのかな？<Next>
 <End>
 
-<!-- event 0x00de at 0x2bce -->
+
+= event 0x00de at 0x2bce
+
+<!-- <LB><LS MinaInn>うんっ！<Next> -->
+<!-- <RB><RS Innkeeper>部屋は空いているからね<NL>ゆっくりして行きなさい<Next> -->
+<!-- <End> -->
 <LB><LS MinaInn>うんっ！<Next>
 <RB><RS Innkeeper>部屋は空いているからね<NL>ゆっくりして行きなさい<Next>
 <End>
 
-<!-- event 0x00e0 at 0x2bf6 -->
+
+= event 0x00e0 at 0x2bf6
+
+<!-- <RB><RS Innkeeper>もういいのかい<NL>疲れはとれたかな？<Next> -->
+<!-- <LB><LS MinaInn>うん、ばっちり！<Next> -->
+<!-- <RB>ははは、そうかそうか<NL>どうもありがとうね<Next> -->
+<!-- <End> -->
 <RB><RS Innkeeper>もういいのかい<NL>疲れはとれたかな？<Next>
 <LB><LS MinaInn>うん、ばっちり！<Next>
 <RB>ははは、そうかそうか<NL>どうもありがとうね<Next>
 <End>
 
-<!-- event 0x00e2 at 0x2c2f -->
+
+= event 0x00e2 at 0x2c2f
+
+<!-- <LB><LS MinaInn>ううん、今はいいわ<Next> -->
+<!-- <RB><RS Innkeeper>そうかい<NL>無理はせんようにな<Next> -->
+<!-- <End> -->
 <LB><LS MinaInn>ううん、今はいいわ<Next>
 <RB><RS Innkeeper>そうかい<NL>無理はせんようにな<Next>
 <End>
 
-<!-- event 0x00e4 at 0x2c52 -->
+
+= event 0x00e4 at 0x2c52
+
+<!-- <RB><RS Innkeeper>ちょっと足りないね<Next> -->
+<!-- <LB><LS MinaInn>やだ、ごめんなさい<NL>また今度にするわ<Next> -->
+<!-- <End> -->
 <RB><RS Innkeeper>ちょっと足りないね<Next>
 <LB><LS MinaInn>やだ、ごめんなさい<NL>また今度にするわ<Next>
 <End>
 
-<!-- event 0x00e6 at 0x2c79 -->
+
+= event 0x00e6 at 0x2c79
+
+<!-- <RB><RS Shopkeeper>いらっしゃいませ…<NL>あら、ミーナちゃん<NL>何かご入り用かな？<End> -->
 <RB><RS Shopkeeper>いらっしゃいませ…<NL>あら、ミーナちゃん<NL>何かご入り用かな？<End>
 
-<!-- event 0x00e8 at 0x2c9d -->
+
+= event 0x00e8 at 0x2c9d
+
+<!-- <RB><RS Shopkeeper>ザウワークラウトね？<NL>１０ポリゴンよ<Next> -->
+<!-- <RB>体力回復にどうぞ<End> -->
 <RB><RS Shopkeeper>ザウワークラウトね？<NL>１０ポリゴンよ<Next>
 <RB>体力回復にどうぞ<End>
 
-<!-- event 0x00ea at 0x2cc2 -->
+
+= event 0x00ea at 0x2cc2
+
+<!-- <RB><RS Shopkeeper>メディヴァインね？<NL>えっと…<NL>５０ポリゴンです<Next> -->
+<!-- <RB>回復力はこっちのが<NL>かなりいいみたい<End> -->
 <RB><RS Shopkeeper>メディヴァインね？<NL>えっと…<NL>５０ポリゴンです<Next>
 <RB>回復力はこっちのが<NL>かなりいいみたい<End>
 
-<!-- event 0x00ec at 0x2cf8 -->
+
+= event 0x00ec at 0x2cf8
+
+<!-- <RB><RS Shopkeeper>紫ミカンの実はね…<NL>１２０ポリゴンね<NL>ちょっと高いんだけど<Next> -->
+<!-- <RB>もう、ダメって時に<NL>使ってね<End> -->
 <RB><RS Shopkeeper>紫ミカンの実はね…<NL>１２０ポリゴンね<NL>ちょっと高いんだけど<Next>
 <RB>もう、ダメって時に<NL>使ってね<End>
 
-<!-- event 0x00ee at 0x2d2f -->
+
+= event 0x00ee at 0x2d2f
+
+<!-- <RB><RS Shopkeeper>あら？ いいの？<Next> -->
+<!-- <LB><LS Mina>うん、やっぱり<NL>やめとくわ<Next> -->
+<!-- <RB><RS Shopkeeper>はい、どうもありがとう<NL>また、来てね<Next> -->
+<!-- <End> -->
 <RB><RS Shopkeeper>あら？ いいの？<Next>
 <LB><LS Mina>うん、やっぱり<NL>やめとくわ<Next>
 <RB><RS Shopkeeper>はい、どうもありがとう<NL>また、来てね<Next>
 <End>
 
-<!-- event 0x00f0 at 0x2d65 -->
+
+= event 0x00f0 at 0x2d65
+
+<!-- <LB><LS MinaShop>うん、それちょうだい<Next> -->
+<!-- <End> -->
 <LB><LS MinaShop>うん、それちょうだい<Next>
 <End>
 
-<!-- event 0x00f2 at 0x2d74 -->
+
+= event 0x00f2 at 0x2d74
+
+<!-- <RB><RS Shopkeeper>はい、どうぞ<NL>いつもありがとう<Next> -->
+<!-- <End> -->
 <RB><RS Shopkeeper>はい、どうぞ<NL>いつもありがとう<Next>
 <End>
 
-<!-- event 0x00f4 at 0x2d88 -->
+
+= event 0x00f4 at 0x2d88
+
+<!-- <LB><LS MinaShop>あ、ごめんなさい！<NL>やっぱりそれ、いいです<Next> -->
+<!-- <RB><RS Shopkeeper>ううん、じゃまた今度ね<NL>どうもありがとう<Next> -->
+<!-- <End> -->
 <LB><LS MinaShop>あ、ごめんなさい！<NL>やっぱりそれ、いいです<Next>
 <RB><RS Shopkeeper>ううん、じゃまた今度ね<NL>どうもありがとう<Next>
 <End>
 
-<!-- event 0x00f6 at 0x2dbd -->
+
+= event 0x00f6 at 0x2dbd
+
+<!-- <LB><LS MinaShop>ひぃふぅみぃ…<NL>あちゃっ！<NL>お金が足んないわ<Next> -->
+<!-- <RB><RS Shopkeeper>あら、いいわよ<NL>ミーナちゃんだったら<Next> -->
+<!-- <LB>いやいやいやいや<NL>そんなっ！<Next> -->
+<!-- <RB><RS OttoShop>おねぇちゃんの<NL>おっちょこちょい<Next> -->
+<!-- <LB>うっひゃー<NL>はづかち～<Next> -->
+<!-- <End> -->
 <LB><LS MinaShop>ひぃふぅみぃ…<NL>あちゃっ！<NL>お金が足んないわ<Next>
 <RB><RS Shopkeeper>あら、いいわよ<NL>ミーナちゃんだったら<Next>
 <LB>いやいやいやいや<NL>そんなっ！<Next>
@@ -727,21 +1455,43 @@
 <LB>うっひゃー<NL>はづかち～<Next>
 <End>
 
-<!-- event 0x00f8 at 0x2e26 -->
+
+= event 0x00f8 at 0x2e26
+
+<!-- <RB><RS Shopkeeper>でも、大丈夫？<NL>荷物がいっぱい<NL>みたいだけど…？<Next> -->
+<!-- <LB><LS MinaShop>やっぱ、無理かな？<NL>あははははは…<Next> -->
+<!-- <RB>たくさん置いてるから<NL>またいつでもどうぞ<Next> -->
+<!-- <LB>あ、あはははは<NL>欲張っちゃダメだなー<Next> -->
+<!-- <End> -->
 <RB><RS Shopkeeper>でも、大丈夫？<NL>荷物がいっぱい<NL>みたいだけど…？<Next>
 <LB><LS MinaShop>やっぱ、無理かな？<NL>あははははは…<Next>
 <RB>たくさん置いてるから<NL>またいつでもどうぞ<Next>
 <LB>あ、あはははは<NL>欲張っちゃダメだなー<Next>
 <End>
 
-<!-- event 0x00fa at 0x2eda -->
+
+= event 0x00fa at 0x2eda
+
+<!-- <RB><RS InnGuest>んーむむむ<Next> -->
+<!-- 村の外には“石鬼”がおる<Next> -->
+<!-- 竹ヒゴみたいななりだが<NL>バケモノはバケモノだ<Next> -->
+<!-- <LB><LS Otto>バケモノ…<Next> -->
+<!-- <End> -->
 <RB><RS InnGuest>んーむむむ<Next>
 村の外には“石鬼”がおる<Next>
 竹ヒゴみたいななりだが<NL>バケモノはバケモノだ<Next>
 <LB><LS Otto>バケモノ…<Next>
 <End>
 
-<!-- event 0x00fc at 0x2f18 -->
+
+= event 0x00fc at 0x2f18
+
+<!-- <RB><RS InnGuest>んーむむむ<Next> -->
+<!-- バケモノはたっぷりおる<Next> -->
+<!-- “コトダマ”とか<NL>“カナキリゴエ”とかな<Next> -->
+<!-- これも魔性のものだ<Next> -->
+<!-- <LB><LS Otto>お、おじさん…<NL>おどかさないで…<Next> -->
+<!-- <End> -->
 <RB><RS InnGuest>んーむむむ<Next>
 バケモノはたっぷりおる<Next>
 “コトダマ”とか<NL>“カナキリゴエ”とかな<Next>
@@ -749,76 +1499,164 @@
 <LB><LS Otto>お、おじさん…<NL>おどかさないで…<Next>
 <End>
 
-<!-- event 0x00fe at 0x2f88 -->
+
+= event 0x00fe at 0x2f88
+
+<!-- <RB><RS CurryEater>やあ、おれはまうちゅ～<NL>カレーライスと<NL>カールルイスは<NL>似てるよね<Next> -->
+<!-- <LB><LS Mina>うん！<NL>そっくりっ<Next> -->
+<!-- <End> -->
 <RB><RS CurryEater>やあ、おれはまうちゅ～<NL>カレーライスと<NL>カールルイスは<NL>似てるよね<Next>
 <LB><LS Mina>うん！<NL>そっくりっ<Next>
 <End>
 
-<!-- event 0x0100 at 0x2fbc -->
+
+= event 0x0100 at 0x2fbc
+
+<!-- <LB><LS Mina>ねぇねぇ<NL>ライスカレーと<NL>ダン・ジャンセンって<NL>似てるかなぁ！？<Next> -->
+<!-- <RB><RS CurryEater>ぜんぜん似てない<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ねぇねぇ<NL>ライスカレーと<NL>ダン・ジャンセンって<NL>似てるかなぁ！？<Next>
 <RB><RS CurryEater>ぜんぜん似てない<Next>
 <End>
 
-<!-- event 0x0102 at 0x09f1 -->
+
+= event 0x0102 at 0x09f1
+
+<!-- <LB><LS Mina>ね、何の修理してんの？<Next> -->
+<!-- <RB><RS Gray>ペンチアムっていう<NL>リスクチップのね…<Next> -->
+<!-- <LB><LS Mina>マジ！？<Next> -->
+<!-- <RB><RS Gray>はは、冗談だよ<NL>ヒゲゼンマイの交換さ<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ね、何の修理してんの？<Next>
 <RB><RS Gray>ペンチアムっていう<NL>リスクチップのね…<Next>
 <LB><LS Mina>マジ！？<Next>
 <RB><RS Gray>はは、冗談だよ<NL>ヒゲゼンマイの交換さ<Next>
 <End>
 
-<!-- event 0x0104 at 0x0a3f -->
+
+= event 0x0104 at 0x0a3f
+
+<!-- <RB><RS Gray>お祈り草、たくさん<NL>実ってるといいね<Next> -->
+<!-- <LB><LS Mina>うん！<Next> -->
+<!-- <End> -->
 <RB><RS Gray>お祈り草、たくさん<NL>実ってるといいね<Next>
 <LB><LS Mina>うん！<Next>
 <End>
 
-<!-- event 0x0106 at 0x0a60 -->
+
+= event 0x0106 at 0x0a60
+
+<!-- <LB><LS Otto><RS Gray>フクザツそうだなぁ<Next> -->
+<!-- <RB>はっはっは<NL>かんたんかんたん<Next> -->
+<!-- <LB><LS Mina>ネジが、いっこ<NL>余ってるわよ？<Next> -->
+<!-- <End> -->
 <LB><LS Otto><RS Gray>フクザツそうだなぁ<Next>
 <RB>はっはっは<NL>かんたんかんたん<Next>
 <LB><LS Mina>ネジが、いっこ<NL>余ってるわよ？<Next>
 <End>
 
-<!-- event 0x010c at 0x0201 -->
+
+= event 0x010c at 0x0201
+
+<!-- <RB><RS Otto>おねぇちゃん<NL>こっちでいいの？<Next> -->
+<!-- <LB><LS Mina>ありゃりゃ？<NL>こっちは違うわ<Next> -->
+<!-- <End> -->
 <RB><RS Otto>おねぇちゃん<NL>こっちでいいの？<Next>
 <LB><LS Mina>ありゃりゃ？<NL>こっちは違うわ<Next>
 <End>
 
-<!-- event 0x010e at 0x0229 -->
+
+= event 0x010e at 0x0229
+
+<!-- <RB><RS Otto>おねぇちゃぁん…<NL>今日はもう休もぉよぉ…<Next> -->
+<!-- <LB><LS Mina>あややや！<NL>体力が１しかない！<Next> -->
+<!-- <End> -->
 <RB><RS Otto>おねぇちゃぁん…<NL>今日はもう休もぉよぉ…<Next>
 <LB><LS Mina>あややや！<NL>体力が１しかない！<Next>
 <End>
 
-<!-- event 0x0118 at 0x0ca5 -->
+
+= event 0x0118 at 0x0ca5
+
+<!-- <RB><RS Otto>あ、四つ葉のドリドリ！<NL>めずらしいなぁ！<Next> -->
+<!-- <End> -->
 <RB><RS Otto>あ、四つ葉のドリドリ！<NL>めずらしいなぁ！<Next>
 <End>
 
-<!-- event 0x011a at 0x0cc1 -->
+
+= event 0x011a at 0x0cc1
+
+<!-- <RB><RS Otto>これ、とっておくね<Next> -->
+<!-- <End> -->
 <RB><RS Otto>これ、とっておくね<Next>
 <End>
 
-<!-- event 0x011c at 0x0ccf -->
+
+= event 0x011c at 0x0ccf
+
+<!-- <RB><RS Otto>あ、でも取りすぎかなぁ<Next> -->
+<!-- <LB><LS Mina>それっくらいに<NL>しときましょ<Next> -->
+<!-- <End> -->
 <RB><RS Otto>あ、でも取りすぎかなぁ<Next>
 <LB><LS Mina>それっくらいに<NL>しときましょ<Next>
 <End>
 
-<!-- event 0x0136 at 0x248c -->
+
+= event 0x0136 at 0x248c
+
+<!-- <LB><LS Mina>メディヴァインが<NL>たっぷりあるわ！<Next> -->
+<!-- <RB><RS Otto>いいの？<NL>勝手に持ってっても<Next> -->
+<!-- <LB>へーきへーき<Next> -->
+<!-- <End> -->
 <LB><LS Mina>メディヴァインが<NL>たっぷりあるわ！<Next>
 <RB><RS Otto>いいの？<NL>勝手に持ってっても<Next>
 <LB>へーきへーき<Next>
 <End>
 
-<!-- event 0x0138 at 0x24c3 -->
+
+= event 0x0138 at 0x24c3
+
+<!-- <LB><LS Mina>もらってくよー<Next> -->
+<!-- <End> -->
 <LB><LS Mina>もらってくよー<Next>
 <End>
 
-<!-- event 0x013a at 0x24cf -->
+
+= event 0x013a at 0x24cf
+
+<!-- <RB><RS Otto>でも、もう持てないよ<Next> -->
+<!-- <LB><LS Mina>あうん…<NL>しょーがないか…<Next> -->
+<!-- <End> -->
 <RB><RS Otto>でも、もう持てないよ<Next>
 <LB><LS Mina>あうん…<NL>しょーがないか…<Next>
 <End>
 
-<!-- event 0x0154 at 0x2e8e -->
+
+= event 0x0154 at 0x2e8e
+
+<!-- <RB><RS Shopkeeper>他にも、何かあるかしら？<End> -->
 <RB><RS Shopkeeper>他にも、何かあるかしら？<End>
 
-<!-- event 0x0156 at 0x078f -->
+
+= event 0x0156 at 0x078f
+
+<!-- <LB><LS Mina>お兄ちゃん！<Next> -->
+<!-- <RB><RS Gray>…ミーナちゃん！<NL>ミーナちゃんじゃないか<Next> -->
+<!-- どう、元気にしてた？<Next> -->
+<!-- <LB><LS Mina>もっちろん！<Next> -->
+<!-- …へぇ、思ってたより<NL>忙しそうじゃない<Next> -->
+<!-- でも、ってことは<NL>まだ、お師匠さんの<NL>行方はわからないの？<Next> -->
+<!-- <RB><RS Gray>ああ、まあね<Next> -->
+<!-- いずれひょっこりと<NL>帰ってくるとは<NL>思うんだけどね<Next> -->
+<!-- それより<NL>西の森向こうの草原には<NL>いつ行くんだい？<Next> -->
+<!-- <LB><LS Mina>明日、いちばんに！<Next> -->
+<!-- <RB><RS Gray>はは、そうかい<NL>元気いっぱいだね<Next> -->
+<!-- でも、あの辺りは<NL>石鬼がでるからね<Next> -->
+<!-- 気をつけるんだよ<Next> -->
+<!-- <LB><LS Otto>いし…おに…？<NL>こ、こわいの…？<NL>それって… …<Next> -->
+<!-- <LB><LS Mina>大丈夫だって<Next> -->
+<!-- あたしがいるんだから！<Next> -->
+<!-- <End> -->
 <LB><LS Mina>お兄ちゃん！<Next>
 <RB><RS Gray>…ミーナちゃん！<NL>ミーナちゃんじゃないか<Next>
 どう、元気にしてた？<Next>
@@ -837,12 +1675,28 @@
 あたしがいるんだから！<Next>
 <End>
 
-<!-- event 0x0158 at 0x025e -->
+
+= event 0x0158 at 0x025e
+
+<!-- <LB><LS Mina>草原に行くのは<NL>明日にしようね<Next> -->
+<!-- <RB><RS Otto>うん、もうくたくただよぉ<Next> -->
+<!-- <End> -->
 <LB><LS Mina>草原に行くのは<NL>明日にしようね<Next>
 <RB><RS Otto>うん、もうくたくただよぉ<Next>
 <End>
 
-<!-- event 0x015a at 0x0ecb -->
+
+= event 0x015a at 0x0ecb
+
+<!-- <RB><RS Garriott>ンなわけねぇだろ！<Next> -->
+<!-- <LB><LS MinaG>そんな、子供あいてに<NL>本気で怒んなくても<Next> -->
+<!-- <LB><LS OttoG>ダメだよ、おねぇちゃん<NL>ウソいっちゃあ<Next> -->
+<!-- <LB><LS MinaG>そうね<Next> -->
+<!-- 本気にしたら困るし<Next> -->
+<!-- <RB><RS Garriott>紫色の巨人をかい！<Next> -->
+<!-- <LB><LS MinaG>ごめーん、ほんとはね<NL>森の村にいるんだよ<Next> -->
+<!-- <LB><LS OttoG>すっごく腕のいい<NL>時計職人なんです<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>ンなわけねぇだろ！<Next>
 <LB><LS MinaG>そんな、子供あいてに<NL>本気で怒んなくても<Next>
 <LB><LS OttoG>ダメだよ、おねぇちゃん<NL>ウソいっちゃあ<Next>
@@ -853,64 +1707,135 @@
 <LB><LS OttoG>すっごく腕のいい<NL>時計職人なんです<Next>
 <End>
 
-<!-- event 0x015c at 0x0f68 -->
+
+= event 0x015c at 0x0f68
+
+<!-- <RB><RS Garriott>時計、職人…<NL>まちがいないわね？<Next> -->
+<!-- <LB><LS MinaG>間違うもんか<NL>グレイお兄ちゃんの<NL>技術は最高だもん<Next> -->
+<!-- <RB><RS Garriott>そうなんだ<NL>教えてくれてありがと<NL>そっちのお嬢ちゃんもね<Next> -->
+<!-- <LB><LS OttoG>あ、あの…ぼく、男…<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>時計、職人…<NL>まちがいないわね？<Next>
 <LB><LS MinaG>間違うもんか<NL>グレイお兄ちゃんの<NL>技術は最高だもん<Next>
 <RB><RS Garriott>そうなんだ<NL>教えてくれてありがと<NL>そっちのお嬢ちゃんもね<Next>
 <LB><LS OttoG>あ、あの…ぼく、男…<Next>
 <End>
 
-<!-- event 0x0168 at 0x2b48 -->
+
+= event 0x0168 at 0x2b48
+
+<!-- <RB><RS Innkeeper>ミーナちゃんじゃないか<NL>ひさしぶりだなあ<Next> -->
+<!-- 時計屋のグレイには<NL>もう、会ってきたかな？<Next> -->
+<!-- <LB><LS Mina>ううん まだだよ<Next> -->
+<!-- <RB><RS Innkeeper>それはイカンなあ<NL>ちょっとだけでも<NL>話をしてこなきゃ<Next> -->
+<!-- <End> -->
 <RB><RS Innkeeper>ミーナちゃんじゃないか<NL>ひさしぶりだなあ<Next>
 時計屋のグレイには<NL>もう、会ってきたかな？<Next>
 <LB><LS Mina>ううん まだだよ<Next>
 <RB><RS Innkeeper>それはイカンなあ<NL>ちょっとだけでも<NL>話をしてこなきゃ<Next>
 <End>
 
-<!-- event 0x016a at 0x0a95 -->
+
+= event 0x016a at 0x0a95
+
+<!-- <RB><RS Gray>ちょっと待った！<NL>その奥は、カンベンしてよ<Next> -->
+<!-- 散らかってるんだ<Next> -->
+<!-- <End> -->
 <RB><RS Gray>ちょっと待った！<NL>その奥は、カンベンしてよ<Next>
 散らかってるんだ<Next>
 <End>
 
-<!-- event 0x016c at 0x2ea0 -->
+
+= event 0x016c at 0x2ea0
+
+<!-- <RB><RS Shopkeeper>ミーナちゃん<NL>わぁ、おひさしぶり<Next> -->
+<!-- <RB>あ、でも今日はもう<NL>お店おしまいだから<NL>また明日いらしてね<Next> -->
+<!-- <End> -->
 <RB><RS Shopkeeper>ミーナちゃん<NL>わぁ、おひさしぶり<Next>
 <RB>あ、でも今日はもう<NL>お店おしまいだから<NL>また明日いらしてね<Next>
 <End>
 
-<!-- event 0x0190 at 0x0780 -->
+
+= event 0x0190 at 0x0780
+
+<!-- <RB><RS Gray>やあ… いらっしゃ…<Next> -->
+<!-- <End> -->
 <RB><RS Gray>やあ… いらっしゃ…<Next>
 <End>
 
-<!-- event 0x0192 at 0x0910 -->
-<LB><LS Kronk>完全に無視された…<Next>
+
+= event 0x0192 at 0x0910
+
+<!-- <LB><LS Robert>完全に無視された…<Next> -->
+<!-- <RB><RS Gray>まあ<NL>そういう年頃だから<Next> -->
+<!-- <LB><LS Robert>あの娘、草原へ<NL>行くのか<Next> -->
+<!-- <RB><RS Gray>ああ、そうだよ<Next> -->
+<!-- <LB><LS Robert>そうか…<Next> -->
+<!-- そうかそうか<Next> -->
+<!-- <RB><RS Gray>どうしたんだい？<NL>考え込んだりして<Next> -->
+<!-- <End> -->
+<LB><LS Robert>完全に無視された…<Next>
 <RB><RS Gray>まあ<NL>そういう年頃だから<Next>
-<LB><LS Kronk>あの娘、草原へ<NL>行くのか<Next>
+<LB><LS Robert>あの娘、草原へ<NL>行くのか<Next>
 <RB><RS Gray>ああ、そうだよ<Next>
-<LB><LS Kronk>そうか…<Next>
+<LB><LS Robert>そうか…<Next>
 そうかそうか<Next>
 <RB><RS Gray>どうしたんだい？<NL>考え込んだりして<Next>
 <End>
 
-<!-- event 0x0194 at 0x0979 -->
-<LB><LS Kronk>だっはっはっはっは<Next>
+
+= event 0x0194 at 0x0979
+
+<!-- <LB><LS Robert>だっはっはっはっは<Next> -->
+<!-- <RB><RS Gray>なんだなんだ？<NL>気味が悪いな<Next> -->
+<!-- <End> -->
+<LB><LS Robert>だっはっはっはっは<Next>
 <RB><RS Gray>なんだなんだ？<NL>気味が悪いな<Next>
 <End>
 
-<!-- event 0x0196 at 0x099c -->
-<LB><LS Kronk>あんた… …<NL>中華料理は好きか？<Next>
+
+= event 0x0196 at 0x099c
+
+<!-- <LB><LS Robert>あんた… …<NL>中華料理は好きか？<Next> -->
+<!-- <RB><RS Gray>なんだい？ 急に…<Next> -->
+<!-- <LB><LS Robert>という訳で<NL>他を当たる事にするわ<Next> -->
+<!-- <RB><RS Gray>…よくわからないけど<NL>それがいいよ<Next> -->
+<!-- <End> -->
+<LB><LS Robert>あんた… …<NL>中華料理は好きか？<Next>
 <RB><RS Gray>なんだい？ 急に…<Next>
-<LB><LS Kronk>という訳で<NL>他を当たる事にするわ<Next>
+<LB><LS Robert>という訳で<NL>他を当たる事にするわ<Next>
 <RB><RS Gray>…よくわからないけど<NL>それがいいよ<Next>
 <End>
 
-<!-- event 0x0198 at 0x0abb -->
+
+= event 0x0198 at 0x0abb
+
+<!-- <LB><LS Mina>ん？<Next> -->
+<!-- <RB><RS Otto>ど、どしたの…？<NL>なにかいるの？<Next> -->
+<!-- <LB><LS Mina>え？ いやいや<NL>ただの気のせいみたい<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ん？<Next>
 <RB><RS Otto>ど、どしたの…？<NL>なにかいるの？<Next>
 <LB><LS Mina>え？ いやいや<NL>ただの気のせいみたい<Next>
 <End>
 
-<!-- event 0x019a at 0x0aed -->
-<RB><RS Kronk><LS Blank>ふぅ、あぶねぇあぶねぇ<Next>
+
+= event 0x019a at 0x0aed
+
+<!-- <RB><RS Robert><LS Blank>ふぅ、あぶねぇあぶねぇ<Next> -->
+<!-- バレちまう所だった<Next> -->
+<!-- 子供ふたりで、こんな<NL>森の中を歩いて行くん<NL>だからな<Next> -->
+<!-- ピンチの一個や二個は<NL>あるはずだ<Next> -->
+<!-- そこでいきなりおれ登場<Next> -->
+<!-- 有無を言わさず大格闘<Next> -->
+<!-- ウットリ少女がありがとう<Next> -->
+<!-- 嬉しや明日にゃ用心棒<Next> -->
+<!-- うむ、メシはこれで楽勝<Next> -->
+<!-- ウッキーお猿の孫悟空<Next> -->
+<!-- 運動会で一等賞<Next> -->
+<!-- …待ってろよ<NL>おれのメシ<Next> -->
+<!-- <End> -->
+<RB><RS Robert><LS Blank>ふぅ、あぶねぇあぶねぇ<Next>
 バレちまう所だった<Next>
 子供ふたりで、こんな<NL>森の中を歩いて行くん<NL>だからな<Next>
 ピンチの一個や二個は<NL>あるはずだ<Next>
@@ -924,38 +1849,78 @@
 …待ってろよ<NL>おれのメシ<Next>
 <End>
 
-<!-- event 0x019c at 0x0bbc -->
-<RB><RS Kronk><LS Blank>だははははは！<Next>
+
+= event 0x019c at 0x0bbc
+
+<!-- <RB><RS Robert><LS Blank>だははははは！<Next> -->
+<!-- 気付かれてないな！？<Next> -->
+<!-- <End> -->
+<RB><RS Robert><LS Blank>だははははは！<Next>
 気付かれてないな！？<Next>
 <End>
 
-<!-- event 0x019e at 0x0bd7 -->
+
+= event 0x019e at 0x0bd7
+
+<!-- <LB><LS Mina>んー、どうも<NL>視線を感じるな…<Next> -->
+<!-- <RB><RS Otto>え、ほ、ホントに…？<Next> -->
+<!-- <LB><LS Mina>うん、ま、いっか…<Next> -->
+<!-- <End> -->
 <LB><LS Mina>んー、どうも<NL>視線を感じるな…<Next>
 <RB><RS Otto>え、ほ、ホントに…？<Next>
 <LB><LS Mina>うん、ま、いっか…<Next>
 <End>
 
-<!-- event 0x01a0 at 0x0c09 -->
-<RB><RS Kronk><LS Blank>うーーーーむ<NL>これはまいった…<Next>
+
+= event 0x01a0 at 0x0c09
+
+<!-- <RB><RS Robert><LS Blank>うーーーーむ<NL>これはまいった…<Next> -->
+<!-- とっさに木の上に<NL>隠れたはいいが…<Next> -->
+<!-- どうやって降りようか…<Next> -->
+<!-- <End> -->
+<RB><RS Robert><LS Blank>うーーーーむ<NL>これはまいった…<Next>
 とっさに木の上に<NL>隠れたはいいが…<Next>
 どうやって降りようか…<Next>
 <End>
 
-<!-- event 0x01a2 at 0x1107 -->
+
+= event 0x01a2 at 0x1107
+
+<!-- <LB><LS Mina>ねぇ、オットー<NL>ちょっと待って！<Next> -->
+<!-- 何か、様子がヘンよ<Next> -->
+<!-- <RB><RS Otto>え？ な、なに…<Next> -->
+<!-- <RB><RS Blank>アイﾖ<NL>アレコレグジャラシター！<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ねぇ、オットー<NL>ちょっと待って！<Next>
 何か、様子がヘンよ<Next>
 <RB><RS Otto>え？ な、なに…<Next>
 <RB><RS Blank>アイﾖ<NL>アレコレグジャラシター！<Next>
 <End>
 
-<!-- event 0x01a4 at 0x114c -->
+
+= event 0x01a4 at 0x114c
+
+<!-- <RB><RS God><Size 04>はが～<Next> -->
+<!-- <LB><LS Mina>ちょ、ちょっと<NL>どうしたの？ 神様<Next> -->
+<!-- <RB>えらいこっちゃぁ～<NL>黒い一角獣じゃいや～！<Next> -->
+<!-- 黒い一角獣が村を襲い<NL>あまつさえ、わしまで<NL>ハジキとばしよったん<NL>じゃいやぁ～！！<Next> -->
+<!-- <End> -->
 <RB><RS God><Size 04>はが～<Next>
 <LB><LS Mina>ちょ、ちょっと<NL>どうしたの？ 神様<Next>
 <RB>えらいこっちゃぁ～<NL>黒い一角獣じゃいや～！<Next>
 黒い一角獣が村を襲い<NL>あまつさえ、わしまで<NL>ハジキとばしよったん<NL>じゃいやぁ～！！<Next>
 <End>
 
-<!-- event 0x01a6 at 0x11ba -->
+
+= event 0x01a6 at 0x11ba
+
+<!-- <LB><LS Mina>なにそれ？<Next> -->
+<!-- <RB><RS God>かーーー！！<NL>そんな事も知らんの<NL>かいやーー！！<Next> -->
+<!-- <LB>うん<Next> -->
+<!-- <RB>しようのない奴じゃいや<Next> -->
+<!-- ええか、黒い一角獣はの<NL>最近、アチコチで<NL>悪さばかりしておる<NL>謎の集団なんじゃいや<Next> -->
+<!-- <RB>各地で村を襲っては<NL>物を奪っておっての<Next> -->
+<!-- <End> -->
 <LB><LS Mina>なにそれ？<Next>
 <RB><RS God>かーーー！！<NL>そんな事も知らんの<NL>かいやーー！！<Next>
 <LB>うん<Next>
@@ -964,7 +1929,18 @@
 <RB>各地で村を襲っては<NL>物を奪っておっての<Next>
 <End>
 
-<!-- event 0x01a8 at 0x1243 -->
+
+= event 0x01a8 at 0x1243
+
+<!-- <RB><RS God>なにをヘタっとる<Next> -->
+<!-- <LB><LS Mina>話が長くなりそうだから<Next> -->
+<!-- <RB>時は元禄十六ねン～<NL>将軍綱吉、犬公望ォ～<Next> -->
+<!-- <LB>無理やり長くしなくても…<Next> -->
+<!-- <RB>困った事に、きゃつら<NL>なにやら訳のわからん<NL>妙な道具を使うんじゃいや<Next> -->
+<!-- <LB><LS Otto>妙な道具…？<Next> -->
+<!-- <LB><LS Mina>ど、どらえもん…<Next> -->
+<!-- <RB>ちがうわい<NL>ばかもんが<Next> -->
+<!-- <End> -->
 <RB><RS God>なにをヘタっとる<Next>
 <LB><LS Mina>話が長くなりそうだから<Next>
 <RB>時は元禄十六ねン～<NL>将軍綱吉、犬公望ォ～<Next>
@@ -975,25 +1951,52 @@
 <RB>ちがうわい<NL>ばかもんが<Next>
 <End>
 
-<!-- event 0x01aa at 0x12e6 -->
+
+= event 0x01aa at 0x12e6
+
+<!-- <LB><LS Mina>とにかく、その<NL><Color 09>白い恋人<Color 0f>っていうのが<NL>悪いやつらなのね<Next> -->
+<!-- <RB><RS God>わざわざ色まで変えて<NL>ボケんでもええ<Next> -->
+<!-- <LB><LS Mina>なんだっていいわよ<NL>そんな連中<Next> -->
+<!-- いくよ、オットー<Next> -->
+<!-- <End> -->
 <LB><LS Mina>とにかく、その<NL><Color 09>白い恋人<Color 0f>っていうのが<NL>悪いやつらなのね<Next>
 <RB><RS God>わざわざ色まで変えて<NL>ボケんでもええ<Next>
 <LB><LS Mina>なんだっていいわよ<NL>そんな連中<Next>
 いくよ、オットー<Next>
 <End>
 
-<!-- event 0x01ac at 0x1344 -->
+
+= event 0x01ac at 0x1344
+
+<!-- <LB><LS Otto>えぇ～～！？<Next> -->
+<!-- ぼくたちが戦うの？<Next> -->
+<!-- <LB><LS Mina>ったりまえでしょ？<NL>そら、行くわよ！<Next> -->
+<!-- <End> -->
 <LB><LS Otto>えぇ～～！？<Next>
 ぼくたちが戦うの？<Next>
 <LB><LS Mina>ったりまえでしょ？<NL>そら、行くわよ！<Next>
 <End>
 
-<!-- event 0x01ae at 0x1372 -->
+
+= event 0x01ae at 0x1372
+
+<!-- <RB><RS God>達者でナ～<Next> -->
+<!-- …おおおおぉぉぉ<NL>頭がクラクラしてきた…<Next> -->
+<!-- <End> -->
 <RB><RS God>達者でナ～<Next>
 …おおおおぉぉぉ<NL>頭がクラクラしてきた…<Next>
 <End>
 
-<!-- event 0x01b0 at 0x1397 -->
+
+= event 0x01b0 at 0x1397
+
+<!-- <RB><RS Garriott>あら…<NL>おかえりなさい<Next> -->
+<!-- <LB><LS Mina>あ！<Next> -->
+<!-- あんた、さっきの！<Next> -->
+<!-- <RB>あんたとはずいぶんね<Next> -->
+<!-- ちゃんとギャリオット<NL>っていう名前があるわ<Next> -->
+<!-- おぼえといてね…<NL>といっても、あと数分の<NL>命だろうけど…<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>あら…<NL>おかえりなさい<Next>
 <LB><LS Mina>あ！<Next>
 あんた、さっきの！<Next>
@@ -1002,33 +2005,71 @@
 おぼえといてね…<NL>といっても、あと数分の<NL>命だろうけど…<Next>
 <End>
 
-<!-- event 0x01b2 at 0x13fb -->
+
+= event 0x01b2 at 0x13fb
+
+<!-- <RB><RS Garriott>おまえたち<NL>やっておしまい！<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>おまえたち<NL>やっておしまい！<Next>
 <End>
 
-<!-- event 0x01b4 at 0x140e -->
+
+= event 0x01b4 at 0x140e
+
+<!-- <RB><RS Garriott>しつっこいわね！<NL>どんどん行くわよ！<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>しつっこいわね！<NL>どんどん行くわよ！<Next>
 <End>
 
-<!-- event 0x01b6 at 0x1426 -->
+
+= event 0x01b6 at 0x1426
+
+<!-- <RB><RS Garriott>勝負は勝ち負けじゃ<NL>ないわ！<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>勝負は勝ち負けじゃ<NL>ないわ！<Next>
 <End>
 
-<!-- event 0x01b8 at 0x143d -->
+
+= event 0x01b8 at 0x143d
+
+<!-- <RB><RS Garriott>うっきぃいいいい！<NL>バカバカバカ！<NL>覚えてなさい！！<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>うっきぃいいいい！<NL>バカバカバカ！<NL>覚えてなさい！！<Next>
 <End>
 
-<!-- event 0x01ba at 0x145e -->
+
+= event 0x01ba at 0x145e
+
+<!-- <LB><LS Mina>逃がさないわよ！<Next> -->
+<!-- <End> -->
 <LB><LS Mina>逃がさないわよ！<Next>
 <End>
 
-<!-- event 0x01bc at 0x146c -->
+
+= event 0x01bc at 0x146c
+
+<!-- <LB><LS Mina>そこまでよ！<NL>もう逃がさないから！<Next> -->
+<!-- <RB><RS Garriott>ふん、これを見ても<NL>まだそんなコトが<NL>言えるかしら？<Next> -->
+<!-- 彼を連れといで！<Next> -->
+<!-- <End> -->
 <LB><LS Mina>そこまでよ！<NL>もう逃がさないから！<Next>
 <RB><RS Garriott>ふん、これを見ても<NL>まだそんなコトが<NL>言えるかしら？<Next>
 彼を連れといで！<Next>
 <End>
 
-<!-- event 0x01be at 0x14ae -->
+
+= event 0x01be at 0x14ae
+
+<!-- <RB><RS Gray>ミーナちゃん！<NL>オットーくん！<Next> -->
+<!-- <LB><LS Mina>お兄ちゃん！<Next> -->
+<!-- <LB><LS Otto>なんで！？<Next> -->
+<!-- <RB><RS Garriott>動かないでね…<NL>あなたのだぁーいじな<NL>お兄ちゃんが<NL>どうなってもいいの？<Next> -->
+<!-- <RB><RS Gray>ぼくなら大丈夫！<NL>君たちは村に戻れ！<Next> -->
+<!-- <RB>無茶をしてはダメだ！<NL>ぼくはきっと帰るから！<Next> -->
+<!-- <RB><RS Garriott>…ということらしいわ<Next> -->
+<!-- わかったら、おうちに<NL>帰りなさいね<NL>でないと…<Next> -->
+<!-- <LB><LS Mina>ヒキョーもの！<Next> -->
+<!-- <End> -->
 <RB><RS Gray>ミーナちゃん！<NL>オットーくん！<Next>
 <LB><LS Mina>お兄ちゃん！<Next>
 <LB><LS Otto>なんで！？<Next>
@@ -1040,11 +2081,23 @@
 <LB><LS Mina>ヒキョーもの！<Next>
 <End>
 
-<!-- event 0x01c0 at 0x156a -->
+
+= event 0x01c0 at 0x156a
+
+<!-- <RB><RS Garriott>あっはっはっはっは！<NL>なんとでも言えばいいわ！<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>あっはっはっはっは！<NL>なんとでも言えばいいわ！<Next>
 <End>
 
-<!-- event 0x01c2 at 0x1587 -->
+
+= event 0x01c2 at 0x1587
+
+<!-- <RB><RS Garriott>もちろん<NL>もう用ずみになった村は<NL>近いうちに処分するわよ<Next> -->
+<!-- わが黒い一角獣に<NL>たてついた見せしめにね<Next> -->
+<!-- <LB><LS Otto>村を…！？<Next> -->
+<!-- <LB><LS Mina>そんなことさせないから！<NL>ぜったいに！！<Next> -->
+<!-- <RB><RS Garriott>ふふん…<NL>おっと、もうしばらくは<NL>動かないでね…<Next> -->
+<!-- <End> -->
 <RB><RS Garriott>もちろん<NL>もう用ずみになった村は<NL>近いうちに処分するわよ<Next>
 わが黒い一角獣に<NL>たてついた見せしめにね<Next>
 <LB><LS Otto>村を…！？<Next>
@@ -1052,7 +2105,17 @@
 <RB><RS Garriott>ふふん…<NL>おっと、もうしばらくは<NL>動かないでね…<Next>
 <End>
 
-<!-- event 0x01c4 at 0x1606 -->
+
+= event 0x01c4 at 0x1606
+
+<!-- <LB><LS Mina>な、ななななな…<Next> -->
+<!-- <RB><RS Otto>おねぇちゃん<NL>どうしよう…<Next> -->
+<!-- <LB>追ってもムダよね…<NL>人質もあるし<Next> -->
+<!-- <RB>でも、お兄ちゃんが…<Next> -->
+<!-- <LB>それはわかってるけど<Next> -->
+<!-- でも、戻るしかないわ<Next> -->
+<!-- 村の事も心配だし、ね？<Next> -->
+<!-- <End> -->
 <LB><LS Mina>な、ななななな…<Next>
 <RB><RS Otto>おねぇちゃん<NL>どうしよう…<Next>
 <LB>追ってもムダよね…<NL>人質もあるし<Next>
@@ -1062,31 +2125,63 @@
 村の事も心配だし、ね？<Next>
 <End>
 
-<!-- event 0x01c6 at 0x166f -->
+
+= event 0x01c6 at 0x166f
+
+<!-- <RB><RS TownMan>グレイくんが！？<NL>お気の毒に…<Next> -->
+<!-- <End> -->
 <RB><RS TownMan>グレイくんが！？<NL>お気の毒に…<Next>
 <End>
 
-<!-- event 0x01c8 at 0x1685 -->
+
+= event 0x01c8 at 0x1685
+
+<!-- <RB><RS TownLady>この村も<NL>もうおわりかねぇ<Next> -->
+<!-- <End> -->
 <RB><RS TownLady>この村も<NL>もうおわりかねぇ<Next>
 <End>
 
-<!-- event 0x01ca at 0x1699 -->
+
+= event 0x01ca at 0x1699
+
+<!-- <RB><RS TownKid>わーいわーい<NL>兵隊とアクシュしたー！<Next> -->
+<!-- <LB><LS Mina>い…いつのまに…<Next> -->
+<!-- <End> -->
 <RB><RS TownKid>わーいわーい<NL>兵隊とアクシュしたー！<Next>
 <LB><LS Mina>い…いつのまに…<Next>
 <End>
 
-<!-- event 0x01cc at 0x16d2 -->
+
+= event 0x01cc at 0x16d2
+
+<!-- <LB><LS Mina>あのね、オットー？<Next> -->
+<!-- <End> -->
 <LB><LS Mina>あのね、オットー？<Next>
 <End>
 
-<!-- event 0x01ce at 0x16e0 -->
-<LS Blank><RB><RS Kronk>まったく<Next>
+
+= event 0x01ce at 0x16e0
+
+<!-- <LS Blank><RB><RS Robert>まったく<Next> -->
+<!-- 俺を用心棒に雇ってりゃ<NL>村が襲われることも<NL>なかったろうに<Next> -->
+<!-- ここはいっちょ<NL>さらなるウリコミに…<Next> -->
+<!-- おや？<Next> -->
+<!-- <End> -->
+<LS Blank><RB><RS Robert>まったく<Next>
 俺を用心棒に雇ってりゃ<NL>村が襲われることも<NL>なかったろうに<Next>
 ここはいっちょ<NL>さらなるウリコミに…<Next>
 おや？<Next>
 <End>
 
-<!-- event 0x01d0 at 0x1727 -->
+
+= event 0x01d0 at 0x1727
+
+<!-- <LB><LS Mina><RS Blank>でも、都合良すぎたわ<Next> -->
+<!-- イワトカゲに襲われる<NL>瞬間に現れた…<NL>なんて出来すぎてる<Next> -->
+<!-- <LB><LS Otto>おねぇちゃん…<NL>ぼくは、そうとは<NL>思いたくないな<Next> -->
+<!-- だって、あの人は<NL>ぼくたちの恩人でしょ？<Next> -->
+<!-- もし、あの人が<NL>黒い一角獣がらみでも<NL>助けてくれたかな？<Next> -->
+<!-- <End> -->
 <LB><LS Mina><RS Blank>でも、都合良すぎたわ<Next>
 イワトカゲに襲われる<NL>瞬間に現れた…<NL>なんて出来すぎてる<Next>
 <LB><LS Otto>おねぇちゃん…<NL>ぼくは、そうとは<NL>思いたくないな<Next>
@@ -1094,11 +2189,23 @@
 もし、あの人が<NL>黒い一角獣がらみでも<NL>助けてくれたかな？<Next>
 <End>
 
-<!-- event 0x01d2 at 0x17b7 -->
-<LS Blank><RB><RS Kronk>んん？<NL>なんだなんだ？<Next>
+
+= event 0x01d2 at 0x17b7
+
+<!-- <LS Blank><RB><RS Robert>んん？<NL>なんだなんだ？<Next> -->
+<!-- <End> -->
+<LS Blank><RB><RS Robert>んん？<NL>なんだなんだ？<Next>
 <End>
 
-<!-- event 0x01d4 at 0x17c9 -->
+
+= event 0x01d4 at 0x17c9
+
+<!-- <LB><LS Mina><RS Blank>ごめんね、オットー<Next> -->
+<!-- あたし、なんかヘンよね<Next> -->
+<!-- よりによって<NL>命の恩人を疑うなんて…<Next> -->
+<!-- あの人が黒い一角獣の<NL>仲間なわけ、ないわよね<Next> -->
+<!-- <LB><LS Otto>うん…きっと<NL>なにかの偶然だったと<NL>ぼくは、思うよ<Next> -->
+<!-- <End> -->
 <LB><LS Mina><RS Blank>ごめんね、オットー<Next>
 あたし、なんかヘンよね<Next>
 よりによって<NL>命の恩人を疑うなんて…<Next>
@@ -1106,18 +2213,34 @@
 <LB><LS Otto>うん…きっと<NL>なにかの偶然だったと<NL>ぼくは、思うよ<Next>
 <End>
 
-<!-- event 0x01d6 at 0x183a -->
-<LS Blank><RB><RS Kronk>なんと！ そうか<NL>おれが疑われているのか<Next>
+
+= event 0x01d6 at 0x183a
+
+<!-- <LS Blank><RB><RS Robert>なんと！ そうか<NL>おれが疑われているのか<Next> -->
+<!-- んーむむむ…<NL>作戦大失敗じゃないか<Next> -->
+<!-- この村は、なかなか<NL>気候も食べ物もいいから<NL>長くいたかったんだが…<Next> -->
+<!-- いずらくなっちまった<Next> -->
+<!-- <End> -->
+<LS Blank><RB><RS Robert>なんと！ そうか<NL>おれが疑われているのか<Next>
 んーむむむ…<NL>作戦大失敗じゃないか<Next>
 この村は、なかなか<NL>気候も食べ物もいいから<NL>長くいたかったんだが…<Next>
 いずらくなっちまった<Next>
 <End>
 
-<!-- event 0x01d8 at 0x18a0 -->
-<LS Blank><RB><RS Kronk>状況によっては<NL>出て行かねば<NL>ならんかもな<Next>
+
+= event 0x01d8 at 0x18a0
+
+<!-- <LS Blank><RB><RS Robert>状況によっては<NL>出て行かねば<NL>ならんかもな<Next> -->
+<!-- <End> -->
+<LS Blank><RB><RS Robert>状況によっては<NL>出て行かねば<NL>ならんかもな<Next>
 <End>
 
-<!-- event 0x01da at 0x18c0 -->
+
+= event 0x01da at 0x18c0
+
+<!-- <LB><LS Mina>ね、オットー<NL>今日はもう、休もう<Next> -->
+<!-- あたし、なんだか<NL>疲れちゃった<Next> -->
+<!-- <End> -->
 <LB><LS Mina>ね、オットー<NL>今日はもう、休もう<Next>
 あたし、なんだか<NL>疲れちゃった<Next>
 <End>
