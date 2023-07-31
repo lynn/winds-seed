@@ -2,7 +2,7 @@
 
 <!-- <RB><RS God>そうか…<NL>時計屋がのう…<Next> -->
 <!-- <End> -->
-<RB><RS God>そうか…<NL>時計屋がのう…<Next>
+<RB><RS God>I see... the watch shop...<Next>
 <End>
 
 
@@ -10,7 +10,7 @@
 
 <!-- <RB><RS InnGuest>わしはどんな魔物よりも<NL>人間が一番こわい…<Next> -->
 <!-- <End> -->
-<RB><RS InnGuest>わしはどんな魔物よりも<NL>人間が一番こわい…<Next>
+<RB><RS InnGuest>More than any kind of magic, it's people I fear.<Next>
 <End>
 
 
@@ -18,7 +18,7 @@
 
 <!-- <RB><RS CurryEater>ここのうまいカレーも<NL>あと何回食えるだろう<Next> -->
 <!-- <End> -->
-<RB><RS CurryEater>ここのうまいカレーも<NL>あと何回食えるだろう<Next>
+<RB><RS CurryEater>I'm definitely coming back here for the curry.<Next>
 <End>
 
 
@@ -354,8 +354,8 @@ We can't carry any more stuff, anyway.<Next>
 <!-- じゃ、帰ろうか<Next> -->
 <!-- あと２、３日はあの村で<NL>ゆっくりしようね<Next> -->
 <!-- <End> -->
-<RB><RS Otto>Sis, do you think this is enough?<Next>
-<LB><LS Mina>Yup, that's more than plenty!<Next>
+<RB><RS Otto>Sis, do you think this is plenty?<Next>
+<LB><LS Mina>Yup, that's more than enough!<Next>
 Let's head back.<Next>
 I think we've earned a nice little vacation in the village.<Next>
 <End>
@@ -462,7 +462,7 @@ I don't like this lady...<Next>
 <!-- とはいえ、子供なら<NL>一撃だからな<Next> -->
 <!-- 気をつけるこった<Next> -->
 <!-- <End> -->
-<RB><RS Robert>Those thing are called Rocklizards.<Next>
+<RB><RS Robert>Those things are called Rocklizards.<Next>
 They're huge, but they're scarier than they look!<Next>
 Well. For me. You kids wouldn't stand a chance.<Next>
 So watch out.<Next>
@@ -530,10 +530,10 @@ You should've showered sooner!<Next>
 <!-- おれをここから出せ！<Next> -->
 <!-- <LB><LS Mina>あんたも黒い一角獣！？<Next> -->
 <!-- <End> -->
-<RB><RS Donald><LS Blank>くそ、エ、エンジンが<NL>ぶっこわれちまった！<Next>
-だ、だれかいねぇのか！<Next>
-おれをここから出せ！<Next>
-<LB><LS Mina>あんたも黒い一角獣！？<Next>
+<RB><RS Donald><LS Blank>Crap! M-my engine broke down!<Next>
+Is there anybody there!?<Next>
+Get me outta here!!<Next>
+<LB><LS Mina>Aren't you one of those Black Unicorn guys!?<Next>
 <End>
 
 
@@ -544,10 +544,10 @@ You should've showered sooner!<Next>
 <!-- あんたたちの本拠地は<NL>どこにあるの？<Next> -->
 <!-- それに答えてくれれ…<Next> -->
 <!-- <End> -->
-<RB>そーだよ！！<NL>早く助けねぇと<NL>ブッ殺すぞてめぇら！<Next>
-<LB>あんた、どこから<NL>来たの？<Next>
-あんたたちの本拠地は<NL>どこにあるの？<Next>
-それに答えてくれれ…<Next>
+<RB>Yeah, I am!! And if you don't get me out of here, I'll kick your ass!!<Next>
+<LB>Where'd you come from, huh?<Next>
+And where's your little clubhouse?<Next>
+Maybe if you tell me that much...<Next>
 <End>
 
 
@@ -557,9 +557,9 @@ You should've showered sooner!<Next>
 <!-- いーかげんにしねぇと<NL>本気で怒るぞコラァ！<Next> -->
 <!-- <LS God><RS Blank><LB><NL><Size 03>バカはおまえ<Size 00><RB><NL><Size 03>じゃいや～！<Next> -->
 <!-- <Size 00><End> -->
-<RB><RS Donald>るせぇよバァカ！<NL>早く出せよ！<Next>
-いーかげんにしねぇと<NL>本気で怒るぞコラァ！<Next>
-<LS God><RS Blank><LB><NL><Size 03>バカはおまえ<Size 00><RB><NL><Size 03>じゃいや～！<Next>
+<RB><RS Donald>Oh, shut up, you idiot! Get me out!<Next>
+You better cut the crap, or I'll get real angry!<Next>
+<LS God><RS Blank><LB><NL><Size 03>YOU'RE the<Size 00><RB><NL><Size 03>idiot here!<Next>
 <Size 00><End>
 
 
@@ -569,9 +569,9 @@ You should've showered sooner!<Next>
 <!-- <LB><LS God>ミーナちゃんの質問に<NL>きりきりと答えれ！<Next> -->
 <!-- <RB><RS Donald>だ、だれが…<Next> -->
 <!-- <End> -->
-<RB><RS Donald>うぎゃ<Next>
-<LB><LS God>ミーナちゃんの質問に<NL>きりきりと答えれ！<Next>
-<RB><RS Donald>だ、だれが…<Next>
+<RB><RS Donald>Gurghh!<Next>
+<LB><LS God>Now play nice and answer the girl's question!<Next>
+<RB><RS Donald>Wh-who are...<Next>
 <End>
 
 
@@ -580,8 +580,8 @@ You should've showered sooner!<Next>
 <!-- <RB><RS Donald>わ、わかったよ！<Next> -->
 <!-- 言えばいいんだろ！<NL>言えばよぉ！<Next> -->
 <!-- <End> -->
-<RB><RS Donald>わ、わかったよ！<Next>
-言えばいいんだろ！<NL>言えばよぉ！<Next>
+<RB><RS Donald>Okay, okay!!<Next>
+I'll say it!<Next>
 <End>
 
 
@@ -600,18 +600,18 @@ You should've showered sooner!<Next>
 <!-- <RB><RS Donald>で、俺… … …<NL>もとい、アタクシは？<Next> -->
 <!-- <LB><LS God>もうちょっとばかし<NL>ここで頭を冷やしんさい<Next> -->
 <!-- <End> -->
-<RB><RS Donald>す、すみません！<NL>言います！ 言います！<NL>ごめんなさい！<NL>言わせて下さい！<Next>
-水晶の洞窟です！<Next>
-<RB><RS Donald>あそこの奥に<NL>物質転送装置があって<NL>それを使っているのです！<Next>
-<LB><LS Mina>物質転送装置？<Next>
-<RB><RS Donald>使えばわかります！<Next>
-あっという間に<NL>我々の本部へと<NL>行ける機械です！<Next>
-<LB><LS Mina>それで<NL>水晶の洞窟は<NL>どこにあるの？<Next>
-<RB><RS Donald>湖の奥です！<Next>
-この村の東側にある<NL>湖を抜けたところです！<Next>
-<LB><LS Mina>水晶の洞窟ね…<NL>よーし！<Next>
-<RB><RS Donald>で、俺… … …<NL>もとい、アタクシは？<Next>
-<LB><LS God>もうちょっとばかし<NL>ここで頭を冷やしんさい<Next>
+<RB><RS Donald>S-sorry! I'll say it, I'll say it! I apologize! Please let me talk!<Next>
+It's the crystal cave!<Next>
+<RB><RS Donald>There's a teleporter deep inside the cave. That's how you get there.<Next>
+<LB><LS Mina>A tele-what?<Next>
+<RB><RS Donald>You'll see if you use it!<Next>
+It'll warp you to our base in no time!<Next>
+<LB><LS Mina>And where is this "cave"?<Next>
+<RB><RS Donald>On the other side of the lake!<Next>
+Just head due east from this village!<Next>
+<LB><LS Mina>A crystal cave, huh... Alright!<Next>
+<RB><RS Donald>So uh... what about, uh... what about me?<Next>
+<LB><LS God>I think ya better cool off another while, buddy.<Next>
 <End>
 
 
@@ -621,9 +621,9 @@ You should've showered sooner!<Next>
 <!-- <RB><RS Otto>ここの一番奥に<NL>装置があるのかな？<Next> -->
 <!-- <LB><LS Mina>たぶん…ね<Next> -->
 <!-- <End> -->
-<LB><LS Mina>ここが、兵隊の言ってた<NL>水晶の洞窟ね…<Next>
-<RB><RS Otto>ここの一番奥に<NL>装置があるのかな？<Next>
-<LB><LS Mina>たぶん…ね<Next>
+<LB><LS Mina>This must be the place that soldier was talking about...<Next>
+<RB><RS Otto>So that teleporter is buried deep in this cave?<Next>
+<LB><LS Mina>I sure hope so...<Next>
 <End>
 
 
@@ -632,8 +632,8 @@ You should've showered sooner!<Next>
 <!-- <RB><RS Garriott>搬出がおわったら<NL>お前たちは<NL>戻ってなさい！<Next> -->
 <!-- <LB><LS Mina>あっ！！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>搬出がおわったら<NL>お前たちは<NL>戻ってなさい！<Next>
-<LB><LS Mina>あっ！！<Next>
+<RB><RS Garriott>You guys head back once you've finished setting everything up!<Next>
+<LB><LS Mina>Hey!!<Next>
 <End>
 
 
@@ -641,7 +641,7 @@ You should've showered sooner!<Next>
 
 <!-- <RB><RS Garriott>おぼえてなさい！！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>おぼえてなさい！！<Next>
+<RB><RS Garriott>Don't you forget it!!<Next>
 <End>
 
 
@@ -651,9 +651,9 @@ You should've showered sooner!<Next>
 <!-- 復讐してや…<Next> -->
 <!-- <LB><LS Robert><NL><Size 03> あんさん<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>いつか、ぜったいに…<Next>
-復讐してや…<Next>
-<LB><LS Robert><NL><Size 03> あんさん<Next>
+<RB><RS Garriott>One day, I swear...<Next>
+I'll get my rev--<Next>
+<LB><LS Robert><NL><Size 03> Hey, lady.<Next>
 <End>
 
 
@@ -662,8 +662,8 @@ You should've showered sooner!<Next>
 <!-- <RB><RS Garriott>… …え… …？<Next> -->
 <!-- <LB><LS Robert><NL><Size 03>ええかげんに<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>… …え… …？<Next>
-<LB><LS Robert><NL><Size 03>ええかげんに<Next>
+<RB><RS Garriott>...wha...?<Next>
+<LB><LS Robert><NL><Size 03> Leave them<Next>
 <End>
 
 
@@ -672,8 +672,8 @@ You should've showered sooner!<Next>
 <!-- <LB><LS Robert><NL><Size 03> しなはれ<Next> -->
 <!-- <RB><RS Garriott>きゃぁーーーーーー<NL>ぁぁぁーーーーー…<Next> -->
 <!-- <End> -->
-<LB><LS Robert><NL><Size 03> しなはれ<Next>
-<RB><RS Garriott>きゃぁーーーーーー<NL>ぁぁぁーーーーー…<Next>
+<LB><LS Robert><NL><Size 03>   alone!<Next>
+<RB><RS Garriott>Kyaaaaah...<NL>aaaah...<Next>
 <End>
 
 
@@ -684,10 +684,10 @@ You should've showered sooner!<Next>
 <!-- <LB>よし、わかった…<NL>手っ取り早く済ませるぞ<Next> -->
 <!-- <RB>ははっ！<Next> -->
 <!-- <End> -->
-<LB><LS Mickey><RS Blank>おい、ドナルド<NL>本部からの連絡は？<Next>
-<RB><RS Donald>はっ、ミッキー上官どの！<NL>すでに発射指令は<NL>下りています！<Next>
-<LB>よし、わかった…<NL>手っ取り早く済ませるぞ<Next>
-<RB>ははっ！<Next>
+<LB><LS Mickey><RS Blank>Hey, Donald. Did you hear from HQ?<Next>
+<RB><RS Donald>Yessir, Lt. Mickey! They've given the order to fire!<Next>
+<LB>Roger that... Let's get this job over with quick.<Next>
+<RB>Sir, yes sir!<Next>
 <End>
 
 
@@ -698,10 +698,10 @@ You should've showered sooner!<Next>
 <!-- <LB>昼間のウチに<NL>片付けとけってんだ<NL>こんなクソ村は<Next> -->
 <!-- <RB><RS Donald>ミッキー上官どの！<NL>発射準備はもう<NL>完了でありますが！<Next> -->
 <!-- <End> -->
-<LB><LS Mickey><RS Blank>ったく、なんつーか<NL>下っ端はつれぇなあ<Next>
-<LB>なにが夜襲だってんだ<NL>安眠妨害ったらないぜ<Next>
-<LB>昼間のウチに<NL>片付けとけってんだ<NL>こんなクソ村は<Next>
-<RB><RS Donald>ミッキー上官どの！<NL>発射準備はもう<NL>完了でありますが！<Next>
+<LB><LS Mickey><RS Blank>Man, do I hate this job.<Next>
+<LB>Whose plan was it to invade at night, anyway?<Next>
+<LB>We could've wiped this stupid town off the map over lunch!<Next>
+<RB><RS Donald>Lt. Mickey! Preparations for the launch are complete!<Next>
 <End>
 
 
@@ -710,8 +710,8 @@ You should've showered sooner!<Next>
 <!-- <LB><LS Mickey><RS Blank>よーし！<NL>派手にぶっ放せ！<Next> -->
 <!-- <LB>眠気ざましだ！<Next> -->
 <!-- <End> -->
-<LB><LS Mickey><RS Blank>よーし！<NL>派手にぶっ放せ！<Next>
-<LB>眠気ざましだ！<Next>
+<LB><LS Mickey><RS Blank>Alright! Fire away, boys!<Next>
+<LB>Let's wake 'em up!<Next>
 <End>
 
 
@@ -719,7 +719,7 @@ You should've showered sooner!<Next>
 
 <!-- <LB><LS Mickey><RS Blank><Size 04>てー！<Next> -->
 <!-- <End> -->
-<LB><LS Mickey><RS Blank><Size 04>てー！<Next>
+<LB><LS Mickey><RS Blank><Size 04>Gah!<Next>
 <End>
 
 
@@ -727,7 +727,7 @@ You should've showered sooner!<Next>
 
 <!-- <LB><LS Mickey><RS Blank>いいぞ<NL>もう一発いっちまえ！<Next> -->
 <!-- <End> -->
-<LB><LS Mickey><RS Blank>いいぞ<NL>もう一発いっちまえ！<Next>
+<LB><LS Mickey><RS Blank>That's it! Fire another shot!<Next>
 <End>
 
 
@@ -736,8 +736,8 @@ You should've showered sooner!<Next>
 <!-- <LB><LS RobertCharge><NL><Size 03>でりゃぁー！<Next> -->
 <!-- <RB><RS God><NL><Size 03>どっせ～い！<Next> -->
 <!-- <End> -->
-<LB><LS RobertCharge><NL><Size 03>でりゃぁー！<Next>
-<RB><RS God><NL><Size 03>どっせ～い！<Next>
+<LB><LS RobertCharge><NL><Size 03>Aaaarrghhh!!<Next>
+<RB><RS God><NL><Size 03>Huzzaaaah!!<Next>
 <End>
 
 
@@ -750,12 +750,12 @@ You should've showered sooner!<Next>
 <!-- <RB>ダメージレベル７！！<NL>出力６０％低下！！<Next> -->
 <!-- <LB><LS Mickey>なんだと！？！<Next> -->
 <!-- <End> -->
-<LB><LS Mickey>んなっ…！！<NL>なにがどうした！！<Next>
-<RB><RS Donald>た、大変ですっ<NL>じょじょじょ上官ン！<Next>
-<LB><LS Mickey>なんだ！？<Next>
-<RB>なにかがレーザーを<NL>反射しました！<NL>キャノンに逆被弾！<Next>
-<RB>ダメージレベル７！！<NL>出力６０％低下！！<Next>
-<LB><LS Mickey>なんだと！？！<Next>
+<LB><LS Mickey>What the... What the hell is going on!?<Next>
+<RB><RS Donald>B-b-boss! We're in big trouble!<Next>
+<LB><LS Mickey>What is it?<Next>
+<RB>Something reflected the laser, causing it to hit the cannon!<Next>
+<RB>Damage level 7! Output reduced by 60%!!<Next>
+<LB><LS Mickey>What!?<Next>
 <End>
 
 
@@ -770,14 +770,14 @@ You should've showered sooner!<Next>
 <!-- <RB><RS Otto>おねぇちゃん<NL>ぼくなら大丈夫だよ<Next> -->
 <!-- <LB>そうこなくっちゃ！<Next> -->
 <!-- <End> -->
-<LB><LS Mina>ど、どうしたの？<NL>なにがおきたの？<Next>
-<RB><RS God>そ、それが、わしにも<NL>なにがなにやら<Next>
-<LB>… …黒い一角獣ね！<Next>
-オットー、いい？<NL>行くわよ！<Next>
-<RB><RS God>やめんかアホタレ！<NL>危険じゃいや！<Next>
-<LB>オットー！<Next>
-<RB><RS Otto>おねぇちゃん<NL>ぼくなら大丈夫だよ<Next>
-<LB>そうこなくっちゃ！<Next>
+<LB><LS Mina>Are you okay? What happened?<Next>
+<RB><RS God>I'm... wonderin' that myself...<Next>
+<LB>...Black Unicorn!<Next>
+C'mon, Otto, let's go!<Next>
+<RB><RS God>Hold yer horses, you dimwits! It's dangerous out there!<Next>
+<LB>Otto!<Next>
+<RB><RS Otto>Mina... I'm with you!<Next>
+<LB>That's the spirit!!<Next>
 <End>
 
 
@@ -787,9 +787,9 @@ You should've showered sooner!<Next>
 <!-- <LB><LS Mina>さっそく来たわね<NL>黒い一角獣！<Next> -->
 <!-- <RB><RS Mickey>うるさいガキどもめ<NL>レーザーのサビに<NL>してやるぜ！<Next> -->
 <!-- <End> -->
-<RB><RS Mickey>なんだ、お前たちは？<NL>ガキはお寝んねの<NL>時間だぜ<Next>
-<LB><LS Mina>さっそく来たわね<NL>黒い一角獣！<Next>
-<RB><RS Mickey>うるさいガキどもめ<NL>レーザーのサビに<NL>してやるぜ！<Next>
+<RB><RS Mickey>Who are you kids, anyway? It's bedtime for brats like you.<Next>
+<LB><LS Mina>You Black Unicorn guys don't waste any time, huh!<Next>
+<RB><RS Mickey>Gah, I'll laser-blast you punks into smithereens!<Next>
 <End>
 
 
@@ -797,7 +797,7 @@ You should've showered sooner!<Next>
 
 <!-- <RB><RS Mickey>なんだ、なんなんだ<NL>畜生！ てめぇら<NL>ただのガキじゃねぇ！<Next> -->
 <!-- <End> -->
-<RB><RS Mickey>なんだ、なんなんだ<NL>畜生！ てめぇら<NL>ただのガキじゃねぇ！<Next>
+<RB><RS Mickey>What... how...!? Damn it! You're no ordinary brats!<Next>
 <End>
 
 
@@ -805,7 +805,7 @@ You should've showered sooner!<Next>
 
 <!-- <RB><RS Warren>ふはははははは<NL>面白くて仕方がない<Next> -->
 <!-- <End> -->
-<RB><RS Warren>ふはははははは<NL>面白くて仕方がない<Next>
+<RB><RS Warren>Hah, hah, hah! It's so funny I just can't help myself.<Next>
 <End>
 
 
@@ -814,8 +814,8 @@ You should've showered sooner!<Next>
 <!-- <LB><LS Gray>師匠…いや… …<NL>ウォーレン！<Next> -->
 <!-- もし、あの子たちに<NL>少しでも何かあったら…<Next> -->
 <!-- <End> -->
-<LB><LS Gray>師匠…いや… …<NL>ウォーレン！<Next>
-もし、あの子たちに<NL>少しでも何かあったら…<Next>
+<LB><LS Gray>Teacher... no... Warren!<Next>
+If you lay so much as a finger on those kids...<Next>
 <End>
 
 
@@ -823,7 +823,7 @@ You should've showered sooner!<Next>
 
 <!-- <RB><RS TownMan>なんだなんだ？<Next> -->
 <!-- <End> -->
-<RB><RS TownMan>なんだなんだ？<Next>
+<RB><RS TownMan>What's goin' on?<Next>
 <End>
 
 
@@ -831,7 +831,7 @@ You should've showered sooner!<Next>
 
 <!-- <RB><RS TownMan>とりあえず<NL>奴は後でボコにしてやる<Next> -->
 <!-- <End> -->
-<RB><RS TownMan>とりあえず<NL>奴は後でボコにしてやる<Next>
+<RB><RS TownMan>I'll give that guy a beating later.<Next>
 <End>
 
 
@@ -839,7 +839,7 @@ You should've showered sooner!<Next>
 
 <!-- <RB><RS TownLady>なんだい？<NL>いまスッ飛んでったのは<Next> -->
 <!-- <End> -->
-<RB><RS TownLady>なんだい？<NL>いまスッ飛んでったのは<Next>
+<RB><RS TownLady>Oh my, what on earth came flying by just now?<Next>
 <End>
 
 
@@ -847,7 +847,7 @@ You should've showered sooner!<Next>
 
 <!-- <RB><RS TownLady>おそろしい世の中だねぇ<Next> -->
 <!-- <End> -->
-<RB><RS TownLady>おそろしい世の中だねぇ<Next>
+<RB><RS TownLady>Such a dreadful world we live in.<Next>
 <End>
 
 
@@ -855,7 +855,7 @@ You should've showered sooner!<Next>
 
 <!-- <RB><RS TownKid>すりっっっっ<NL>っっとぉ～～～！<NL>ぽこめーん！<Next> -->
 <!-- <End> -->
-<RB><RS TownKid>すりっっっっ<NL>っっとぉ～～～！<NL>ぽこめーん！<Next>
+<RB><RS TownKid>Wheeeeee!<Next>
 <End>
 
 
@@ -864,8 +864,8 @@ You should've showered sooner!<Next>
 <!-- <LB><LS Mina>あのね、ロミュくん…<Next> -->
 <!-- <RB><RS TownKid>わたしはウソが嫌いだ！<NL>もけもけ！！！<Next> -->
 <!-- <End> -->
-<LB><LS Mina>あのね、ロミュくん…<Next>
-<RB><RS TownKid>わたしはウソが嫌いだ！<NL>もけもけ！！！<Next>
+<LB><LS Mina>Listen, kid...<Next>
+<RB><RS TownKid>(POP CULTURE REFERENCE)!!!<Next>
 <End>
 
 
@@ -873,7 +873,7 @@ You should've showered sooner!<Next>
 
 <!-- <LB><LS Gray>いくらあんたが<NL>ぼくの師匠でも…<NL>絶対に許さないからな！<Next> -->
 <!-- <End> -->
-<LB><LS Gray>いくらあんたが<NL>ぼくの師匠でも…<NL>絶対に許さないからな！<Next>
+<LB><LS Gray>I respect you as my teacher, but you won't get away with this!<Next>
 <End>
 
 
