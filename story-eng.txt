@@ -57,7 +57,7 @@ We both remembered how to <Color 0b>"Call"<Color 0f> our powers on the way here.
 <!-- <End> -->
 <RB><RS Otto>Guhhh, I'm so tired...<Next>
 <LB><LS Mina>I know, right! I can't move another step.<Next>
-Let's go say hi to your brother and then call it a day.<Next>
+Let's go say hi to Gray and then call it a day.<Next>
 <RB><RS Otto>Yeah! So... where does he work again?<Next>
 <LB><LS Mina>It's the watch shop on the east end of town.<Next>
 Oh, you haven't visited the shop yet, have you?<Next>
@@ -83,12 +83,13 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <RB>なんだオトコかぁ！<NL>しかし元気がないなぁ！<NL>なぁ、おい！<Next> -->
 <!-- <LB>… … … …<Next> -->
 <!-- <End> -->
-<RB><RS TownMan>よう、ミーナちゃん<NL>今年も<Color 0b>“お祈り草”<Color 0f>を<NL>とりに来たのかぁ！<Next>
-<LB><LS Mina>うん、またしばらく<NL>この村のお世話になるね！<Next>
-<RB>おお、まかせとけ！<NL>いもうとの方もなあ！<NL>よろしくなぁ！<Next>
-<LB><LS Otto>あの、えと、ぼく…男…<Next>
-<RB>なんだオトコかぁ！<NL>しかし元気がないなぁ！<NL>なぁ、おい！<Next>
-<LB>… … … …<Next>
+<RB><RS TownMan>Howdy, Mina! Another year, another <Color 0b>"praygrass"<Color 0f> harvest, eh?<Next>
+<!-- -->
+<LB><LS Mina>Yup, happy to be back in the village!<Next>
+<RB>Well, if there's anything I can do, let me know! Same for your sister.<Next>
+<LB><LS Otto>Um, actually... I'm a boy...<Next>
+<RB>Whaddaya mean, a boy! Ya don't act the part, do you!<Next>
+<LB>.........<Next>
 <End>
 
 
@@ -96,7 +97,7 @@ Oh, you haven't visited the shop yet, have you?<Next>
 
 <!-- <RB><RS TownMan>元気が一番！<NL>なぁ～！ うんうん<Next> -->
 <!-- <End> -->
-<RB><RS TownMan>元気が一番！<NL>なぁ～！ うんうん<Next>
+<RB><RS TownMan>Raise your spirits a li'l, son! Gwahaha!<Next>
 <End>
 
 
@@ -109,12 +110,12 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <RB><RS TownLady>そうかいそうかい<NL>毎年、ご苦労さま<Next> -->
 <!-- あんたたちの街では<NL>カーニバルに<NL>お祈り草のパンが<NL>つきものだものね<Next> -->
 <!-- <End> -->
-<RB><RS TownLady>あらぁ、ミーナちゃん<NL>ひさしぶりだねぇ<Next>
-<LB><LS Mina>やっほー、おばさん！<Next>
-<RB><RS TownLady>また、西の森向こうの<NL>草原まで行くのかい？<Next>
-<LB><LS Mina>うん！<NL>お祈り草をとりにね！<Next>
-<RB><RS TownLady>そうかいそうかい<NL>毎年、ご苦労さま<Next>
-あんたたちの街では<NL>カーニバルに<NL>お祈り草のパンが<NL>つきものだものね<Next>
+<RB><RS TownLady>Oh gosh, Mina! Long time no see!<Next>
+<LB><LS Mina>Hiya, ma'am!<Next>
+<RB><RS TownLady>Are you heading to the fields out west?<Next>
+<LB><LS Mina>Yup! Off to pick praygrass!<Next>
+<RB><RS TownLady>Why, you're such a hard-working girl!<Next>
+I hope you find enough to make praygrass buns for your town's carnival!<Next>
 <End>
 
 
@@ -125,10 +126,10 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <LB><LS Mina>いるのよねぇ<NL>大変よねぇ<Next> -->
 <!-- <LB><LS Otto>あうぅ…こわい…<Next> -->
 <!-- <End> -->
-<RB><RS TownLady>気をつけんだよ<Next>
-あの辺りにはバケモノが<NL>いっぱいいるからねぇ<Next>
-<LB><LS Mina>いるのよねぇ<NL>大変よねぇ<Next>
-<LB><LS Otto>あうぅ…こわい…<Next>
+<RB><RS TownLady>You better watch out.<Next>
+That area is full of monsters, y'know.<Next>
+<LB><LS Mina>Tell me about it! There's tons of 'em!<Next>
+<LB><LS Otto>That sounds, scary...<Next>
 <End>
 
 
@@ -137,8 +138,8 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <RB><RS TownKid>オネーチャン！<NL><Color 09>ぱんつ<Color 0f>何色だぁ？<Next> -->
 <!-- <LB><LS Mina>あのねぇロミュくん…<NL>疲れるから<NL>バカはよしてね…<Next> -->
 <!-- <End> -->
-<RB><RS TownKid>オネーチャン！<NL><Color 09>ぱんつ<Color 0f>何色だぁ？<Next>
-<LB><LS Mina>あのねぇロミュくん…<NL>疲れるから<NL>バカはよしてね…<Next>
+<RB><RS TownKid>Hey, hey! What color <Color 09>panties<Color 0f> are you wearing?<Next>
+<LB><LS Mina>Listen, kid... I'm real tired, so don't mess around with me...<Next>
 <End>
 
 
@@ -147,8 +148,8 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <RB><RS TownKid>クーボーターン<NL>あーそーぼー<Next> -->
 <!-- <LB><LS Mina>誰よ、クボタンって<Next> -->
 <!-- <End> -->
-<RB><RS TownKid>クーボーターン<NL>あーそーぼー<Next>
-<LB><LS Mina>誰よ、クボタンって<Next>
+<RB><RS TownKid>Kubotan, let's play!!<Next>
+<LB><LS Mina>Who the heck is Kubotan!?<Next>
 <End>
 
 
@@ -156,7 +157,7 @@ Oh, you haven't visited the shop yet, have you?<Next>
 
 <!-- <LB><LS Mina><RS WindsSeed>おひさしぶりでーす<NL>おっきな顔の神様☆<Next> -->
 <!-- <End> -->
-<LB><LS Mina><RS WindsSeed>おひさしぶりでーす<NL>おっきな顔の神様☆<Next>
+<LB><LS Mina><RS WindsSeed>Long time no see, O big-faced spirit!<Next>
 <End>
 
 
@@ -164,7 +165,7 @@ Oh, you haven't visited the shop yet, have you?<Next>
 
 <!-- <LB><LS God><NL><Size 03><Idk 0a>誰がでかい顔<RB><RS WindsSeed><NL><Size 03><Idk 0a>じゃいや～！<Idk 00><Next> -->
 <!-- <LB><End> -->
-<LB><LS God><NL><Size 03><Idk 0a>誰がでかい顔<RB><RS WindsSeed><NL><Size 03><Idk 0a>じゃいや～！<Idk 00><Next>
+<LB><LS God><NL><Size 03><Idk 0a>Don't call<RB><RS WindsSeed><NL><Size 03><Idk 0a>me that!!<Idk 00><Next>
 <LB><End>
 
 
@@ -175,10 +176,10 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <RB><RS God>この村の地神<NL>ガレスピィさまを<NL>バカにした罰じゃいや<Next> -->
 <!-- <LB>へぇ…神様って顔は<NL>おっきいけど<NL>ココロはせまいんだ<Next> -->
 <!-- <End> -->
-<LB><LS GodAngry><RS God>…？？？？？…<Next>
-<LB><LS Mina>わわわわ！<NL>落ち着いて落ち着いて…<Next>
-<RB><RS God>この村の地神<NL>ガレスピィさまを<NL>バカにした罰じゃいや<Next>
-<LB>へぇ…神様って顔は<NL>おっきいけど<NL>ココロはせまいんだ<Next>
+<LB><LS GodAngry><RS God>...?????...<Next>
+<LB><LS Mina>Whoa whoa whoa! Calm down already...<Next>
+<RB><RS God>Serves ya right fer disrespectin' the village god Gillespie!<Next>
+<LB>Uh-huh... So you've got a big face, but thin skin.<Next>
 <End>
 
 
@@ -186,7 +187,7 @@ Oh, you haven't visited the shop yet, have you?<Next>
 
 <!-- <LB><LS God><Size 04><Idk 0a>むきー<RB><RS WindsSeed><Size 04><Idk 0a>ー！！<Idk 00><Next> -->
 <!-- <LB><End> -->
-<LB><LS God><Size 04><Idk 0a>むきー<RB><RS WindsSeed><Size 04><Idk 0a>ー！！<Idk 00><Next>
+<LB><LS God><Size 04><Idk 0a>Why,<RB><RS WindsSeed><Size 04><Idk 0a>you!!!<Idk 00><Next>
 <LB><End>
 
 
@@ -196,9 +197,9 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <RB><RS God>最近、からだが<NL>ナマっとるんじゃいや<Next> -->
 <!-- <LB><LS Otto>な、なに…いまの…<Next> -->
 <!-- <End> -->
-<LB><LS Mina>あいかわらずねー<Next>
-<RB><RS God>最近、からだが<NL>ナマっとるんじゃいや<Next>
-<LB><LS Otto>な、なに…いまの…<Next>
+<LB><LS Mina>You haven't changed a bit!<Next>
+<RB><RS God>Only the ol' body's showing its age.<Next>
+<LB><LS Otto>W-what... was that...<Next>
 <End>
 
 
@@ -206,7 +207,7 @@ Oh, you haven't visited the shop yet, have you?<Next>
 
 <!-- <RB><RS God>エエ子にしておれば<NL>わしゃァ怒らんけぇの<Next> -->
 <!-- <End> -->
-<RB><RS God>エエ子にしておれば<NL>わしゃァ怒らんけぇの<Next>
+<RB><RS God>Now don't make me hafta get mad again!<Next>
 <End>
 
 
@@ -220,13 +221,13 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <LB><LS Robert>じゃあ<NL>誰に言えばいいんだ？<Next> -->
 <!-- <RB><RS Gray>そうだなあ…<NL>そんな話は誰が…<Next> -->
 <!-- <End> -->
-<RB><RS Gray>そんなことを<NL>言われてもねえ<Next>
-<LB><LS Robert>そこをなんとか頼むわ<Next>
-どんなバケモノだって<NL>退治してやっから<Next>
-<RB><RS Gray>といわれても…<NL>ぼくが決められる事じゃ<NL>ないんだよなあ<Next>
-村の用心棒はいいけど<NL>頼む相手が違うよ<Next>
-<LB><LS Robert>じゃあ<NL>誰に言えばいいんだ？<Next>
-<RB><RS Gray>そうだなあ…<NL>そんな話は誰が…<Next>
+<RB><RS Gray>I get what you're saying, but...<Next>
+<LB><LS Robert>Pal, I'm begging you.<Next>
+Whatever monsters you get here, I'll take care of 'em.<Next>
+<RB><RS Gray>Yeah, yeah, but... It's just not up to me to decide, you see?<Next>
+I don't mind having a village guard, but you're asking the wrong person.<Next>
+<LB><LS Robert>Well, who should I be asking?<Next>
+<RB><RS Gray>Now that's a good question...<Next>
 <End>
 
 
@@ -237,10 +238,10 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <LB><LS Mina>なんか<NL>ヘンな人だなーって<Next> -->
 <!-- <LB><LS Otto>だめだよ<NL>おねぇちゃん<NL>そんな事いっちゃ<Next> -->
 <!-- <End> -->
-<LB><LS Mina>さっきのお客さんは？<Next>
-<RB><RS Gray>もう帰ったよ<NL>どうして？<Next>
-<LB><LS Mina>なんか<NL>ヘンな人だなーって<Next>
-<LB><LS Otto>だめだよ<NL>おねぇちゃん<NL>そんな事いっちゃ<Next>
+<LB><LS Mina>Hey, where'd that guy go?<Next>
+<RB><RS Gray>Home, I guess. Why?<Next>
+<LB><LS Mina>Nothing. He was just funny-looking.<Next>
+<LB><LS Otto>Hey, sis, you shouldn't say that kinda thing!<Next>
 <End>
 
 
@@ -255,14 +256,14 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- 報告ごくろう<NL>さがっていろ<Next> -->
 <!-- <LB>はっ<Next> -->
 <!-- <LS Blank><End> -->
-<LB><LS Donald>ウォーレン閣下！<NL>ミッキー二尉が<NL>夜襲に失敗しました！<Next>
-<RB><RS Warren>ミッキーが…？<NL>ふん、油断しおったな<Next>
-それで奴はどうした？<Next>
-<LB>はっ、なんでも<NL>『子供をマークしろ』と<NL>だけおっしゃって…<Next>
-今は自室にさがって<NL>おられます！<Next>
-<RB>子供…ふむ、わかった<Next>
-報告ごくろう<NL>さがっていろ<Next>
-<LB>はっ<Next>
+<LB><LS Donald>Sir Warren! Lt. Mickey's nightly mission has failed!<Next>
+<RB><RS Warren>Is that so...? Hmph. We let our guard down.<Next>
+What did he tell you?<Next>
+<LB>Just to "keep an eye on those kids..."<Next>
+We've returned to our base for now.<Next>
+<RB>Kids...? I see.<Next>
+Thanks for your report, soldier. Stand down.<Next>
+<LB>Yessir!<Next>
 <LS Blank><End>
 
 
@@ -273,10 +274,10 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <RB><RS Warren>なかなかに素晴らしい<NL>子供たちじゃないか<Next> -->
 <!-- 楽しくなってくるよ<NL>レーザーユニットを<NL>ブッ潰してくれるとはな<Next> -->
 <!-- <End> -->
-<RB><RS Warren>聞いたか？ グレイ<Next>
-<LB><LS Gray>ミーナちゃん<NL>オットーくん…<Next>
-<RB><RS Warren>なかなかに素晴らしい<NL>子供たちじゃないか<Next>
-楽しくなってくるよ<NL>レーザーユニットを<NL>ブッ潰してくれるとはな<Next>
+<RB><RS Warren>You hear that, Gray?<Next>
+<LB><LS Gray>Mina... Otto...<Next>
+<RB><RS Warren>What a marvelous pair of kids, don't you agree?<Next>
+For them to demolish our laser unit... Oh, this is getting fun.<Next>
 <End>
 
 
@@ -286,9 +287,9 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <LB><LS Mina>どしたの？<NL>オットー<Next> -->
 <!-- <RB>ほら、ドリドリの葉が！<Next> -->
 <!-- <End> -->
-<RB><RS Otto>おねえちゃん？<Next>
-<LB><LS Mina>どしたの？<NL>オットー<Next>
-<RB>ほら、ドリドリの葉が！<Next>
+<RB><RS Otto>Hey, Mina?<Next>
+<LB><LS Mina>What's the matter, Otto?<Next>
+<RB>I found Dori leaves!<Next>
 <End>
 
 
@@ -296,7 +297,7 @@ Oh, you haven't visited the shop yet, have you?<Next>
 
 <!-- <RB><RS Otto>ドリドリの葉を<NL>取っておくね<Next> -->
 <!-- <End> -->
-<RB><RS Otto>ドリドリの葉を<NL>取っておくね<Next>
+<RB><RS Otto>I'll take this Dori leaf.<Next>
 <End>
 
 
@@ -305,8 +306,8 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <LB><LS Mina>今回はやめときましょ<Next> -->
 <!-- それに これ以上は<NL>もう持てないわよ<Next> -->
 <!-- <End> -->
-<LB><LS Mina>今回はやめときましょ<Next>
-それに これ以上は<NL>もう持てないわよ<Next>
+<LB><LS Mina>Let's not right now.<Next>
+We can't carry any more stuff, anyway.<Next>
 <End>
 
 
@@ -315,8 +316,8 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <LB><LS Mina>うわおっ<NL>見てみて、オットー！<Next> -->
 <!-- <RB><RS Otto>うんっ<NL>お祈り草が、<NL>こんなにたくさん！<Next> -->
 <!-- <End> -->
-<LB><LS Mina>うわおっ<NL>見てみて、オットー！<Next>
-<RB><RS Otto>うんっ<NL>お祈り草が、<NL>こんなにたくさん！<Next>
+<LB><LS Mina>Wow, Otto, look at all this!<Next>
+<RB><RS Otto>Yeah! Praygrass, as far as the eye can see!<Next>
 <End>
 
 
@@ -324,7 +325,7 @@ Oh, you haven't visited the shop yet, have you?<Next>
 
 <!-- <LB><LS Mina>いい？ オットー<NL>たっぷりとるよー<Next> -->
 <!-- <End> -->
-<LB><LS Mina>いい？ オットー<NL>たっぷりとるよー<Next>
+<LB><LS Mina>Let's gather a whole bunch, Otto!<Next>
 <End>
 
 
@@ -332,7 +333,7 @@ Oh, you haven't visited the shop yet, have you?<Next>
 
 <!-- <RB><RS Otto>これがお祈り草なんだぁ<Next> -->
 <!-- <End> -->
-<RB><RS Otto>これがお祈り草なんだぁ<Next>
+<RB><RS Otto>So this is praygrass...<Next>
 <End>
 
 
@@ -341,8 +342,8 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <LB><LS Mina>ちゃんと取ってる？<Next> -->
 <!-- <RB><RS Otto>うん！<NL>ちゃんと取ってるよ<Next> -->
 <!-- <End> -->
-<LB><LS Mina>ちゃんと取ってる？<Next>
-<RB><RS Otto>うん！<NL>ちゃんと取ってるよ<Next>
+<LB><LS Mina>Are you getting enough?<Next>
+<RB><RS Otto>Yeah! There's so much!<Next>
 <End>
 
 
@@ -353,10 +354,10 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- じゃ、帰ろうか<Next> -->
 <!-- あと２、３日はあの村で<NL>ゆっくりしようね<Next> -->
 <!-- <End> -->
-<RB><RS Otto>おねえちゃん、<NL>これくらいでいいかな？<Next>
-<LB><LS Mina>うんっ、これだけ取れば<NL>上等ってもんよ！<Next>
-じゃ、帰ろうか<Next>
-あと２、３日はあの村で<NL>ゆっくりしようね<Next>
+<RB><RS Otto>Sis, do you think this is enough?<Next>
+<LB><LS Mina>Yup, that's more than plenty!<Next>
+Let's head back.<Next>
+I think we've earned a nice little vacation in the village.<Next>
 <End>
 
 
@@ -372,15 +373,15 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <RB>そう、あそこから…<NL>ふぅん… …<Next> -->
 <!-- <LB>じゃ、そゆことで<NL>ばいばい<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>ねぇお嬢ちゃん？<Next>
-<LB><LS MinaG>え？<NL>あたし？<Next>
-<RB>こんなところまで<NL>お散歩？<Next>
-<LB>えへへ～<NL>オ・シ・ゴ・ト<Next>
-<RB>へぇ… … …<NL>勤労少女なんだ<Next>
-で、どこから来たの？<NL>東の、森の村から？<Next>
-<LB>あったり～<Next>
-<RB>そう、あそこから…<NL>ふぅん… …<Next>
-<LB>じゃ、そゆことで<NL>ばいばい<Next>
+<RB><RS Garriott>Excuse me, young lady?<Next>
+<LB><LS MinaG>Who, me?<Next>
+<RB>Did you come out here on a stroll?<Next>
+<LB>Ehehe... Actually, I'm running an errand.<Next>
+<RB>Oh my... What a hard-working girl.<Next>
+Where did you come from? The village to the east?<Next>
+<LB>Bingo!<Next>
+<RB>I see... Hmm...<Next>
+<LB>Well, we gotta go now, so, see ya.<Next>
 <End>
 
 
@@ -388,7 +389,7 @@ Oh, you haven't visited the shop yet, have you?<Next>
 
 <!-- <RB><RS Garriott><NL><Size 03>待たんかい！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott><NL><Size 03>待たんかい！<Next>
+<RB><RS Garriott><NL><Size 03>Stop!<Next>
 <End>
 
 
@@ -396,7 +397,7 @@ Oh, you haven't visited the shop yet, have you?<Next>
 
 <!-- <LB><LS MinaG>はい？<Next> -->
 <!-- <End> -->
-<LB><LS MinaG>はい？<Next>
+<LB><LS MinaG>Uh?<Next>
 <End>
 
 
@@ -408,11 +409,11 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <RB><RS Garriott>あなたたち<NL>グレイっていう男を<NL>知ってるわね？<Next> -->
 <!-- <LB><LS MinaG>知ってるよ<NL>身長２メートルで<NL>紫色の肌をした人でしょ？<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>あらﾊ<Next>
-地がでちゃった<Next>
-<LB><LS MinaG>なんでしょう？<Next>
-<RB><RS Garriott>あなたたち<NL>グレイっていう男を<NL>知ってるわね？<Next>
-<LB><LS MinaG>知ってるよ<NL>身長２メートルで<NL>紫色の肌をした人でしょ？<Next>
+<RB><RS Garriott>A-ahem.<Next>
+I got carried away.<Next>
+<LB><LS MinaG>What's the matter?<Next>
+<RB><RS Garriott>Do you two know a man named Gray?<Next>
+<LB><LS MinaG>Oh, I know him. About 7 foot, purple skin?<Next>
 <End>
 
 
@@ -424,11 +425,11 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- ぼく、この人、きらい<Next> -->
 <!-- <LB><LS MinaG>女の子に間違えられる<NL>あんたが悪いの<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>ふむ…、となると… …<Next>
-<LB><LS MinaG>あらら<NL>もう用済み？<Next>
-<LB><LS OttoG>おねぇちゃぁん<NL>もう行こうよぉ…<Next>
-ぼく、この人、きらい<Next>
-<LB><LS MinaG>女の子に間違えられる<NL>あんたが悪いの<Next>
+<RB><RS Garriott>Well, if that's how it is...<Next>
+<LB><LS MinaG>Huh, was that all?<Next>
+<LB><LS OttoG>Sis, let's get outta here...<Next>
+I don't like this lady...<Next>
+<LB><LS MinaG>Fair, but getting mistaken for a girl is your fault, you know.<Next>
 <End>
 
 
@@ -437,8 +438,8 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <LB><LS MinaShop>うわっ<NL>なに、このデッカイの！<Next> -->
 <!-- <RB><RS OttoShop>ひゃぁああああ！！<Next> -->
 <!-- <LS Blank><RS Blank><End> -->
-<LB><LS MinaShop>うわっ<NL>なに、このデッカイの！<Next>
-<RB><RS OttoShop>ひゃぁああああ！！<Next>
+<LB><LS MinaShop>Whoa, who's this big guy!?<Next>
+<RB><RS OttoShop>Eeeeeeek!!<Next>
 <LS Blank><RS Blank><End>
 
 
@@ -448,9 +449,9 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <LB><LS MinaShop>あわわわわわわ…<Next> -->
 <!-- <LB><LS OttoShop>ふ… … …<NL>ふぇ… … …<Next> -->
 <!-- <LS Mina><End> -->
-<RB><RS Robert>ケガはないか？<Next>
-<LB><LS MinaShop>あわわわわわわ…<Next>
-<LB><LS OttoShop>ふ… … …<NL>ふぇ… … …<Next>
+<RB><RS Robert>Are you guys hurt?<Next>
+<LB><LS MinaShop>W-w-w-w-whoa...<Next>
+<LB><LS OttoShop>Hah, phew...<Next>
 <LS Mina><End>
 
 
@@ -461,10 +462,10 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- とはいえ、子供なら<NL>一撃だからな<Next> -->
 <!-- 気をつけるこった<Next> -->
 <!-- <End> -->
-<RB><RS Robert>ありゃぁイワトカゲだ<Next>
-ガタイはあるが<NL>そう恐いモンでもない<Next>
-とはいえ、子供なら<NL>一撃だからな<Next>
-気をつけるこった<Next>
+<RB><RS Robert>Those thing are called Rocklizards.<Next>
+They're huge, but they're scarier than they look!<Next>
+Well. For me. You kids wouldn't stand a chance.<Next>
+So watch out.<Next>
 <End>
 
 
@@ -473,8 +474,8 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <RB><RS Otto>… … … … …<NL>… …カッコいい… …<Next> -->
 <!-- <LB><LS Mina>…た、助かったぁ…<NL>…けど…なんか…<NL>ひっかかるような…<Next> -->
 <!-- <End> -->
-<RB><RS Otto>… … … … …<NL>… …カッコいい… …<Next>
-<LB><LS Mina>…た、助かったぁ…<NL>…けど…なんか…<NL>ひっかかるような…<Next>
+<RB><RS Otto>...He's so cool...<Next>
+<LB><LS Mina>Th-that guy saved our butts... But now we owe him...<Next>
 <End>
 
 
@@ -483,8 +484,8 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <RB><LS Blank><RS Otto>おねぇちゃん、まだぁ？<Next> -->
 <!-- <LB><LS Mina>はいはいはいはい！<Next> -->
 <!-- <End> -->
-<RB><LS Blank><RS Otto>おねぇちゃん、まだぁ？<Next>
-<LB><LS Mina>はいはいはいはい！<Next>
+<RB><LS Blank><RS Otto>Sis, are you ready?<Next>
+<LB><LS Mina>Yeah, yeah, sheesh!<Next>
 <End>
 
 
@@ -496,11 +497,11 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <RB>ふぅん…<NL>そんなもんなんだ<Next> -->
 <!-- <LB>そうよ<NL>そんなもんそんなもん<Next> -->
 <!-- <End> -->
-<RB><RS Otto>遅いよ、おねぇちゃん<Next>
-朝からお風呂になんか<NL>入るんだもん<Next>
-<LB><LS Mina>るさぁ～い！<NL>あたしも女の子だもん<NL>身だしなみくらいは<NL>ちゃんとするのよ！<Next>
-<RB>ふぅん…<NL>そんなもんなんだ<Next>
-<LB>そうよ<NL>そんなもんそんなもん<Next>
+<RB><RS Otto>C'mon, we're late!<Next>
+You should've showered sooner!<Next>
+<LB><LS Mina>Hey, gimme a break! I'm a girl, you know! Self-care comes with the territory!<Next>
+<RB>Oh, sure, *that* excuses it.<Next>
+<LB>Yes it does! It does excuse it!!<Next>
 <End>
 
 
@@ -509,8 +510,8 @@ Oh, you haven't visited the shop yet, have you?<Next>
 <!-- <LB><LS Mina>ね、オットー？<NL>これからどうしようか<Next> -->
 <!-- <RB><RS Otto>グレイにいちゃん<NL>無事だったらいい…け…<Next> -->
 <!-- <End> -->
-<LB><LS Mina>ね、オットー？<NL>これからどうしようか<Next>
-<RB><RS Otto>グレイにいちゃん<NL>無事だったらいい…け…<Next>
+<LB><LS Mina>Okay, so... What do we do next?<Next>
+<RB><RS Otto>I just really hope Gray is alright...<Next>
 <End>
 
 
@@ -518,7 +519,7 @@ Oh, you haven't visited the shop yet, have you?<Next>
 
 <!-- <RB><RS Donald><LS Blank>うわっ！<NL>なななななな！！<Next> -->
 <!-- <End> -->
-<RB><RS Donald><LS Blank>うわっ！<NL>なななななな！！<Next>
+<RB><RS Donald><LS Blank>Whoa! W-w-w-what the!!<Next>
 <End>
 
 
