@@ -51,7 +51,8 @@ if __name__ == "__main__":
     START = 0x2400
     for i in range(99):
         header = rom[START + 32 * i : START + 32 * i + 32]
-        if header[0] == 0: break
+        if header[0] == 0:
+            break
         name = bytes(header[:8]).decode().strip()
         ext = bytes(header[8:11]).decode().strip()
         if ext:
@@ -62,8 +63,8 @@ if __name__ == "__main__":
         end = start + length
         data = rom[start:end]
         fs[name] = Entry(i, name, start, end, data)
-        print(name, hex(start), hex(end))
-        print(hex(START + 32 * i), header)
+        # print(name, hex(start), hex(end))
+        # print(hex(START + 32 * i), header)
         if not os.path.isdir("dump"):
             os.mkdir("dump")
         path = os.path.join("dump", name)
@@ -96,7 +97,9 @@ if __name__ == "__main__":
             story_contents = contents
             print("Original story length:", len(contents))
             print("Translation length:", len(tl))
-            assert len(tl) <= len(contents)
+            if len(tl) > len(contents):
+                print("That's too big!! Trimming it")
+                tl = tl[: len(contents)]
             edit(fcp_file, address, tl)
             # edit(fcp_file, address + 0x288, b"\x0d\x0b\x00\x0a\x02\x07\x0a")
             # with open(name.decode(), "wb") as of:
@@ -135,18 +138,28 @@ if __name__ == "__main__":
         b"\x30\xE4\x2C\x40\xD0\xF8\x04\x40\x86\xE0\x66\x89\xC2\xE6\xA5\x90\x90\x90\x90\x90\x90\x90",
     )
 
+    # halfwidth digits: add 0x30, not 0x21 (which was ０ in the table)
+    edit(ws_patched, 0x7488, b"\x04\x30")  # ADD AL, last digit
+    edit(ws_patched, 0x749E, b"\x80\xc1\x30")  # ADD CL, other digits
+    edit(ws_patched, 0x74BD, b"\x3c\x30")  # CMP, to clear leading zeros
+    edit(ws_patched, 0x6B2B, b"\x3c\x30")  # CMP, to clear leading zeros
+    edit(ws_patched, 0x19C0, b"\x3c\x30")  # CMP, to clear leading zeros
+
+    # HP and money x positions
+    edit(ws_patched, 0x1A11, bytes([0x0A * 2]))
+    edit(ws_patched, 0x1A26, bytes([0x0D * 2 + 4]))
+    edit(ws_patched, 0x1A36, bytes([0x1E * 2]))
 
     blank = 0xB64A
 
     # Scroll "kanji" picture 8px to the left (rol ax,8)
-    edit(bios_patched, 0xA2d, b"\xc1\xc0\x08\x90\x90\x90")
+    edit(bios_patched, 0xA2D, b"\xc1\xc0\x08\x90\x90\x90")
 
     # and these guys draw the bg?
     # edit(bios_patched, 0xa6e, b"\x90\x90\x90")
     # edit(bios_patched, 0xa76, b"\x90\x90\x90")
     # edit(bios_patched, 0xa7e, b"\x90\x90\x90")
     # edit(bios_patched, 0xa86, b"\x90\x90\x90")
-
 
     # so these guys draw the text...
     # edit(bios_patched, 0xa95, b"\x90\x90\x90")
@@ -157,39 +170,30 @@ if __name__ == "__main__":
     # edit(bios_patched, 0xb18, b"\xb9\x08\x00") #no this is the height ugh
 
     # Don't draw the right half of the 16x16 bg
-    edit(bios_patched, 0xb62, b"\x90" * 4)
-    edit(bios_patched, 0xb6a, b"\x90" * 4)
+    edit(bios_patched, 0xB62, b"\x90" * 4)
+    edit(bios_patched, 0xB6A, b"\x90" * 4)
 
-    if True:
-        # nop out the x*=2 instruction, wrap lines at x=80
-        edit(bios_patched, 0xA44, b"\x50")
-        edit(bios_patched, 0xAC9, b"\x50")
-        edit(bios_patched, 0xA56, b"\x90\x90")
+    # nop out the x*=2 instruction, wrap lines at x=80
+    edit(bios_patched, 0xA44, b"\x50")
+    edit(bios_patched, 0xAC9, b"\x50")
+    edit(bios_patched, 0xA56, b"\x90\x90")
 
-        # Fix up text box start positions:
-        edit(ws_patched, 0x389, b"\xbb\x14\x08")  # maybe?
-        edit(ws_patched, 0x1874, b"\xbb\x0e\x14")
-        edit(ws_patched, 0x2315, b"\xbb\x0e\x14")
-        edit(ws_patched, 0x2334, b"\xbb\x36\x14")
-        edit(ws_patched, 0x2531, b"\xbb\x0e\x14")
-        edit(ws_patched, 0x25B4, b"\xbb\x36\x14")
+    # Fix up text box start positions:
+    edit(ws_patched, 0x389, b"\xbb\x14\x08")  # maybe?
+    edit(ws_patched, 0x1874, b"\xbb\x0e\x14")
+    edit(ws_patched, 0x2315, b"\xbb\x0e\x14")
+    edit(ws_patched, 0x2334, b"\xbb\x36\x14")
+    edit(ws_patched, 0x2531, b"\xbb\x0e\x14")
+    edit(ws_patched, 0x25B4, b"\xbb\x36\x14")
 
-        # What is this bit?! (try mv cx 0x1430 → 0x0430 in putchar2)
-        # edit(ws_patched, 0x7290, b"\xb9\x30\x04") # ok, text shows up but not quite right...
-
-        # Disable one of these and see what happens.
-
-        # edit(bios_patched, 0xAF0, b"\xb0\x01")
-        # edit(bios_patched, 0xb05, b"\xb0\x01")
-
-        # Replacing "lodsw si; mov bx,ax" in menu code with call to patch that doubles x
-        double_menu_x = Patch(ws_patched, blank)
-        double_menu_x.lodsw_si()
-        double_menu_x.mov("bx", "ax")
-        double_menu_x.shl_bl_1()
-        double_menu_x.ret()
-        blank = double_menu_x.end
-        Patch(ws_patched, 0x7302).call(double_menu_x.start)
+    # Replacing "lodsw si; mov bx,ax" in menu code with call to patch that doubles x
+    double_menu_x = Patch(ws_patched, blank)
+    double_menu_x.lodsw_si()
+    double_menu_x.mov("bx", "ax")
+    double_menu_x.shl_bl_1()
+    double_menu_x.ret()
+    blank = double_menu_x.end
+    Patch(ws_patched, 0x7302).call(double_menu_x.start)
 
     # Invert kanji pictures
     # edit(bios_patched, 0xa36, b"\x75")
@@ -212,8 +216,10 @@ if __name__ == "__main__":
     fcp = fs["WSDATA.FCP"]
     patched[fcp.start : fcp.end] = fcp_file
 
-    patched[0x2580:0x25a0] = b'WSSAVE00DAT \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xef\xba\xfcV\x07\x03\x00\x04\x00\x00'
-    patched[0xc5000:0xc5400] = open("dump/WSSAVE00_start.DAT", "rb").read()
+    patched[
+        0x2580:0x25A0
+    ] = b"WSSAVE00DAT \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xef\xba\xfcV\x07\x03\x00\x04\x00\x00"
+    patched[0xC5000:0xC5400] = open("dump/WSSAVE00_start.DAT", "rb").read()
 
     with open("patched.fdi", "wb") as of:
         print("Writing patched.fdi")
