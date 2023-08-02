@@ -224,7 +224,7 @@ That area is full of monsters, y'know.<Next>
 <RB><RS Gray>I get what you're saying, but...<Next>
 <LB><LS Robert>Pal, I'm begging you.<Next>
 Whatever monsters you get here, I'll take care of 'em.<Next>
-<RB><RS Gray>Yeah, yeah, but... It's just not up to me to decide, you see?<Next>
+<RB><RS Gray>Sure, but... It's just not up to me to decide, you know?<Next>
 I don't mind having a village guard, but you're asking the wrong person.<Next>
 <LB><LS Robert>Well, who should I be asking?<Next>
 <RB><RS Gray>Now that's a good question...<Next>
@@ -602,7 +602,7 @@ I'll say it!<Next>
 <!-- <End> -->
 <RB><RS Donald>S-sorry! I'll say it, I'll say it! I apologize! Please let me talk!<Next>
 It's the crystal cave!<Next>
-<RB><RS Donald>There's a teleporter deep inside the cave. That's how you get there.<Next>
+<RB><RS Donald>There's a teleportation device deep inside the cave. That's how you get there.<Next>
 <LB><LS Mina>A tele-what?<Next>
 <RB><RS Donald>You'll see if you use it!<Next>
 It'll warp you to our base in no time!<Next>
@@ -622,7 +622,7 @@ Just head due east from this village!<Next>
 <!-- <LB><LS Mina>たぶん…ね<Next> -->
 <!-- <End> -->
 <LB><LS Mina>This must be the place that soldier was talking about...<Next>
-<RB><RS Otto>So that teleporter is buried deep in this cave?<Next>
+<RB><RS Otto>So that teleportation device is buried deep in this cave?<Next>
 <LB><LS Mina>I sure hope so...<Next>
 <End>
 
@@ -641,7 +641,7 @@ Just head due east from this village!<Next>
 
 <!-- <RB><RS Garriott>おぼえてなさい！！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>Don't you forget it!!<Next>
+<RB><RS Garriott>I'll remember this!!<Next>
 <End>
 
 
@@ -873,7 +873,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <LB><LS Gray>いくらあんたが<NL>ぼくの師匠でも…<NL>絶対に許さないからな！<Next> -->
 <!-- <End> -->
-<LB><LS Gray>I respect you as my teacher, but you won't get away with this!<Next>
+<LB><LS Gray>I respect you as my teacher, but... you won't get away with this!<Next>
 <End>
 
 
@@ -886,12 +886,12 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB><RS Garriott>へぇ…<NL>よく調べたわねぇ<Next> -->
 <!-- その努力を評価して<NL>最新ウェポンの実験台に<NL>してあげるわ<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>ん？ あらあんた<Next>
-… …いたの？<Next>
-<LB><LS Mina>うるさい！<Next>
-あんたたちが<NL>うっちゃり健康装置で<NL>ここまで来てるのは<NL>もうわかってんのよ！<Next>
-<RB><RS Garriott>へぇ…<NL>よく調べたわねぇ<Next>
-その努力を評価して<NL>最新ウェポンの実験台に<NL>してあげるわ<Next>
+<RB><RS Garriott>Hm? Oh, it's you.<Next>
+...What are YOU doing here?<Next>
+<LB><LS Mina>Zip it, lady!<Next>
+We know all about your secret telephonation device!<Next>
+<RB><RS Garriott>My oh my... you sure did your research.<Next>
+If you want a tour that badly, I'll give you a taste of our newest weapon!<Next>
 <End>
 
 
@@ -899,7 +899,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <RB><RS Garriott>おいで！<NL>トライアンフ！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>おいで！<NL>トライアンフ！<Next>
+<RB><RS Garriott>Come here, Triumph!<Next>
 <End>
 
 
@@ -907,7 +907,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <RB><RS Otto>水晶の洞窟は<NL>東だっていってたよ？<Next> -->
 <!-- <End> -->
-<RB><RS Otto>水晶の洞窟は<NL>東だっていってたよ？<Next>
+<RB><RS Otto>That guy said the crystal cave is to the east.<Next>
 <End>
 
 
@@ -916,8 +916,7 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB><RS Otto>ねぇ、おねぇちゃん<Next> -->
 <!-- いま飛んでったの<NL>なんだったのか<NL>気になんない？<Next> -->
 <!-- <End> -->
-<RB><RS Otto>ねぇ、おねぇちゃん<Next>
-いま飛んでったの<NL>なんだったのか<NL>気になんない？<Next>
+<RB><RS Otto>Don't you wanna go see what that thing was that just flew by?<Next>
 <End>
 
 
@@ -930,12 +929,12 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB>物質転送装置！！<Next> -->
 <!-- <LB>どっちでも同じよ！<NL>逃がすもんか！<NL>行くよオットー！！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>なんてことするの！？<NL>トライアンフを<NL>こわしちゃうなんて！<Next>
-<LB><LS MinaG>あんなもん<NL>いくらでも<NL>ブッ壊したげるわ！<Next>
-<RB>んん… … …<NL>覚えてなさい！！<Next>
-<LB><LS MinaG>あぁ～～！ また、あの<NL>必殺拳法装置で<NL>逃げるつもりね！<Next>
-<RB>物質転送装置！！<Next>
-<LB>どっちでも同じよ！<NL>逃がすもんか！<NL>行くよオットー！！<Next>
+<RB><RS Garriott>How dare you!? You destroyed our precious Triumph!<Next>
+<LB><LS MinaG>If you have any spares, I'll turn those into scrap, too!<Next>
+<RB>Ugh... I'll remember this!!<Next>
+<LB><LS MinaG>Oh, yeah? Go run to your little televisation device!<Next>
+<RB>Teleportation device!!<Next>
+<LB>Same difference! We're not letting you get away! C'mon, Otto!!<Next>
 <End>
 
 
@@ -949,12 +948,12 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB>こわくないの？<NL>オットー<Next> -->
 <!-- <RB>… … …<Next> -->
 <!-- <End> -->
-<LB><LS Mina>ここ、どこ…？<Next>
-<RB><RS Otto>大丈夫？<NL>おねえちゃん…<Next>
-<LB>うん、へーきへーき<Next>
-… … …くすっ<Next>
-<RB>ど、どうしたの？<NL>なにかおかしかった？<Next>
-<LB>こわくないの？<NL>オットー<Next>
+<LB><LS Mina>Where... are we?<Next>
+<RB><RS Otto>Are you okay, Mina?<Next>
+<LB>Yeah, I'm fine!<Next>
+...Hehehe.<Next>
+<RB>W-what's wrong? Did I say something funny?<Next>
+<LB>You've grown up, haven't you, Otto?<Next>
 <RB>… … …<Next>
 <End>
 
@@ -966,10 +965,10 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB><LS Mina>グレイお兄ちゃんは<NL>どこにいるのよ！<Next> -->
 <!-- <RB>安心しろ、あいつは<NL>わたしの片腕として<NL>育てるつもりだ<Next> -->
 <!-- <End> -->
-<RB><RS Warren>おまえらか？<Next>
-再三にわたって<NL>われわれのジャマを<NL>しているのは<Next>
-<LB><LS Mina>グレイお兄ちゃんは<NL>どこにいるのよ！<Next>
-<RB>安心しろ、あいつは<NL>わたしの片腕として<NL>育てるつもりだ<Next>
+<RB><RS Warren>Oh, if it isn't you.<Next>
+The kids who have been foiling our plans again and again!<Next>
+<LB><LS Mina>Where's Gray?!<Next>
+<RB>Don't worry. He's settling into his new position as my right hand.<Next>
 <End>
 
 
@@ -980,10 +979,10 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB><RS Warren>なるとも<Next> -->
 <!-- なにしろ、奴は<NL>わたしの弟子なのだからな<Next> -->
 <!-- <End> -->
-<LB><LS Mina>なにいってんのよ！<Next>
-お兄ちゃんが、そんな<NL>悪人になるわけ<NL>ないじゃない！<Next>
-<RB><RS Warren>なるとも<Next>
-なにしろ、奴は<NL>わたしの弟子なのだからな<Next>
+<LB><LS Mina>What are you saying?!<Next>
+Gray would never become a bad guy like you!<Next>
+<RB><RS Warren>Oh, but he will.<Next>
+After all, Gray is my disciple.<Next>
 <End>
 
 
@@ -994,10 +993,10 @@ If you lay so much as a finger on those kids...<Next>
 <!-- 行方不明の師匠って…<Next> -->
 <!-- <RB><RS Warren>そう…<NL>わたしのことだ<Next> -->
 <!-- <End> -->
-<LS Mina><RS Otto><LB><Size 03>えぇっ！！？<RB><Size 03>えぇっ！？<Next>
-<Size 00><LB>じゃ、じゃあ…<Next>
-行方不明の師匠って…<Next>
-<RB><RS Warren>そう…<NL>わたしのことだ<Next>
+<LS Mina><RS Otto><LB><Size 03>Whaaat!?<RB><Size 03>What!?<Next>
+<Size 00><LB>But that means...<Next>
+His missing watchmaking teacher...<Next>
+<RB><RS Warren>That's right... It's me.<Next>
 <End>
 
 
@@ -1007,9 +1006,9 @@ If you lay so much as a finger on those kids...<Next>
 <!-- 悪い人の味方になるような<NL>お兄ちゃんじゃない！<Next> -->
 <!-- <RB><RS Blank>もちろんだとも<Next> -->
 <!-- <End> -->
-<LB><LS Mina>たとえ師匠でも！<Next>
-悪い人の味方になるような<NL>お兄ちゃんじゃない！<Next>
-<RB><RS Blank>もちろんだとも<Next>
+<LB><LS Mina>Well, teacher or not!<Next>
+Gray isn't the type to get chummy with evildoers like you!<Next>
+<RB><RS Blank>Of course not.<Next>
 <End>
 
 
@@ -1020,10 +1019,10 @@ If you lay so much as a finger on those kids...<Next>
 <!-- ただの大悪党だ<Next> -->
 <!-- いくらおどしても<NL>ぼくは屈しないよ<Next> -->
 <!-- <End> -->
-<RB><RS Gray>師匠…いや、ウォーレン<Next>
-あんたはもうぼくとは<NL>何の関係もない<Next>
-ただの大悪党だ<Next>
-いくらおどしても<NL>ぼくは屈しないよ<Next>
+<RB><RS Gray>Teacher... no, Warren!<Next>
+You have nothing to do with me anymore!<Next>
+You're just a crook!<Next>
+Intimidate me all you want, I won't give in!<Next>
 <End>
 
 
@@ -1032,8 +1031,8 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB><RS Warren>その話は、後だ<Next> -->
 <!-- <RB><RS Warren>おまえと話す前に…<Next> -->
 <!-- <End> -->
-<RB><RS Warren>その話は、後だ<Next>
-<RB><RS Warren>おまえと話す前に…<Next>
+<RB><RS Warren>Oh, we'll see about that soon.<Next>
+<RB><RS Warren>But before I deal with you...<Next>
 <End>
 
 
@@ -1041,7 +1040,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <RB><RS Warren>ここの、ゴミムシを<NL>片付けねばならん<Next> -->
 <!-- <End> -->
-<RB><RS Warren>ここの、ゴミムシを<NL>片付けねばならん<Next>
+<RB><RS Warren>I'm going to deal with these vermins once and for all.<Next>
 <End>
 
 
@@ -1056,14 +1055,14 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB><RS Warren>ふん、つまらん…<NL>奴の選択肢はふたつのみ<Next> -->
 <!-- 協力か、さもなくば…<Next> -->
 <!-- <End> -->
-<LB><LS Mina>な…なに、ここは！？<Next>
-<LB><LS Otto>ここ…こここ…<NL>こわくない！<Next>
-こわくないこわくない！<Next>
-<RB><RS Warren>ゴミムシは死ね！<Next>
-この異次元空間で！<Next>
-<LB><LS Mina>殺しても死なないわよ！<NL>あたしのお兄ちゃんが<NL>帰ってくるまでは！<Next>
-<RB><RS Warren>ふん、つまらん…<NL>奴の選択肢はふたつのみ<Next>
-協力か、さもなくば…<Next>
+<LB><LS Mina>Wha... where are we!?<Next>
+<LB><LS Otto>Th-this place...!<Next>
+I'm not afraid, I'm not afraid...!<Next>
+<RB><RS Warren>This parallel universe...<Next>
+is where you vermins will die!<Next>
+<LB><LS Mina>I won't die even if you kill me! Not until Gray is safe!<Next>
+<RB><RS Warren>Tsh, how stubborn... But there are only two choices here.<Next>
+Cooperate... or...<Next>
 <End>
 
 
@@ -1071,7 +1070,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <RB><RS Warren><Size 04>死だ！<Next> -->
 <!-- <End> -->
-<RB><RS Warren><Size 04>死だ！<Next>
+<RB><RS Warren><Size 04>DIE!<Next>
 <End>
 
 
@@ -1082,10 +1081,10 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB><RS Gray>まずい、逃げよう！<Next> -->
 <!-- ここはもうすぐ<NL>くずれてしまう！<Next> -->
 <!-- <End> -->
-<LB><LS Mina>ゴミムシは<NL>あんたの方よ！！<Next>
-<RB><RS Warren>ふは、ふははは…<NL>なんてこった！<NL>ははは…はははは！<Next>
-<RB><RS Gray>まずい、逃げよう！<Next>
-ここはもうすぐ<NL>くずれてしまう！<Next>
+<LB><LS Mina>Looks like you're the vermin!!<Next>
+<RB><RS Warren>Ha, hahaha... How could this be! Haaah hah hah hah!<Next>
+<RB><RS Gray>This looks bad! Let's run!<Next>
+This place is gonna collapse!<Next>
 <End>
 
 
@@ -1094,8 +1093,8 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB><RS Warren>だははははは！<Next> -->
 <!-- わーっはっはっはっは！<Next> -->
 <!-- <End> -->
-<RB><RS Warren>だははははは！<Next>
-わーっはっはっはっは！<Next>
+<RB><RS Warren>Gahahahaha!<Next>
+Waaah hah hah haaa!!!<Next>
 <End>
 
 
@@ -1106,10 +1105,10 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB><LS Otto>なんなの？ それ…<Next> -->
 <!-- <RB><RS Gray>むかし読んだ小説に<NL>そんな一節があったんだ<Next> -->
 <!-- <End> -->
-<RB><RS Gray>タフでなければ<NL>生きて行けない…<Next>
-優しくなければ<NL>生きて行く資格がない<NL>… …か<Next>
-<LB><LS Otto>なんなの？ それ…<Next>
-<RB><RS Gray>むかし読んだ小説に<NL>そんな一節があったんだ<Next>
+<RB><RS Gray>Only the tough can face life...<Next>
+but only the kind deserve to live... or something.<Next>
+<LB><LS Otto>What's that about?<Next>
+<RB><RS Gray>I read it in a book a long time ago.<Next>
 <End>
 
 
@@ -1117,7 +1116,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <RB><RS Blank>おかえりなさい…<Next> -->
 <!-- <End> -->
-<RB><RS Blank>おかえりなさい…<Next>
+<RB><RS Blank>Welcome back...<Next>
 <End>
 
 
@@ -1135,17 +1134,17 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB><RS Gray>しかし…<Next> -->
 <!-- <LB><LS Otto><NL><Size 03> はやく！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>さぞお疲れでしょ？<NL>休ませてあげるわ<Next>
-…あの世でね！！<Next>
-<LB><LS Mina>ギャリオット！？<Next>
-<RB><RS Garriott>あたしってねぇ…<Next>
-正義づらかました<NL>ガキどもを見ると<NL>吐き気がするの…<Next>
-<LB><LS Otto>こんのやろぉ…<Next>
-<RB><RS Garriott>なにリキんでんのよ<NL>甲斐性なしのくせに<Next>
-<RB><RS Gray>ミーナちゃん！<NL>オットーくん！<Next>
-<LB><LS Otto>お兄ちゃん…<NL>さがってて…<Next>
-<RB><RS Gray>しかし…<Next>
-<LB><LS Otto><NL><Size 03> はやく！<Next>
+<RB><RS Garriott>You must be tired. I'll give you some rest...<Next>
+In the afterlife!!<Next>
+<LB><LS Mina>Garriott!?<Next>
+<RB><RS Garriott>Here's a little something about me...<Next>
+Seeing self-righteous little brats like you makes me sick!<Next>
+<LB><LS Otto>Ugh, this jerk...<Next>
+<RB><RS Garriott>You act all tough, but you're good for nothing!<Next>
+<RB><RS Gray>Mina! Otto!<Next>
+<LB><LS Otto>Gray, you go ahead...<Next>
+<RB><RS Gray>But she...<Next>
+<LB><LS Otto><NL><Size 03>  Hurry!<Next>
 <End>
 
 
@@ -1155,9 +1154,9 @@ If you lay so much as a finger on those kids...<Next>
 <!-- どうして！？<Next> -->
 <!-- このあたしが！！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>なぜ！？<Next>
-どうして！？<Next>
-このあたしが！！<Next>
+<RB><RS Garriott>Why!?<Next>
+How!?<Next>
+This isn't fair...!<Next>
 <End>
 
 
@@ -1166,8 +1165,8 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB><LS Mina>オットー<NL>用意はできた？<Next> -->
 <!-- <LB><LS Otto>うん！<NL>いつでもいいよ！<Next> -->
 <!-- <End> -->
-<LB><LS Mina>オットー<NL>用意はできた？<Next>
-<LB><LS Otto>うん！<NL>いつでもいいよ！<Next>
+<LB><LS Mina>Otto, are you ready?<Next>
+<LB><LS Otto>Yup, ready whenever!<Next>
 <End>
 
 
@@ -1179,11 +1178,11 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB><LS Mina>また、遊びにくるね！<Next> -->
 <!-- <RB><RS Blank><Size 03>なにーー！？<Next> -->
 <!-- <End> -->
-<RB><RS Gray>もう、帰るのかい？<NL>さみしくなるなぁ<Next>
-<LB><LS Mina>最初の予定より<NL>遅くなっちゃったから…<Next>
-<RB><RS Gray>そうかい…<NL>うん、それじゃ<NL>街の人たちによろしく<Next>
-<LB><LS Mina>また、遊びにくるね！<Next>
-<RB><RS Blank><Size 03>なにーー！？<Next>
+<RB><RS Gray>Are you guys heading home already? I'll miss you.<Next>
+<LB><LS Mina>We already stayed longer than we planned, so...<Next>
+<RB><RS Gray>I understand... Well, say hi to the townfolk for me.<Next>
+<LB><LS Mina>We'll swing by some other time!<Next>
+<RB><RS Blank><Size 03>Whaaaaat!?<Next>
 <End>
 
 
@@ -1192,8 +1191,8 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB><RS Robert>おまえら、おれに<NL>なんのことわりもなく！<Next> -->
 <!-- <LB><LS Mina>あ、風来坊さん…<Next> -->
 <!-- <End> -->
-<RB><RS Robert>おまえら、おれに<NL>なんのことわりもなく！<Next>
-<LB><LS Mina>あ、風来坊さん…<Next>
+<RB><RS Robert>Were you kids gonna leave without telling me!?<Next>
+<LB><LS Mina>Ah, the wandering cowboy...<Next>
 <End>
 
 
@@ -1203,9 +1202,9 @@ If you lay so much as a finger on those kids...<Next>
 <!-- おまぁらも帰っちまうし！<Next> -->
 <!-- <LB><LS Mina>あ…ごめんなさい…<Next> -->
 <!-- <End> -->
-<RB><RS Robert>なんだかんだで結局<NL>仕事にはありつけんし<Next>
-おまぁらも帰っちまうし！<Next>
-<LB><LS Mina>あ…ごめんなさい…<Next>
+<RB><RS Robert>All that stuff happened, but in the end I didn't land a job...<Next>
+And now you guys are leaving!<Next>
+<LB><LS Mina>Ah, sorry...<Next>
 <End>
 
 
@@ -1220,14 +1219,14 @@ If you lay so much as a finger on those kids...<Next>
 <!-- あとは…<Next> -->
 <!-- <LB><LS Blank>な、なに！<NL>いまの騒ぎは！<Next> -->
 <!-- <End> -->
-<RB><LS Blank><RS Robert>やった！<NL>ありがとうよ、切り株！<Next>
-<LB><LS God>誰が切り株じゃいや！<Next>
-それにしても、なんで<NL>連中が襲って来るのが<NL>分かったんじゃいや<Next>
-<RB>るせぇなあ<Next>
-行くところがなくて<NL>ここで寝てたんだよ<Next>
-<RB>ま、とりあえずこれで<NL>連中の戦力は落ちた<Next>
-あとは…<Next>
-<LB><LS Blank>な、なに！<NL>いまの騒ぎは！<Next>
+<RB><LS Blank><RS Robert>Hah, we did it! Thanks, stumpy!<Next>
+<LB><LS God>Don't call me "stumpy"!!<Next>
+And how'dya know these idiots were going to attack us?<Next>
+<RB>Hey, cool it, pal.<Next>
+I had nowhere else to go, so I was sleeping here.<Next>
+<RB>Anyway, that should've knocked them down a peg.<Next>
+Up next...<Next>
+<LB><LS Blank>What was all that ruckus!?<Next>
 <End>
 
 
@@ -1239,11 +1238,11 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB><RS Robert>ちょっとワケアリでな<NL>あの子たちには<NL>会えないんだ<Next> -->
 <!-- じゃあな！<Next> -->
 <!-- <End> -->
-<RB><RS Robert>ん、あの声は…<NL>ミーナとかいう娘だな<Next>
-おい、切り株<NL>あとはまかせたぜ<Next>
-<LB><LS God>どこ行くんじゃいや！<Next>
-<RB><RS Robert>ちょっとワケアリでな<NL>あの子たちには<NL>会えないんだ<Next>
-じゃあな！<Next>
+<RB><RS Robert>That voice... Isn't that that Mina girl?<Next>
+Hey, stumpy. I'll leave the rest to you.<Next>
+<LB><LS God>Where are ya headed, you fool!?<Next>
+<RB><RS Robert>Man, it's a whole thing, but I can't have those kids see me.<Next>
+See ya, bud!<Next>
 <End>
 
 
@@ -1251,7 +1250,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <LB><LS Mickey><RS Blank>いったいぜんたい<NL>どこのどいつなんだ！<Next> -->
 <!-- <End> -->
-<LB><LS Mickey><RS Blank>いったいぜんたい<NL>どこのどいつなんだ！<Next>
+<LB><LS Mickey><RS Blank>Who on God's green earth did this!?<Next>
 <End>
 
 
@@ -1259,7 +1258,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <RB><RS God>なんじゃいや<NL>いまのは<Next> -->
 <!-- <End> -->
-<RB><RS God>なんじゃいや<NL>いまのは<Next>
+<RB><RS God>What was that now?<Next>
 <End>
 
 
@@ -1268,8 +1267,8 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB><LS God>ここはわしに<NL>まかせときんさい<Next> -->
 <!-- <RB><RS Donald>キュウ<Next> -->
 <!-- <End> -->
-<LB><LS God>ここはわしに<NL>まかせときんさい<Next>
-<RB><RS Donald>キュウ<Next>
+<LB><LS God>I've gottem under control.<Next>
+<RB><RS Donald>Urk...<Next>
 <End>
 
 
@@ -1281,11 +1280,11 @@ If you lay so much as a finger on those kids...<Next>
 <!-- わかってるとは思うけど<NL>石鬼には気をつけるんだよ<Next> -->
 <!-- <LB><LS Otto>それなら大丈夫<Next> -->
 <!-- <End> -->
-<RB><RS Robert>おうとも！ 元気でな<Next>
-<RB><RS Gray>また来年だね<Next>
-あ、そうそう…それから<Next>
-わかってるとは思うけど<NL>石鬼には気をつけるんだよ<Next>
-<LB><LS Otto>それなら大丈夫<Next>
+<RB><RS Robert>Well dangit, take care of yourselves!<Next>
+<RB><RS Gray>See you both next year.<Next>
+Oh, I just remembered...<Next>
+I probably don't need to tell you, but watch out for those Golems.<Next>
+<LB><LS Otto>Don't worry about us...<Next>
 <End>
 
 
@@ -1293,7 +1292,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <LB><LS Otto>だって、ぼくが<NL>ついてるんだから！<Next> -->
 <!-- <End> -->
-<LB><LS Otto>だって、ぼくが<NL>ついてるんだから！<Next>
+<LB><LS Otto>They'll have to get past me!<Next>
 <End>
 
 
@@ -1303,9 +1302,9 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB><LS Mina>くす…<NL>かっこよかったよ<NL>イワトカゲから<NL>守ってくれた時<Next> -->
 <!-- <RB><RS Robert>ん？ あ、ああ<Next> -->
 <!-- <End> -->
-<RB><RS Robert>いや、まあ…<NL>そこはその…<NL>おれも悪かった訳だが<Next>
-<LB><LS Mina>くす…<NL>かっこよかったよ<NL>イワトカゲから<NL>守ってくれた時<Next>
-<RB><RS Robert>ん？ あ、ああ<Next>
+<RB><RS Robert>No, well, I mean... it's my bad, too.<Next>
+<LB><LS Mina>Ha... You looked cool, though. Saving us from that Rocklizard.<Next>
+<RB><RS Robert>W-what, that? Oh, yeah.<Next>
 <End>
 
 
@@ -1316,10 +1315,10 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB><LS Mina>くすくす…<NL>それでは…<Next> -->
 <!-- <LB><LS Otto>おにいちゃん<NL>風来坊さん<NL>また会おうね！<Next> -->
 <!-- <End> -->
-<RB><RS Robert>だはははははは<Next>
-まぁな、おれは<NL>カッコイイからな！<Next>
-<LB><LS Mina>くすくす…<NL>それでは…<Next>
-<LB><LS Otto>おにいちゃん<NL>風来坊さん<NL>また会おうね！<Next>
+<RB><RS Robert>Dahahahahahaha!<Next>
+Well, yup, I can't help being cool.<Next>
+<LB><LS Mina>Hehehe... Well, then.<Next>
+<LB><LS Otto>Gray... Mister weird guy... See you!<Next>
 <End>
 
 
@@ -1327,7 +1326,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <RB><RS Innkeeper>おぉ、ミーナちゃん<NL>一晩２０ポリゴンだが<NL>休んでいくのかな？<Next> -->
 <!-- <End> -->
-<RB><RS Innkeeper>おぉ、ミーナちゃん<NL>一晩２０ポリゴンだが<NL>休んでいくのかな？<Next>
+<RB><RS Innkeeper>Hey, Mina! It's 20 polygons to stay the night. What do you say?<Next>
 <End>
 
 
@@ -1336,8 +1335,8 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB><LS MinaInn>うんっ！<Next> -->
 <!-- <RB><RS Innkeeper>部屋は空いているからね<NL>ゆっくりして行きなさい<Next> -->
 <!-- <End> -->
-<LB><LS MinaInn>うんっ！<Next>
-<RB><RS Innkeeper>部屋は空いているからね<NL>ゆっくりして行きなさい<Next>
+<LB><LS MinaInn>Sure!<Next>
+<RB><RS Innkeeper>Alright! Your room's ready for you.<Next>
 <End>
 
 
@@ -1347,9 +1346,9 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB><LS MinaInn>うん、ばっちり！<Next> -->
 <!-- <RB>ははは、そうかそうか<NL>どうもありがとうね<Next> -->
 <!-- <End> -->
-<RB><RS Innkeeper>もういいのかい<NL>疲れはとれたかな？<Next>
-<LB><LS MinaInn>うん、ばっちり！<Next>
-<RB>ははは、そうかそうか<NL>どうもありがとうね<Next>
+<RB><RS Innkeeper>My, you're up already! Did you sleep well?<Next>
+<LB><LS MinaInn>Yup, slept like a baby!<Next>
+<RB>Haha, I see! Well, thanks for your patronage.<Next>
 <End>
 
 
@@ -1358,8 +1357,8 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB><LS MinaInn>ううん、今はいいわ<Next> -->
 <!-- <RB><RS Innkeeper>そうかい<NL>無理はせんようにな<Next> -->
 <!-- <End> -->
-<LB><LS MinaInn>ううん、今はいいわ<Next>
-<RB><RS Innkeeper>そうかい<NL>無理はせんようにな<Next>
+<LB><LS MinaInn>Hmm, not right now.<Next>
+<RB><RS Innkeeper>Alright! Well, don't push yourself.<Next>
 <End>
 
 
@@ -1368,39 +1367,39 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB><RS Innkeeper>ちょっと足りないね<Next> -->
 <!-- <LB><LS MinaInn>やだ、ごめんなさい<NL>また今度にするわ<Next> -->
 <!-- <End> -->
-<RB><RS Innkeeper>ちょっと足りないね<Next>
-<LB><LS MinaInn>やだ、ごめんなさい<NL>また今度にするわ<Next>
+<RB><RS Innkeeper>You're a little short...<Next>
+<LB><LS MinaInn>Oh yikes, I'm sorry! Guess it'll have to wait.<Next>
 <End>
 
 
 = event 0x00e6 at 0x2c79
 
 <!-- <RB><RS Shopkeeper>いらっしゃいませ…<NL>あら、ミーナちゃん<NL>何かご入り用かな？<End> -->
-<RB><RS Shopkeeper>いらっしゃいませ…<NL>あら、ミーナちゃん<NL>何かご入り用かな？<End>
+<RB><RS Shopkeeper>Welcome to the... oh, Mina, it's you! Need anything?<End>
 
 
 = event 0x00e8 at 0x2c9d
 
 <!-- <RB><RS Shopkeeper>ザウワークラウトね？<NL>１０ポリゴンよ<Next> -->
 <!-- <RB>体力回復にどうぞ<End> -->
-<RB><RS Shopkeeper>ザウワークラウトね？<NL>１０ポリゴンよ<Next>
-<RB>体力回復にどうぞ<End>
+<RB><RS Shopkeeper>Sauerkraut? That's 10 polygons.<Next>
+<RB>It recovers your health.<End>
 
 
 = event 0x00ea at 0x2cc2
 
 <!-- <RB><RS Shopkeeper>メディヴァインね？<NL>えっと…<NL>５０ポリゴンです<Next> -->
 <!-- <RB>回復力はこっちのが<NL>かなりいいみたい<End> -->
-<RB><RS Shopkeeper>メディヴァインね？<NL>えっと…<NL>５０ポリゴンです<Next>
-<RB>回復力はこっちのが<NL>かなりいいみたい<End>
+<RB><RS Shopkeeper>Medivine? Those are 50 polygons each.<Next>
+<RB>It's a pretty strong healing item.<End>
 
 
 = event 0x00ec at 0x2cf8
 
 <!-- <RB><RS Shopkeeper>紫ミカンの実はね…<NL>１２０ポリゴンね<NL>ちょっと高いんだけど<Next> -->
 <!-- <RB>もう、ダメって時に<NL>使ってね<End> -->
-<RB><RS Shopkeeper>紫ミカンの実はね…<NL>１２０ポリゴンね<NL>ちょっと高いんだけど<Next>
-<RB>もう、ダメって時に<NL>使ってね<End>
+<RB><RS Shopkeeper>Purple tangerines... those are 120 a pop.<Next>
+<RB>They're a bit expensive, but they'll really pep you up.<End>
 
 
 = event 0x00ee at 0x2d2f
@@ -1409,9 +1408,9 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB><LS Mina>うん、やっぱり<NL>やめとくわ<Next> -->
 <!-- <RB><RS Shopkeeper>はい、どうもありがとう<NL>また、来てね<Next> -->
 <!-- <End> -->
-<RB><RS Shopkeeper>あら？ いいの？<Next>
-<LB><LS Mina>うん、やっぱり<NL>やめとくわ<Next>
-<RB><RS Shopkeeper>はい、どうもありがとう<NL>また、来てね<Next>
+<RB><RS Shopkeeper>Ah, changed your mind?<Next>
+<LB><LS Mina>Yeah, maybe some other time...<Next>
+<RB><RS Shopkeeper>Okay, no problem! Come again.<Next>
 <End>
 
 
@@ -1419,7 +1418,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <LB><LS MinaShop>うん、それちょうだい<Next> -->
 <!-- <End> -->
-<LB><LS MinaShop>うん、それちょうだい<Next>
+<LB><LS MinaShop>Yeah, I'll have one of those.<Next>
 <End>
 
 
@@ -1427,7 +1426,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <RB><RS Shopkeeper>はい、どうぞ<NL>いつもありがとう<Next> -->
 <!-- <End> -->
-<RB><RS Shopkeeper>はい、どうぞ<NL>いつもありがとう<Next>
+<RB><RS Shopkeeper>Here you go! Pleasure doing business.<Next>
 <End>
 
 
@@ -1436,8 +1435,8 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <LB><LS MinaShop>あ、ごめんなさい！<NL>やっぱりそれ、いいです<Next> -->
 <!-- <RB><RS Shopkeeper>ううん、じゃまた今度ね<NL>どうもありがとう<Next> -->
 <!-- <End> -->
-<LB><LS MinaShop>あ、ごめんなさい！<NL>やっぱりそれ、いいです<Next>
-<RB><RS Shopkeeper>ううん、じゃまた今度ね<NL>どうもありがとう<Next>
+<LB><LS MinaShop>Ah, sorry! I don't need that after all.<Next>
+<RB><RS Shopkeeper>Okay, sure, maybe some other time!<Next>
 <End>
 
 
