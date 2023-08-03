@@ -14,17 +14,6 @@
 #     otto start 141b 141c 141d...
 #
 
-
-# save games:
-#
-# rom[0xc5000:0xc5400] = 0x400 bytes (what format?)
-# rom[0x2580:0x25a0] = b'WSSAVE00DAT \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xef\xba\xfcV\x07\x03\x00\x04\x00\x00'
-
-
-# oh god. the story is loaded into 0x7cb00 in memory,
-# but something else is loaded into 0x80b00 so it gets clobbered.
-# That means there's 0x4000 bytes for the story but we need 0x5188 bytes.
-
 from dataclasses import dataclass
 from typing import Dict, List
 import os.path
@@ -140,6 +129,9 @@ if __name__ == "__main__":
             print("Dumping", path)
             with open("dump\\" + name, "wb") as of:
                 of.write(data)
+
+    if "--dump-save" in sys.argv:
+        exit()
 
     ws = fs["WS.COM"]
     ws_patched = bytearray(ws)
@@ -266,8 +258,8 @@ if __name__ == "__main__":
     # Copy more story (0x2900 words instead of 0x2000, i.e. 0x5200 bytes not 0x4000)
     edit(ws_patched, 0x304, b"\xb9\x00\x29")
 
-    # CS:b7af is the DS value for story.
-    # CS:b7ad is the DS value for what comes after.
+    # CS:b7af holds the DS value for story.
+    # CS:b7ad holds the DS value for what comes after.
     # (remember 2e 8e 1e af b7 is the MOV DS instruction for reading story)
     # This ADD instruction adjusts the gap between them. We change it from 0x400 to 0x600.
     # This really wins us 0x2000 bytes, not 0x200, because segment pointers express 16-byte increments.
@@ -291,25 +283,25 @@ if __name__ == "__main__":
     fs["DRBIOS.COM"] = bios_patched
     fs["WS.COM"] = ws_patched
     fs["WSDATA.FCP"] = pack_fcp(fcp)
-    with open("dump/WSSAVE00_lv1_forest.DAT", "rb") as f:
-        sav = bytearray(f.read())
 
-    # lvl, hp, maxhp, atk, def, spd
-    stats = struct.pack("<BHHHHH", 99, 999, 999, 999, 999, 999)
+    try:
+        with open("dump/WSSAVE00_1_forest.DAT", "rb") as f:
+            sav = bytearray(f.read())
 
-    # Mina stats
-    sav[0x6A : 0x6A + 11] = stats
-    sav[0x9A:0x9C] = (9999).to_bytes(2, "little")
-    # Otto stats
-    sav[0xF0 : 0xF0 + 11] = stats
+        # lvl, hp, maxhp, atk, def, spd
+        stats = struct.pack("<BHHHHH", 99, 999, 999, 999, 999, 999)
 
-    fs["WSSAVE00.DAT"] = sav
+        # Mina stats
+        sav[0x6A : 0x6A + 11] = stats
+        sav[0x9A:0x9C] = (9999).to_bytes(2, "little")
+        # Otto stats
+        sav[0xF0 : 0xF0 + 11] = stats
+
+        fs["WSSAVE00.DAT"] = sav
+    except FileNotFoundError:
+        print("Not inserting save file")
+
     patched = pack_fdi(fs, rom)
-
-    # patched[
-    #     0x2580:0x25A0
-    # ] = b"WSSAVE00DAT \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xef\xba\xfcV\x07\x03\x00\x04\x00\x00"
-    # patched[0xC5000:0xC5400] = open("dump/WSSAVE01_start.DAT", "rb").read()
 
     with open("patched.fdi", "wb") as of:
         print("Writing patched.fdi")

@@ -114,7 +114,7 @@ def dump(story, table):
 
 
 def parse():
-    with open("story-eng.txt") as f:
+    with open("story-eng.txt", encoding="utf-8") as f:
         translation = f.read()
     event_id = None
     buffer = bytearray(0x201)
