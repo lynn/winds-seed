@@ -1448,11 +1448,11 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS OttoShop>おねぇちゃんの<NL>おっちょこちょい<Next> -->
 <!-- <LB>うっひゃー<NL>はづかち～<Next> -->
 <!-- <End> -->
-<LB><LS MinaShop>ひぃふぅみぃ…<NL>あちゃっ！<NL>お金が足んないわ<Next>
-<RB><RS Shopkeeper>あら、いいわよ<NL>ミーナちゃんだったら<Next>
-<LB>いやいやいやいや<NL>そんなっ！<Next>
-<RB><RS OttoShop>おねぇちゃんの<NL>おっちょこちょい<Next>
-<LB>うっひゃー<NL>はづかち～<Next>
+<LB><LS MinaShop>One, two, three... Drat! I'm short.<Next>
+<RB><RS Shopkeeper>Aw, it's fine! Here, 'cuz it's you.<Next>
+<LB>Oh, no no no! You don't have to!<Next>
+<RB><RS OttoShop>Sis, you're such a ditz sometimes.<Next>
+<LB>Aah, I'm so embarrassed...<Next>
 <End>
 
 
@@ -1463,10 +1463,10 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB>たくさん置いてるから<NL>またいつでもどうぞ<Next> -->
 <!-- <LB>あ、あはははは<NL>欲張っちゃダメだなー<Next> -->
 <!-- <End> -->
-<RB><RS Shopkeeper>でも、大丈夫？<NL>荷物がいっぱい<NL>みたいだけど…？<Next>
-<LB><LS MinaShop>やっぱ、無理かな？<NL>あははははは…<Next>
-<RB>たくさん置いてるから<NL>またいつでもどうぞ<Next>
-<LB>あ、あはははは<NL>欲張っちゃダメだなー<Next>
+<RB><RS Shopkeeper>You're carrying a lot of stuff, though...<Next>
+<LB><LS MinaShop>Hahaha, yeah, that might be a bit too much.<Next>
+<RB>We have a lot in stock, so come back whenever.<Next>
+<LB>Ehehe, yeah, I shouldn't be greedy!<Next>
 <End>
 
 
@@ -1477,10 +1477,10 @@ Well, yup, I can't help being cool.<Next>
 <!-- 竹ヒゴみたいななりだが<NL>バケモノはバケモノだ<Next> -->
 <!-- <LB><LS Otto>バケモノ…<Next> -->
 <!-- <End> -->
-<RB><RS InnGuest>んーむむむ<Next>
-村の外には“石鬼”がおる<Next>
-竹ヒゴみたいななりだが<NL>バケモノはバケモノだ<Next>
-<LB><LS Otto>バケモノ…<Next>
+<RB><RS InnGuest>Hrmmm...<Next>
+"Golems" dwell the outskirts of this town.<Next>
+They may look like big ol' bamboo shoots, but they're monsters all the same.<Next>
+<LB><LS Otto>Monsters...<Next>
 <End>
 
 
@@ -1492,11 +1492,11 @@ Well, yup, I can't help being cool.<Next>
 <!-- これも魔性のものだ<Next> -->
 <!-- <LB><LS Otto>お、おじさん…<NL>おどかさないで…<Next> -->
 <!-- <End> -->
-<RB><RS InnGuest>んーむむむ<Next>
-バケモノはたっぷりおる<Next>
-“コトダマ”とか<NL>“カナキリゴエ”とかな<Next>
-これも魔性のものだ<Next>
-<LB><LS Otto>お、おじさん…<NL>おどかさないで…<Next>
+<RB><RS InnGuest>Hrmmm...<Next>
+There's a lotta monsters out there.<Next>
+"Kotodama" and "Sirens" and all that.<Next>
+Evil spirits, if you will.<Next>
+<LB><LS Otto>Mister... please don't scare me...<Next>
 <End>
 
 
@@ -1505,8 +1505,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS CurryEater>やあ、おれはまうちゅ～<NL>カレーライスと<NL>カールルイスは<NL>似てるよね<Next> -->
 <!-- <LB><LS Mina>うん！<NL>そっくりっ<Next> -->
 <!-- <End> -->
-<RB><RS CurryEater>やあ、おれはまうちゅ～<NL>カレーライスと<NL>カールルイスは<NL>似てるよね<Next>
-<LB><LS Mina>うん！<NL>そっくりっ<Next>
+<RB><RS CurryEater>Yo, I'm Mauchuu from Compile. Doesn't "curry rice" sound like "Carl Lewis"?<Next>
+<LB><LS Mina>Yeah, it totally does!<Next>
 <End>
 
 
@@ -1515,8 +1515,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS Mina>ねぇねぇ<NL>ライスカレーと<NL>ダン・ジャンセンって<NL>似てるかなぁ！？<Next> -->
 <!-- <RB><RS CurryEater>ぜんぜん似てない<Next> -->
 <!-- <End> -->
-<LB><LS Mina>ねぇねぇ<NL>ライスカレーと<NL>ダン・ジャンセンって<NL>似てるかなぁ！？<Next>
-<RB><RS CurryEater>ぜんぜん似てない<Next>
+<LB><LS Mina>Hey, doesn't "rice curry" totally sound like "Dan Jansen"?<Next>
+<RB><RS CurryEater>What? No, not at all.<Next>
 <End>
 
 
@@ -1527,10 +1527,10 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS Mina>マジ！？<Next> -->
 <!-- <RB><RS Gray>はは、冗談だよ<NL>ヒゲゼンマイの交換さ<Next> -->
 <!-- <End> -->
-<LB><LS Mina>ね、何の修理してんの？<Next>
-<RB><RS Gray>ペンチアムっていう<NL>リスクチップのね…<Next>
-<LB><LS Mina>マジ！？<Next>
-<RB><RS Gray>はは、冗談だよ<NL>ヒゲゼンマイの交換さ<Next>
+<LB><LS Mina>Hey, whatcha repairing?<Next>
+<RB><RS Gray>There's this new Pentium RISC chip for watches...<Next>
+<LB><LS Mina>Seriously!?<Next>
+<RB><RS Gray>Haha, I'm kidding. I'm just replacing a hairspring.<Next>
 <End>
 
 
@@ -1539,8 +1539,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Gray>お祈り草、たくさん<NL>実ってるといいね<Next> -->
 <!-- <LB><LS Mina>うん！<Next> -->
 <!-- <End> -->
-<RB><RS Gray>お祈り草、たくさん<NL>実ってるといいね<Next>
-<LB><LS Mina>うん！<Next>
+<RB><RS Gray>I hope there's lots of praygrass this year.<Next>
+<LB><LS Mina>Me too!<Next>
 <End>
 
 
@@ -1550,9 +1550,9 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB>はっはっは<NL>かんたんかんたん<Next> -->
 <!-- <LB><LS Mina>ネジが、いっこ<NL>余ってるわよ？<Next> -->
 <!-- <End> -->
-<LB><LS Otto><RS Gray>フクザツそうだなぁ<Next>
-<RB>はっはっは<NL>かんたんかんたん<Next>
-<LB><LS Mina>ネジが、いっこ<NL>余ってるわよ？<Next>
+<LB><LS Otto><RS Gray>Watches look so complicated...<Next>
+<RB>Haha! It's pretty easy, once you're used to it.<Next>
+<LB><LS Mina>Um, was this screw supposed to go in?<Next>
 <End>
 
 
@@ -1561,8 +1561,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Otto>おねぇちゃん<NL>こっちでいいの？<Next> -->
 <!-- <LB><LS Mina>ありゃりゃ？<NL>こっちは違うわ<Next> -->
 <!-- <End> -->
-<RB><RS Otto>おねぇちゃん<NL>こっちでいいの？<Next>
-<LB><LS Mina>ありゃりゃ？<NL>こっちは違うわ<Next>
+<RB><RS Otto>Sis, is this the right way?<Next>
+<LB><LS Mina>Wait, what? Oh, it's not.<Next>
 <End>
 
 
@@ -1571,8 +1571,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Otto>おねぇちゃぁん…<NL>今日はもう休もぉよぉ…<Next> -->
 <!-- <LB><LS Mina>あややや！<NL>体力が１しかない！<Next> -->
 <!-- <End> -->
-<RB><RS Otto>おねぇちゃぁん…<NL>今日はもう休もぉよぉ…<Next>
-<LB><LS Mina>あややや！<NL>体力が１しかない！<Next>
+<RB><RS Otto>Sis, let's rest up for today...<Next>
+<LB><LS Mina>Eek, you're right! We're down to 1 HP.<Next>
 <End>
 
 
@@ -1580,7 +1580,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <RB><RS Otto>あ、四つ葉のドリドリ！<NL>めずらしいなぁ！<Next> -->
 <!-- <End> -->
-<RB><RS Otto>あ、四つ葉のドリドリ！<NL>めずらしいなぁ！<Next>
+<RB><RS Otto>Oh, four-leaf Doris! How rare!<Next>
 <End>
 
 
@@ -1588,7 +1588,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <RB><RS Otto>これ、とっておくね<Next> -->
 <!-- <End> -->
-<RB><RS Otto>これ、とっておくね<Next>
+<RB><RS Otto>I'll pick this one.<Next>
 <End>
 
 
@@ -1597,8 +1597,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Otto>あ、でも取りすぎかなぁ<Next> -->
 <!-- <LB><LS Mina>それっくらいに<NL>しときましょ<Next> -->
 <!-- <End> -->
-<RB><RS Otto>あ、でも取りすぎかなぁ<Next>
-<LB><LS Mina>それっくらいに<NL>しときましょ<Next>
+<RB><RS Otto>Oh, but we can't carry that much.<Next>
+<LB><LS Mina>That's probably enough for now.<Next>
 <End>
 
 
@@ -1608,9 +1608,9 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Otto>いいの？<NL>勝手に持ってっても<Next> -->
 <!-- <LB>へーきへーき<Next> -->
 <!-- <End> -->
-<LB><LS Mina>メディヴァインが<NL>たっぷりあるわ！<Next>
-<RB><RS Otto>いいの？<NL>勝手に持ってっても<Next>
-<LB>へーきへーき<Next>
+<LB><LS Mina>Wow, it's full of Medivines!<Next>
+<RB><RS Otto>Can we just take these?<Next>
+<LB>It's fine, it's fine.<Next>
 <End>
 
 
@@ -1618,7 +1618,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <LB><LS Mina>もらってくよー<Next> -->
 <!-- <End> -->
-<LB><LS Mina>もらってくよー<Next>
+<LB><LS Mina>Don't mind if I do!<Next>
 <End>
 
 
@@ -1627,15 +1627,15 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Otto>でも、もう持てないよ<Next> -->
 <!-- <LB><LS Mina>あうん…<NL>しょーがないか…<Next> -->
 <!-- <End> -->
-<RB><RS Otto>でも、もう持てないよ<Next>
-<LB><LS Mina>あうん…<NL>しょーがないか…<Next>
+<RB><RS Otto>But we can't hold any more.<Next>
+<LB><LS Mina>Oops... Nevermind, then.<Next>
 <End>
 
 
 = event 0x0154 at 0x2e8e
 
 <!-- <RB><RS Shopkeeper>他にも、何かあるかしら？<End> -->
-<RB><RS Shopkeeper>他にも、何かあるかしら？<End>
+<RB><RS Shopkeeper>Do you need anything else?<End>
 
 
 = event 0x0156 at 0x078f
@@ -1657,22 +1657,22 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS Mina>大丈夫だって<Next> -->
 <!-- あたしがいるんだから！<Next> -->
 <!-- <End> -->
-<LB><LS Mina>お兄ちゃん！<Next>
-<RB><RS Gray>…ミーナちゃん！<NL>ミーナちゃんじゃないか<Next>
-どう、元気にしてた？<Next>
-<LB><LS Mina>もっちろん！<Next>
-…へぇ、思ってたより<NL>忙しそうじゃない<Next>
-でも、ってことは<NL>まだ、お師匠さんの<NL>行方はわからないの？<Next>
-<RB><RS Gray>ああ、まあね<Next>
-いずれひょっこりと<NL>帰ってくるとは<NL>思うんだけどね<Next>
-それより<NL>西の森向こうの草原には<NL>いつ行くんだい？<Next>
-<LB><LS Mina>明日、いちばんに！<Next>
-<RB><RS Gray>はは、そうかい<NL>元気いっぱいだね<Next>
-でも、あの辺りは<NL>石鬼がでるからね<Next>
-気をつけるんだよ<Next>
-<LB><LS Otto>いし…おに…？<NL>こ、こわいの…？<NL>それって… …<Next>
-<LB><LS Mina>大丈夫だって<Next>
-あたしがいるんだから！<Next>
+<LB><LS Mina>Gray!<Next>
+<RB><RS Gray>Mina! Oh, look how you've grown!<Next>
+How have you two been<Next>
+<LB><LS Mina>Just peachy!<Next>
+Wow, you look busier than I imagined.<Next>
+Did you ever figure out where your teacher went off to?<Next>
+<RB><RS Gray>Ah, not really...<Next>
+I'm sure he'll suddenly show up again soon.<Next>
+When are you heading to the fields past the western forest?<Next>
+<LB><LS Mina>First thing tomorrow!<Next>
+<RB><RS Gray>Haha, I see. Lively as always.<Next>
+Well, that area is full of Golems...<Next>
+Watch out for them.<Next>
+<LB><LS Otto>Golems...? Are those scary?<Next>
+<LB><LS Mina>You'll be fine!<Next>
+They'll have to get past me!<Next>
 <End>
 
 
@@ -1681,8 +1681,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS Mina>草原に行くのは<NL>明日にしようね<Next> -->
 <!-- <RB><RS Otto>うん、もうくたくただよぉ<Next> -->
 <!-- <End> -->
-<LB><LS Mina>草原に行くのは<NL>明日にしようね<Next>
-<RB><RS Otto>うん、もうくたくただよぉ<Next>
+<LB><LS Mina>Let's not head out there today.<Next>
+<RB><RS Otto>Yeah, I'm beat.<Next>
 <End>
 
 
@@ -1697,14 +1697,14 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS MinaG>ごめーん、ほんとはね<NL>森の村にいるんだよ<Next> -->
 <!-- <LB><LS OttoG>すっごく腕のいい<NL>時計職人なんです<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>ンなわけねぇだろ！<Next>
-<LB><LS MinaG>そんな、子供あいてに<NL>本気で怒んなくても<Next>
-<LB><LS OttoG>ダメだよ、おねぇちゃん<NL>ウソいっちゃあ<Next>
-<LB><LS MinaG>そうね<Next>
-本気にしたら困るし<Next>
-<RB><RS Garriott>紫色の巨人をかい！<Next>
-<LB><LS MinaG>ごめーん、ほんとはね<NL>森の村にいるんだよ<Next>
-<LB><LS OttoG>すっごく腕のいい<NL>時計職人なんです<Next>
+<RB><RS Garriott>Don't mess with me!!<Next>
+<LB><LS MinaG>You don't have to get so angry, lady! We're just kids!<Next>
+<LB><LS OttoG>Sis, you shouldn't tell lies...<Next>
+<LB><LS MinaG>Oh, you're right.<Next>
+Someone might actually fall for 'em.<Next>
+<RB><RS Garriott>C'mon, a purple giant? As if!<Next>
+<LB><LS MinaG>Sorry! He's actually in the forest village.<Next>
+<LB><LS OttoG>He's a talented watchmaker.<Next>
 <End>
 
 
@@ -1715,10 +1715,10 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Garriott>そうなんだ<NL>教えてくれてありがと<NL>そっちのお嬢ちゃんもね<Next> -->
 <!-- <LB><LS OttoG>あ、あの…ぼく、男…<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>時計、職人…<NL>まちがいないわね？<Next>
-<LB><LS MinaG>間違うもんか<NL>グレイお兄ちゃんの<NL>技術は最高だもん<Next>
-<RB><RS Garriott>そうなんだ<NL>教えてくれてありがと<NL>そっちのお嬢ちゃんもね<Next>
-<LB><LS OttoG>あ、あの…ぼく、男…<Next>
+<RB><RS Garriott>A watchmaker... you're sure about that?<Next>
+<LB><LS MinaG>Why wouldn't I be? He's really good, y'know!<Next>
+<RB><RS Garriott>I see. Thanks for telling me. You too, little girl.<Next>
+<LB><LS OttoG>I-I'm actually not a...<Next>
 <End>
 
 
@@ -1729,10 +1729,10 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS Mina>ううん まだだよ<Next> -->
 <!-- <RB><RS Innkeeper>それはイカンなあ<NL>ちょっとだけでも<NL>話をしてこなきゃ<Next> -->
 <!-- <End> -->
-<RB><RS Innkeeper>ミーナちゃんじゃないか<NL>ひさしぶりだなあ<Next>
-時計屋のグレイには<NL>もう、会ってきたかな？<Next>
-<LB><LS Mina>ううん まだだよ<Next>
-<RB><RS Innkeeper>それはイカンなあ<NL>ちょっとだけでも<NL>話をしてこなきゃ<Next>
+<RB><RS Innkeeper>Hey, Mina! Long time no see!<Next>
+Did you go see Gray at the watch shop?<Next>
+<LB><LS Mina>We haven't, yet.<Next>
+<RB><RS Innkeeper>Well, that's no way to treat him! Go say hi, first.<Next>
 <End>
 
 
@@ -1741,8 +1741,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Gray>ちょっと待った！<NL>その奥は、カンベンしてよ<Next> -->
 <!-- 散らかってるんだ<Next> -->
 <!-- <End> -->
-<RB><RS Gray>ちょっと待った！<NL>その奥は、カンベンしてよ<Next>
-散らかってるんだ<Next>
+<RB><RS Gray>Oh, please don't go back there!<Next>
+It's an awful mess.<Next>
 <End>
 
 
@@ -1751,8 +1751,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Shopkeeper>ミーナちゃん<NL>わぁ、おひさしぶり<Next> -->
 <!-- <RB>あ、でも今日はもう<NL>お店おしまいだから<NL>また明日いらしてね<Next> -->
 <!-- <End> -->
-<RB><RS Shopkeeper>ミーナちゃん<NL>わぁ、おひさしぶり<Next>
-<RB>あ、でも今日はもう<NL>お店おしまいだから<NL>また明日いらしてね<Next>
+<RB><RS Shopkeeper>Oh, Mina! Fancy seeing you here!<Next>
+<RB>We've closed up shop for today, but you should swing by tomorrow.<Next>
 <End>
 
 
@@ -1760,7 +1760,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <RB><RS Gray>やあ… いらっしゃ…<Next> -->
 <!-- <End> -->
-<RB><RS Gray>やあ… いらっしゃ…<Next>
+<RB><RS Gray>Welcome...<Next>
 <End>
 
 
@@ -1774,13 +1774,13 @@ Well, yup, I can't help being cool.<Next>
 <!-- そうかそうか<Next> -->
 <!-- <RB><RS Gray>どうしたんだい？<NL>考え込んだりして<Next> -->
 <!-- <End> -->
-<LB><LS Robert>完全に無視された…<Next>
-<RB><RS Gray>まあ<NL>そういう年頃だから<Next>
-<LB><LS Robert>あの娘、草原へ<NL>行くのか<Next>
-<RB><RS Gray>ああ、そうだよ<Next>
-<LB><LS Robert>そうか…<Next>
-そうかそうか<Next>
-<RB><RS Gray>どうしたんだい？<NL>考え込んだりして<Next>
+<LB><LS Robert>...They totally ignored me.<Next>
+<RB><RS Gray>Oh, kids will be kids.<Next>
+<LB><LS Robert>Did that girl say she's going to the fields?<Next>
+<RB><RS Gray>Uh, yes.<Next>
+<LB><LS Robert>I see...<Next>
+I see, I seeee...<Next>
+<RB><RS Gray>Something wrong? You look all pensive.<Next>
 <End>
 
 
@@ -1789,8 +1789,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS Robert>だっはっはっはっは<Next> -->
 <!-- <RB><RS Gray>なんだなんだ？<NL>気味が悪いな<Next> -->
 <!-- <End> -->
-<LB><LS Robert>だっはっはっはっは<Next>
-<RB><RS Gray>なんだなんだ？<NL>気味が悪いな<Next>
+<LB><LS Robert>Dahahahaha!<Next>
+<RB><RS Gray>What's all this? Are you okay!?<Next>
 <End>
 
 
@@ -1801,10 +1801,11 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS Robert>という訳で<NL>他を当たる事にするわ<Next> -->
 <!-- <RB><RS Gray>…よくわからないけど<NL>それがいいよ<Next> -->
 <!-- <End> -->
-<LB><LS Robert>あんた… …<NL>中華料理は好きか？<Next>
-<RB><RS Gray>なんだい？ 急に…<Next>
-<LB><LS Robert>という訳で<NL>他を当たる事にするわ<Next>
-<RB><RS Gray>…よくわからないけど<NL>それがいいよ<Next>
+<LB><LS Robert>Hey pal. You like Chinese food?<Next>
+<RB><RS WindsSeed>(T/N: This is a Compile in-joke. Don't overthink it.)<Next>
+<RB><RS Gray>How does that have to do with anything!?<Next>
+<LB><LS Robert>Yeah, nevermind. I'm gonna go look somewhere else.<Next>
+<RB><RS Gray>I don't follow at all anymore. But, yeah, sounds good.<Next>
 <End>
 
 
@@ -1814,9 +1815,9 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Otto>ど、どしたの…？<NL>なにかいるの？<Next> -->
 <!-- <LB><LS Mina>え？ いやいや<NL>ただの気のせいみたい<Next> -->
 <!-- <End> -->
-<LB><LS Mina>ん？<Next>
-<RB><RS Otto>ど、どしたの…？<NL>なにかいるの？<Next>
-<LB><LS Mina>え？ いやいや<NL>ただの気のせいみたい<Next>
+<LB><LS Mina>Hmmm...?<Next>
+<RB><RS Otto>W-what's up? Is there something there?<Next>
+<LB><LS Mina>Oh, no, no. Just my imagination.<Next>
 <End>
 
 
@@ -1835,18 +1836,17 @@ Well, yup, I can't help being cool.<Next>
 <!-- 運動会で一等賞<Next> -->
 <!-- …待ってろよ<NL>おれのメシ<Next> -->
 <!-- <End> -->
-<RB><RS Robert><LS Blank>ふぅ、あぶねぇあぶねぇ<Next>
-バレちまう所だった<Next>
-子供ふたりで、こんな<NL>森の中を歩いて行くん<NL>だからな<Next>
-ピンチの一個や二個は<NL>あるはずだ<Next>
-そこでいきなりおれ登場<Next>
-有無を言わさず大格闘<Next>
-ウットリ少女がありがとう<Next>
-嬉しや明日にゃ用心棒<Next>
-うむ、メシはこれで楽勝<Next>
-ウッキーお猿の孫悟空<Next>
-運動会で一等賞<Next>
-…待ってろよ<NL>おれのメシ<Next>
+<RB><RS Robert><LS Blank>Whew, that was close!<Next>
+They almost saw me.<Next>
+Two little kids like that heading into the forest alone...<Next>
+are sure to run into some sticky situations!!<Next>
+And BOOM! That's when I come in.<Next>
+Save them from some big showdown!<Next>
+I can already hear the girl go, "thank you!"<Next>
+I'll be this village's guard by tomorrow.<Next>
+They'll shower me in praise! And food!<Next>
+Robert, you've done it again!<Next>
+...Crap, I better catch up to them!<Next>
 <End>
 
 
@@ -1855,8 +1855,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Robert><LS Blank>だははははは！<Next> -->
 <!-- 気付かれてないな！？<Next> -->
 <!-- <End> -->
-<RB><RS Robert><LS Blank>だははははは！<Next>
-気付かれてないな！？<Next>
+<RB><RS Robert><LS Blank>Dahahahaha!<Next>
+They didn't notice me, huh!<Next>
 <End>
 
 
@@ -1866,9 +1866,9 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Otto>え、ほ、ホントに…？<Next> -->
 <!-- <LB><LS Mina>うん、ま、いっか…<Next> -->
 <!-- <End> -->
-<LB><LS Mina>んー、どうも<NL>視線を感じるな…<Next>
-<RB><RS Otto>え、ほ、ホントに…？<Next>
-<LB><LS Mina>うん、ま、いっか…<Next>
+<LB><LS Mina>I can't help but feel like I'm being watched...<Next>
+<RB><RS Otto>R-really...?<Next>
+<LB><LS Mina>Yeah. Probably nothing...<Next>
 <End>
 
 
@@ -1878,9 +1878,9 @@ Well, yup, I can't help being cool.<Next>
 <!-- とっさに木の上に<NL>隠れたはいいが…<Next> -->
 <!-- どうやって降りようか…<Next> -->
 <!-- <End> -->
-<RB><RS Robert><LS Blank>うーーーーむ<NL>これはまいった…<Next>
-とっさに木の上に<NL>隠れたはいいが…<Next>
-どうやって降りようか…<Next>
+<RB><RS Robert><LS Blank>I've really done it now.<Next>
+I climbed up a tree in a jiffy, no problem, but...<Next>
+Now how do I get down??<Next>
 <End>
 
 
@@ -1891,10 +1891,10 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Otto>え？ な、なに…<Next> -->
 <!-- <RB><RS Blank>アイﾖ<NL>アレコレグジャラシター！<Next> -->
 <!-- <End> -->
-<LB><LS Mina>ねぇ、オットー<NL>ちょっと待って！<Next>
-何か、様子がヘンよ<Next>
-<RB><RS Otto>え？ な、なに…<Next>
-<RB><RS Blank>アイﾖ<NL>アレコレグジャラシター！<Next>
+<LB><LS Mina>Hey Otto, wait up!<Next>
+Something's not right here.<Next>
+<RB><RS Otto>Huh? What is it...<Next>
+<RB><RS Blank>Oh, the humanity!!<Next>
 <End>
 
 
@@ -1905,10 +1905,10 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB>えらいこっちゃぁ～<NL>黒い一角獣じゃいや～！<Next> -->
 <!-- 黒い一角獣が村を襲い<NL>あまつさえ、わしまで<NL>ハジキとばしよったん<NL>じゃいやぁ～！！<Next> -->
 <!-- <End> -->
-<RB><RS God><Size 04>はが～<Next>
-<LB><LS Mina>ちょ、ちょっと<NL>どうしたの？ 神様<Next>
-<RB>えらいこっちゃぁ～<NL>黒い一角獣じゃいや～！<Next>
-黒い一角獣が村を襲い<NL>あまつさえ、わしまで<NL>ハジキとばしよったん<NL>じゃいやぁ～！！<Next>
+<RB><RS God><Size 04>You!!!<Next>
+<LB><LS Mina>W-what's wrong, village spirit?!<Next>
+<RB>Oh, sweet child! It's that darn Black Unicorn!<Next>
+They attacked our town and kicked the daylights outta me!<Next>
 <End>
 
 
@@ -1921,12 +1921,12 @@ Well, yup, I can't help being cool.<Next>
 <!-- ええか、黒い一角獣はの<NL>最近、アチコチで<NL>悪さばかりしておる<NL>謎の集団なんじゃいや<Next> -->
 <!-- <RB>各地で村を襲っては<NL>物を奪っておっての<Next> -->
 <!-- <End> -->
-<LB><LS Mina>なにそれ？<Next>
-<RB><RS God>かーーー！！<NL>そんな事も知らんの<NL>かいやーー！！<Next>
-<LB>うん<Next>
-<RB>しようのない奴じゃいや<Next>
-ええか、黒い一角獣はの<NL>最近、アチコチで<NL>悪さばかりしておる<NL>謎の集団なんじゃいや<Next>
-<RB>各地で村を襲っては<NL>物を奪っておっての<Next>
+<LB><LS Mina>The what now?<Next>
+<RB><RS God>Gaaah! Don't you know about them!?<Next>
+<LB>No.<Next>
+<RB>Yer a real lost cause, aren'tcha...<Next>
+Black Unicorn's a strange gang that's been causin' trouble all over.<Next>
+<RB>They raid villages and plunder 'em for wares.<Next>
 <End>
 
 
@@ -1941,14 +1941,14 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS Mina>ど、どらえもん…<Next> -->
 <!-- <RB>ちがうわい<NL>ばかもんが<Next> -->
 <!-- <End> -->
-<RB><RS God>なにをヘタっとる<Next>
-<LB><LS Mina>話が長くなりそうだから<Next>
-<RB>時は元禄十六ねン～<NL>将軍綱吉、犬公望ォ～<Next>
-<LB>無理やり長くしなくても…<Next>
-<RB>困った事に、きゃつら<NL>なにやら訳のわからん<NL>妙な道具を使うんじゃいや<Next>
-<LB><LS Otto>妙な道具…？<Next>
-<LB><LS Mina>ど、どらえもん…<Next>
-<RB>ちがうわい<NL>ばかもんが<Next>
+<RB><RS God>...What are y'all doing??<Next>
+<LB><LS Mina>Uh, this just seemed like kind of a long story.<Next>
+<RB>Four score and seven years ago...<Next>
+<LB>You don't have to make it extra long!!<Next>
+<RB>Well, the point is! They're usin' some kinda strange devices.<Next>
+<LB><LS Otto>Strange devices...?<Next>
+<LB><LS Mina>Like the PC-98 and stuff?<Next>
+<RB>No, you fools!!<Next>
 <End>
 
 
@@ -1959,10 +1959,10 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS Mina>なんだっていいわよ<NL>そんな連中<Next> -->
 <!-- いくよ、オットー<Next> -->
 <!-- <End> -->
-<LB><LS Mina>とにかく、その<NL><Color 09>白い恋人<Color 0f>っていうのが<NL>悪いやつらなのね<Next>
-<RB><RS God>わざわざ色まで変えて<NL>ボケんでもええ<Next>
-<LB><LS Mina>なんだっていいわよ<NL>そんな連中<Next>
-いくよ、オットー<Next>
+<LB><LS Mina>Sounds like these <Color 09>White Unicycle<Color 0f> guys are up to no good!<Next>
+<RB><RS God>You don't hold onto a name fer long, eh?<Next>
+<LB><LS Mina>Who cares what they're called!<Next>
+Let's go, Otto!<Next>
 <End>
 
 
@@ -1972,9 +1972,9 @@ Well, yup, I can't help being cool.<Next>
 <!-- ぼくたちが戦うの？<Next> -->
 <!-- <LB><LS Mina>ったりまえでしょ？<NL>そら、行くわよ！<Next> -->
 <!-- <End> -->
-<LB><LS Otto>えぇ～～！？<Next>
-ぼくたちが戦うの？<Next>
-<LB><LS Mina>ったりまえでしょ？<NL>そら、行くわよ！<Next>
+<LB><LS Otto>What!?<Next>
+We're gonna fight them?<Next>
+<LB><LS Mina>Duh, who else? C'mon, let's go!<Next>
 <End>
 
 
@@ -1983,8 +1983,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS God>達者でナ～<Next> -->
 <!-- …おおおおぉぉぉ<NL>頭がクラクラしてきた…<Next> -->
 <!-- <End> -->
-<RB><RS God>達者でナ～<Next>
-…おおおおぉぉぉ<NL>頭がクラクラしてきた…<Next>
+<RB><RS God>Godspeed, juniors!!<Next>
+Oooof... My head's spinnin'...<Next>
 <End>
 
 
@@ -1997,12 +1997,12 @@ Well, yup, I can't help being cool.<Next>
 <!-- ちゃんとギャリオット<NL>っていう名前があるわ<Next> -->
 <!-- おぼえといてね…<NL>といっても、あと数分の<NL>命だろうけど…<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>あら…<NL>おかえりなさい<Next>
-<LB><LS Mina>あ！<Next>
-あんた、さっきの！<Next>
-<RB>あんたとはずいぶんね<Next>
-ちゃんとギャリオット<NL>っていう名前があるわ<Next>
-おぼえといてね…<NL>といっても、あと数分の<NL>命だろうけど…<Next>
+<RB><RS Garriott>Oh... We meet again.<Next>
+<LB><LS Mina>Whoa!<Next>
+You're that chick from earlier!<Next>
+<RB>Ahem, "that chick"?<Next>
+I have a name, you know! It's Garriott.<Next>
+Please remember it... for the last few minutes of your lives!<Next>
 <End>
 
 
@@ -2010,7 +2010,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <RB><RS Garriott>おまえたち<NL>やっておしまい！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>おまえたち<NL>やっておしまい！<Next>
+<RB><RS Garriott>Your story ends here!!<Next>
 <End>
 
 
@@ -2018,7 +2018,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <RB><RS Garriott>しつっこいわね！<NL>どんどん行くわよ！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>しつっこいわね！<NL>どんどん行くわよ！<Next>
+<RB><RS Garriott>Grr, you're stubborn! But there's more to come!<Next>
 <End>
 
 
@@ -2026,7 +2026,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <RB><RS Garriott>勝負は勝ち負けじゃ<NL>ないわ！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>勝負は勝ち負けじゃ<NL>ないわ！<Next>
+<RB><RS Garriott>Ugh! You've won the battle, but not the war!<Next>
 <End>
 
 
@@ -2034,7 +2034,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <RB><RS Garriott>うっきぃいいいい！<NL>バカバカバカ！<NL>覚えてなさい！！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>うっきぃいいいい！<NL>バカバカバカ！<NL>覚えてなさい！！<Next>
+<RB><RS Garriott>Graaaaahh! You twerps! I'll remember this!!<Next>
 <End>
 
 
@@ -2042,7 +2042,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <LB><LS Mina>逃がさないわよ！<Next> -->
 <!-- <End> -->
-<LB><LS Mina>逃がさないわよ！<Next>
+<LB><LS Mina>You're not going anywhere!<Next>
 <End>
 
 
@@ -2052,9 +2052,9 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Garriott>ふん、これを見ても<NL>まだそんなコトが<NL>言えるかしら？<Next> -->
 <!-- 彼を連れといで！<Next> -->
 <!-- <End> -->
-<LB><LS Mina>そこまでよ！<NL>もう逃がさないから！<Next>
-<RB><RS Garriott>ふん、これを見ても<NL>まだそんなコトが<NL>言えるかしら？<Next>
-彼を連れといで！<Next>
+<LB><LS Mina>Hold it! Don't move another step!<Next>
+<RB><RS Garriott>Hmph. Maybe you'll change your tone when you see this.<Next>
+Bring him in!<Next>
 <End>
 
 
@@ -2070,15 +2070,15 @@ Well, yup, I can't help being cool.<Next>
 <!-- わかったら、おうちに<NL>帰りなさいね<NL>でないと…<Next> -->
 <!-- <LB><LS Mina>ヒキョーもの！<Next> -->
 <!-- <End> -->
-<RB><RS Gray>ミーナちゃん！<NL>オットーくん！<Next>
-<LB><LS Mina>お兄ちゃん！<Next>
-<LB><LS Otto>なんで！？<Next>
-<RB><RS Garriott>動かないでね…<NL>あなたのだぁーいじな<NL>お兄ちゃんが<NL>どうなってもいいの？<Next>
-<RB><RS Gray>ぼくなら大丈夫！<NL>君たちは村に戻れ！<Next>
-<RB>無茶をしてはダメだ！<NL>ぼくはきっと帰るから！<Next>
-<RB><RS Garriott>…ということらしいわ<Next>
-わかったら、おうちに<NL>帰りなさいね<NL>でないと…<Next>
-<LB><LS Mina>ヒキョーもの！<Next>
+<RB><RS Gray>Mina! Otto!<Next>
+<LB><LS Mina>Gray!<Next>
+<LB><LS Otto>How did you...!?<Next>
+<RB><RS Garriott>Don't move a muscle... or your precious little friend here gets it!<Next>
+<RB><RS Gray>I'll be fine! You guys head back to the village!<Next>
+<RB>Don't do anything reckless! I'll make it out of here!<Next>
+<RB><RS Garriott>You heard him, kids.<Next>
+If you know what's good for you, head back home. Or else...<Next>
+<LB><LS Mina>You coward!!<Next>
 <End>
 
 
@@ -2086,7 +2086,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <RB><RS Garriott>あっはっはっはっは！<NL>なんとでも言えばいいわ！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>あっはっはっはっは！<NL>なんとでも言えばいいわ！<Next>
+<RB><RS Garriott>Ahahaha! You can call me anything you like.<Next>
 <End>
 
 
@@ -2098,11 +2098,11 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS Mina>そんなことさせないから！<NL>ぜったいに！！<Next> -->
 <!-- <RB><RS Garriott>ふふん…<NL>おっと、もうしばらくは<NL>動かないでね…<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>もちろん<NL>もう用ずみになった村は<NL>近いうちに処分するわよ<Next>
-わが黒い一角獣に<NL>たてついた見せしめにね<Next>
-<LB><LS Otto>村を…！？<Next>
-<LB><LS Mina>そんなことさせないから！<NL>ぜったいに！！<Next>
-<RB><RS Garriott>ふふん…<NL>おっと、もうしばらくは<NL>動かないでね…<Next>
+<RB><RS Garriott>Just know we'll dispose of that stupid town after we're done raiding it.<Next>
+That'll show you for defying Black Unicorn!<Next>
+<LB><LS Otto>The town...!?<Next>
+<LB><LS Mina>We won't let you do that! Not in a million years!!<Next>
+<RB><RS Garriott>Heh heh... Now, remember what <Next>
 <End>
 
 
@@ -2116,13 +2116,13 @@ Well, yup, I can't help being cool.<Next>
 <!-- でも、戻るしかないわ<Next> -->
 <!-- 村の事も心配だし、ね？<Next> -->
 <!-- <End> -->
-<LB><LS Mina>な、ななななな…<Next>
-<RB><RS Otto>おねぇちゃん<NL>どうしよう…<Next>
-<LB>追ってもムダよね…<NL>人質もあるし<Next>
-<RB>でも、お兄ちゃんが…<Next>
-<LB>それはわかってるけど<Next>
-でも、戻るしかないわ<Next>
-村の事も心配だし、ね？<Next>
+<LB><LS Mina>Wh-wh-what...<Next>
+<RB><RS Otto>Sis, what do we do now?<Next>
+<LB>We can't go after them... they have a hostage!<Next>
+<RB>But what will Gray...<Next>
+<LB>I know, I know!<Next>
+But all we can do right now is go back.<Next>
+We gotta think about the town, too, don't we?<Next>
 <End>
 
 
@@ -2130,7 +2130,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <RB><RS TownMan>グレイくんが！？<NL>お気の毒に…<Next> -->
 <!-- <End> -->
-<RB><RS TownMan>グレイくんが！？<NL>お気の毒に…<Next>
+<RB><RS TownMan>They took Gray!? Oh, this is just awful...<Next>
 <End>
 
 
@@ -2138,7 +2138,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <RB><RS TownLady>この村も<NL>もうおわりかねぇ<Next> -->
 <!-- <End> -->
-<RB><RS TownLady>この村も<NL>もうおわりかねぇ<Next>
+<RB><RS TownLady>Is it over for our town?<Next>
 <End>
 
 
@@ -2147,8 +2147,8 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS TownKid>わーいわーい<NL>兵隊とアクシュしたー！<Next> -->
 <!-- <LB><LS Mina>い…いつのまに…<Next> -->
 <!-- <End> -->
-<RB><RS TownKid>わーいわーい<NL>兵隊とアクシュしたー！<Next>
-<LB><LS Mina>い…いつのまに…<Next>
+<RB><RS TownKid>Yay, yay! I shook hands with a soldier!<Next>
+<LB><LS Mina>When did that happen?!<Next>
 <End>
 
 
@@ -2156,7 +2156,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <LB><LS Mina>あのね、オットー？<Next> -->
 <!-- <End> -->
-<LB><LS Mina>あのね、オットー？<Next>
+<LB><LS Mina>Hey, Otto?<Next>
 <End>
 
 
@@ -2167,10 +2167,10 @@ Well, yup, I can't help being cool.<Next>
 <!-- ここはいっちょ<NL>さらなるウリコミに…<Next> -->
 <!-- おや？<Next> -->
 <!-- <End> -->
-<LS Blank><RB><RS Robert>まったく<Next>
-俺を用心棒に雇ってりゃ<NL>村が襲われることも<NL>なかったろうに<Next>
-ここはいっちょ<NL>さらなるウリコミに…<Next>
-おや？<Next>
+<LS Blank><RB><RS Robert>Dammit!<Next>
+If they'd hired me as the village guard, this wouldn't have happened!<Next>
+Here's my opportunity to make another sales pitch...<Next>
+Eh?<Next>
 <End>
 
 
@@ -2182,11 +2182,12 @@ Well, yup, I can't help being cool.<Next>
 <!-- だって、あの人は<NL>ぼくたちの恩人でしょ？<Next> -->
 <!-- もし、あの人が<NL>黒い一角獣がらみでも<NL>助けてくれたかな？<Next> -->
 <!-- <End> -->
-<LB><LS Mina><RS Blank>でも、都合良すぎたわ<Next>
-イワトカゲに襲われる<NL>瞬間に現れた…<NL>なんて出来すぎてる<Next>
-<LB><LS Otto>おねぇちゃん…<NL>ぼくは、そうとは<NL>思いたくないな<Next>
-だって、あの人は<NL>ぼくたちの恩人でしょ？<Next>
-もし、あの人が<NL>黒い一角獣がらみでも<NL>助けてくれたかな？<Next>
+<LB><LS Mina><RS Blank>But isn't it just too convenient?<Next>
+He showed up right when that Rocklizard attacked us...<Next>
+That kinda thing doesn't just happen.<Next>
+<LB><LS Otto>Sis... I don't want to believe that...<Next>
+I mean, that man saved our lives, didn't he?<Next>
+Why would he have saved us if he was with Black Unicorn?<Next>
 <End>
 
 
@@ -2194,7 +2195,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <LS Blank><RB><RS Robert>んん？<NL>なんだなんだ？<Next> -->
 <!-- <End> -->
-<LS Blank><RB><RS Robert>んん？<NL>なんだなんだ？<Next>
+<LS Blank><RB><RS Robert>Huh? What's all this?<Next>
 <End>
 
 
@@ -2206,11 +2207,11 @@ Well, yup, I can't help being cool.<Next>
 <!-- あの人が黒い一角獣の<NL>仲間なわけ、ないわよね<Next> -->
 <!-- <LB><LS Otto>うん…きっと<NL>なにかの偶然だったと<NL>ぼくは、思うよ<Next> -->
 <!-- <End> -->
-<LB><LS Mina><RS Blank>ごめんね、オットー<Next>
-あたし、なんかヘンよね<Next>
-よりによって<NL>命の恩人を疑うなんて…<Next>
-あの人が黒い一角獣の<NL>仲間なわけ、ないわよね<Next>
-<LB><LS Otto>うん…きっと<NL>なにかの偶然だったと<NL>ぼくは、思うよ<Next>
+<LB><LS Mina><RS Blank>Sorry, Otto, you're right.<Next>
+I'm just oevrthinking it.<Next>
+To suspect the person who saved us, of all people...<Next>
+I'm sure he isn't with Black Unicorn after all.<Next>
+<LB><LS Otto>Yeah... I'm sure it was all just a coincidence.<Next>
 <End>
 
 
@@ -2221,10 +2222,10 @@ Well, yup, I can't help being cool.<Next>
 <!-- この村は、なかなか<NL>気候も食べ物もいいから<NL>長くいたかったんだが…<Next> -->
 <!-- いずらくなっちまった<Next> -->
 <!-- <End> -->
-<LS Blank><RB><RS Robert>なんと！ そうか<NL>おれが疑われているのか<Next>
-んーむむむ…<NL>作戦大失敗じゃないか<Next>
-この村は、なかなか<NL>気候も食べ物もいいから<NL>長くいたかったんだが…<Next>
-いずらくなっちまった<Next>
+<LS Blank><RB><RS Robert>Holy smokes! They're suspecting me!<Next>
+Urk... My plan totally backfired...<Next>
+I hoped to stay in this town for the weather and the food, but...<Next>
+I'm ruining my reputation here.<Next>
 <End>
 
 
@@ -2232,7 +2233,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <LS Blank><RB><RS Robert>状況によっては<NL>出て行かねば<NL>ならんかもな<Next> -->
 <!-- <End> -->
-<LS Blank><RB><RS Robert>状況によっては<NL>出て行かねば<NL>ならんかもな<Next>
+<LS Blank><RB><RS Robert>Maybe I'll even have to skip town...<Next>
 <End>
 
 
@@ -2241,7 +2242,7 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS Mina>ね、オットー<NL>今日はもう、休もう<Next> -->
 <!-- あたし、なんだか<NL>疲れちゃった<Next> -->
 <!-- <End> -->
-<LB><LS Mina>ね、オットー<NL>今日はもう、休もう<Next>
-あたし、なんだか<NL>疲れちゃった<Next>
+<LB><LS Mina>Hey, Otto, let's rest up for today.<Next>
+I'm pretty tired.<Next>
 <End>
 
