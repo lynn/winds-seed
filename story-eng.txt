@@ -2,7 +2,7 @@
 
 <!-- <RB><RS God>そうか…<NL>時計屋がのう…<Next> -->
 <!-- <End> -->
-<RB><RS God>I see... the watch shop...<Next>
+<RB><RS God>So they took the watchmaker...<Next>
 <End>
 
 
@@ -559,7 +559,7 @@ Maybe if you tell me that much...<Next>
 <!-- <Size 00><End> -->
 <RB><RS Donald>Oh, shut up, you idiot! Get me out!<Next>
 You better cut the crap, or I'll get real angry!<Next>
-<LS God><RS Blank><LB><NL><Size 03>YOU'RE the<Size 00><RB><NL><Size 03>idiot here!<Next>
+<LS God><RS Blank><LB><NL><Size 03> YOU'RE the<Size 00><RB><NL><Size 03>idiot here!<Next>
 <Size 00><End>
 
 
@@ -571,7 +571,7 @@ You better cut the crap, or I'll get real angry!<Next>
 <!-- <End> -->
 <RB><RS Donald>Gurghh!<Next>
 <LB><LS God>Now play nice and answer the girl's question!<Next>
-<RB><RS Donald>Wh-who are...<Next>
+<RB><RS Donald>Wh-who the...<Next>
 <End>
 
 
@@ -602,7 +602,7 @@ I'll say it!<Next>
 <!-- <End> -->
 <RB><RS Donald>S-sorry! I'll say it, I'll say it! I apologize! Please let me talk!<Next>
 It's the crystal cave!<Next>
-<RB><RS Donald>There's a teleportation device deep inside the cave. That's how you get there.<Next>
+<RB><RS Donald>There's a teleportation device deep inside the cave.<Next>
 <LB><LS Mina>A tele-what?<Next>
 <RB><RS Donald>You'll see if you use it!<Next>
 It'll warp you to our base in no time!<Next>
@@ -719,7 +719,7 @@ I'll get my rev--<Next>
 
 <!-- <LB><LS Mickey><RS Blank><Size 04>てー！<Next> -->
 <!-- <End> -->
-<LB><LS Mickey><RS Blank><Size 04>Gah!<Next>
+<LB><LS Mickey><RS Blank><Size 04>Fire!<Next>
 <End>
 
 
@@ -1240,8 +1240,8 @@ Up next...<Next>
 <!-- <End> -->
 <RB><RS Robert>That voice... Isn't that that Mina girl?<Next>
 Hey, stumpy. I'll leave the rest to you.<Next>
-<LB><LS God>Where are ya headed, you fool!?<Next>
-<RB><RS Robert>Man, it's a whole thing, but I can't have those kids see me.<Next>
+<LB><LS God>What!? Where are you going, you fool!?<Next>
+<RB><RS Robert>It's a whole thing, but I can't have those kids see me.<Next>
 See ya, bud!<Next>
 <End>
 
@@ -1659,7 +1659,7 @@ Evil spirits, if you will.<Next>
 <!-- <End> -->
 <LB><LS Mina>Gray!<Next>
 <RB><RS Gray>Mina! Oh, look how you've grown!<Next>
-How have you two been<Next>
+How have you two been?<Next>
 <LB><LS Mina>Just peachy!<Next>
 Wow, you look busier than I imagined.<Next>
 Did you ever figure out where your teacher went off to?<Next>
@@ -1891,7 +1891,7 @@ Now how do I get down??<Next>
 <!-- <RB><RS Otto>え？ な、なに…<Next> -->
 <!-- <RB><RS Blank>アイﾖ<NL>アレコレグジャラシター！<Next> -->
 <!-- <End> -->
-<LB><LS Mina>Hey Otto, wait up!<Next>
+<LB><LS Mina>Hey Otto, wait a second!<Next>
 Something's not right here.<Next>
 <RB><RS Otto>Huh? What is it...<Next>
 <RB><RS Blank>Oh, the humanity!!<Next>
@@ -1905,8 +1905,8 @@ Something's not right here.<Next>
 <!-- <RB>えらいこっちゃぁ～<NL>黒い一角獣じゃいや～！<Next> -->
 <!-- 黒い一角獣が村を襲い<NL>あまつさえ、わしまで<NL>ハジキとばしよったん<NL>じゃいやぁ～！！<Next> -->
 <!-- <End> -->
-<RB><RS God><Size 04>You!!!<Next>
-<LB><LS Mina>W-what's wrong, village spirit?!<Next>
+<RB><RS God><Size 04>Guh!!!<Next>
+<LB><LS Mina>Whoa, village spirit!!<Next>
 <RB>Oh, sweet child! It's that darn Black Unicorn!<Next>
 They attacked our town and kicked the daylights outta me!<Next>
 <End>
@@ -2102,7 +2102,7 @@ If you know what's good for you, head back home. Or else...<Next>
 That'll show you for defying Black Unicorn!<Next>
 <LB><LS Otto>The town...!?<Next>
 <LB><LS Mina>We won't let you do that! Not in a million years!!<Next>
-<RB><RS Garriott>Heh heh... Now, remember what <Next>
+<RB><RS Garriott>Heh heh... Don't try anything funny.<Next>
 <End>
 
 
@@ -2208,7 +2208,7 @@ Why would he have saved us if he was with Black Unicorn?<Next>
 <!-- <LB><LS Otto>うん…きっと<NL>なにかの偶然だったと<NL>ぼくは、思うよ<Next> -->
 <!-- <End> -->
 <LB><LS Mina><RS Blank>Sorry, Otto, you're right.<Next>
-I'm just oevrthinking it.<Next>
+I'm just overthinking it.<Next>
 To suspect the person who saved us, of all people...<Next>
 I'm sure he isn't with Black Unicorn after all.<Next>
 <LB><LS Otto>Yeah... I'm sure it was all just a coincidence.<Next>
