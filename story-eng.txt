@@ -18,6 +18,8 @@
 
 <!-- <RB><RS CurryEater>ここのうまいカレーも<NL>あと何回食えるだろう<Next> -->
 <!-- <End> -->
+
+<!-- NOTE: He says "how many more times will I be able to eat this curry?", but that sounds a bit strange. -->
 <RB><RS CurryEater>I'm definitely coming back here for the curry.<Next>
 <End>
 
@@ -57,6 +59,7 @@ We both remembered how to <Color 0b>"Call"<Color 0f> our powers on the way here.
 <!-- <End> -->
 <RB><RS Otto>Guhhh, I'm so tired...<Next>
 <LB><LS Mina>I know, right! I can't move another step.<Next>
+<!-- NOTE: is he actually their oniichan, or do they just call him that? -->
 Let's go say hi to Gray and then call it a day.<Next>
 <RB><RS Otto>Yeah! So... where does he work again?<Next>
 <LB><LS Mina>It's the watch shop on the east end of town.<Next>
@@ -127,8 +130,8 @@ I hope you find enough to make praygrass buns for your town's carnival!<Next>
 <!-- <LB><LS Otto>あうぅ…こわい…<Next> -->
 <!-- <End> -->
 <RB><RS TownLady>You better watch out.<Next>
-That area is full of monsters, y'know.<Next>
-<LB><LS Mina>Tell me about it! There's tons of 'em!<Next>
+The forest being full of monsters, and all.<Next>
+<LB><LS Mina>Tell me about it! They're real pains!<Next>
 <LB><LS Otto>That sounds, scary...<Next>
 <End>
 
@@ -139,6 +142,7 @@ That area is full of monsters, y'know.<Next>
 <!-- <LB><LS Mina>あのねぇロミュくん…<NL>疲れるから<NL>バカはよしてね…<Next> -->
 <!-- <End> -->
 <RB><RS TownKid>Hey, hey! What color <Color 09>panties<Color 0f> are you wearing?<Next>
+<!-- NOTE: We don't really care about this stupid kid's name. Probably a reference? -->
 <LB><LS Mina>Listen, kid... I'm real tired, so don't mess around with me...<Next>
 <End>
 
@@ -150,6 +154,7 @@ That area is full of monsters, y'know.<Next>
 <!-- <End> -->
 <RB><RS TownKid>Kubotan, let's play!!<Next>
 <LB><LS Mina>Who the heck is Kubotan!?<Next>
+<!-- NOTE: No, really, I have no idea. -->
 <End>
 
 
@@ -165,7 +170,7 @@ That area is full of monsters, y'know.<Next>
 
 <!-- <LB><LS God><NL><Size 03><Idk 0a>誰がでかい顔<RB><RS WindsSeed><NL><Size 03><Idk 0a>じゃいや～！<Idk 00><Next> -->
 <!-- <LB><End> -->
-<LB><LS God><NL><Size 03><Idk 0a>Don't call<RB><RS WindsSeed><NL><Size 03><Idk 0a>me that!!<Idk 00><Next>
+<LB><LS God><NL><Size 03><Idk 0a> Don't call<RB><RS WindsSeed><NL><Size 03><Idk 0a> me that!!<Idk 00><Next>
 <LB><End>
 
 
@@ -178,6 +183,7 @@ That area is full of monsters, y'know.<Next>
 <!-- <End> -->
 <LB><LS GodAngry><RS God>...?????...<Next>
 <LB><LS Mina>Whoa whoa whoa! Calm down already...<Next>
+<!-- NOTE: I was a bit surprised that ガレスピィ is how you write Dizzy Gillespie's name in katakana. -->
 <RB><RS God>Serves ya right fer disrespectin' the village god Gillespie!<Next>
 <LB>Uh-huh... So you've got a big face, but thin skin.<Next>
 <End>
@@ -221,8 +227,8 @@ That area is full of monsters, y'know.<Next>
 <!-- <LB><LS Robert>じゃあ<NL>誰に言えばいいんだ？<Next> -->
 <!-- <RB><RS Gray>そうだなあ…<NL>そんな話は誰が…<Next> -->
 <!-- <End> -->
-<RB><RS Gray>I get what you're saying, but...<Next>
-<LB><LS Robert>Pal, I'm begging you.<Next>
+<RB><RS Gray>I get what you're offering, but...<Next>
+<LB><LS Robert>Pal, I'm practically begging you.<Next>
 Whatever monsters you get here, I'll take care of 'em.<Next>
 <RB><RS Gray>Sure, but... It's just not up to me to decide, you know?<Next>
 I don't mind having a village guard, but you're asking the wrong person.<Next>
@@ -240,7 +246,7 @@ I don't mind having a village guard, but you're asking the wrong person.<Next>
 <!-- <End> -->
 <LB><LS Mina>Hey, where'd that guy go?<Next>
 <RB><RS Gray>Home, I guess. Why?<Next>
-<LB><LS Mina>Nothing. He was just funny-looking.<Next>
+<LB><LS Mina>Nothing. Just thought he was a weirdo.<Next>
 <LB><LS Otto>Hey, sis, you shouldn't say that kinda thing!<Next>
 <End>
 
@@ -397,7 +403,7 @@ Where did you come from? The village to the east?<Next>
 
 <!-- <LB><LS MinaG>はい？<Next> -->
 <!-- <End> -->
-<LB><LS MinaG>Uh?<Next>
+<LB><LS MinaG>Um?<Next>
 <End>
 
 
@@ -410,7 +416,7 @@ Where did you come from? The village to the east?<Next>
 <!-- <LB><LS MinaG>知ってるよ<NL>身長２メートルで<NL>紫色の肌をした人でしょ？<Next> -->
 <!-- <End> -->
 <RB><RS Garriott>A-ahem.<Next>
-I got carried away.<Next>
+Got carried away there.<Next>
 <LB><LS MinaG>What's the matter?<Next>
 <RB><RS Garriott>Do you two know a man named Gray?<Next>
 <LB><LS MinaG>Oh, I know him. About 7 foot, purple skin?<Next>
@@ -450,7 +456,7 @@ I don't like this lady...<Next>
 <!-- <LB><LS OttoShop>ふ… … …<NL>ふぇ… … …<Next> -->
 <!-- <LS Mina><End> -->
 <RB><RS Robert>Are you guys hurt?<Next>
-<LB><LS MinaShop>W-w-w-w-whoa...<Next>
+<LB><LS MinaShop>Whoa, whoa, whoa...<Next>
 <LB><LS OttoShop>Hah, phew...<Next>
 <LS Mina><End>
 
@@ -465,7 +471,7 @@ I don't like this lady...<Next>
 <RB><RS Robert>Those things are called Rocklizards.<Next>
 They're huge, but they're scarier than they look!<Next>
 Well. For me. You kids wouldn't stand a chance.<Next>
-So watch out.<Next>
+So watch out!!<Next>
 <End>
 
 
@@ -475,7 +481,8 @@ So watch out.<Next>
 <!-- <LB><LS Mina>…た、助かったぁ…<NL>…けど…なんか…<NL>ひっかかるような…<Next> -->
 <!-- <End> -->
 <RB><RS Otto>...He's so cool...<Next>
-<LB><LS Mina>Th-that guy saved our butts... But now we owe him...<Next>
+<!-- NOTE: literally "now we're entagled in something" but that sounds meh -->
+<LB><LS Mina>Th-that guy saved our butts... But now we totally owe him...<Next>
 <End>
 
 
@@ -500,7 +507,7 @@ So watch out.<Next>
 <RB><RS Otto>C'mon, we're late!<Next>
 You should've showered sooner!<Next>
 <LB><LS Mina>Hey, gimme a break! I'm a girl, you know! Self-care comes with the territory!<Next>
-<RB>Oh, sure, *that* excuses it.<Next>
+<RB>Oh, sure, that excuses it.<Next>
 <LB>Yes it does! It does excuse it!!<Next>
 <End>
 
@@ -581,7 +588,7 @@ You better cut the crap, or I'll get real angry!<Next>
 <!-- 言えばいいんだろ！<NL>言えばよぉ！<Next> -->
 <!-- <End> -->
 <RB><RS Donald>Okay, okay!!<Next>
-I'll say it!<Next>
+I'll freaking say it!<Next>
 <End>
 
 
@@ -641,6 +648,7 @@ Just head due east from this village!<Next>
 
 <!-- <RB><RS Garriott>おぼえてなさい！！<Next> -->
 <!-- <End> -->
+<!-- NOTE: This is Garriott's "catchphrase". She literally says "Remember it!!", so this translation isn't very exact, but I went with something that fits in all contexts it shows up in and sounds natural. -->
 <RB><RS Garriott>I'll remember this!!<Next>
 <End>
 
@@ -771,7 +779,7 @@ I'll get my rev--<Next>
 <!-- <LB>そうこなくっちゃ！<Next> -->
 <!-- <End> -->
 <LB><LS Mina>Are you okay? What happened?<Next>
-<RB><RS God>I'm... wonderin' that myself...<Next>
+<RB><RS God>I'm... wonderin' that myself.<Next>
 <LB>...Black Unicorn!<Next>
 C'mon, Otto, let's go!<Next>
 <RB><RS God>Hold yer horses, you dimwits! It's dangerous out there!<Next>
@@ -855,6 +863,7 @@ If you lay so much as a finger on those kids...<Next>
 
 <!-- <RB><RS TownKid>すりっっっっ<NL>っっとぉ～～～！<NL>ぽこめーん！<Next> -->
 <!-- <End> -->
+<!-- NOTE: What's Pokomen??? -->
 <RB><RS TownKid>Wheeeeee!<Next>
 <End>
 
@@ -865,6 +874,7 @@ If you lay so much as a finger on those kids...<Next>
 <!-- <RB><RS TownKid>わたしはウソが嫌いだ！<NL>もけもけ！！！<Next> -->
 <!-- <End> -->
 <LB><LS Mina>Listen, kid...<Next>
+<!-- NOTE: I hate translating anything this kid says. What??? -->
 <RB><RS TownKid>(POP CULTURE REFERENCE)!!!<Next>
 <End>
 
@@ -954,7 +964,7 @@ If you want a tour that badly, I'll give you a taste of our newest weapon!<Next>
 ...Hehehe.<Next>
 <RB>W-what's wrong? Did I say something funny?<Next>
 <LB>You've grown up, haven't you, Otto?<Next>
-<RB>… … …<Next>
+<RB>... ... ...<Next>
 <End>
 
 
@@ -1008,7 +1018,7 @@ His missing watchmaking teacher...<Next>
 <!-- <End> -->
 <LB><LS Mina>Well, teacher or not!<Next>
 Gray isn't the type to get chummy with evildoers like you!<Next>
-<RB><RS Blank>Of course not.<Next>
+<RB><RS Blank>She's right I'm not!<Next>
 <End>
 
 
@@ -1040,7 +1050,7 @@ Intimidate me all you want, I won't give in!<Next>
 
 <!-- <RB><RS Warren>ここの、ゴミムシを<NL>片付けねばならん<Next> -->
 <!-- <End> -->
-<RB><RS Warren>I'm going to deal with these vermins once and for all.<Next>
+<RB><RS Warren>I'm going to deal with these vermins once and for all!<Next>
 <End>
 
 
@@ -1165,7 +1175,7 @@ This isn't fair...!<Next>
 <!-- <LB><LS Mina>オットー<NL>用意はできた？<Next> -->
 <!-- <LB><LS Otto>うん！<NL>いつでもいいよ！<Next> -->
 <!-- <End> -->
-<LB><LS Mina>Otto, are you ready?<Next>
+<LB><LS Mina>Otto, are you all set?<Next>
 <LB><LS Otto>Yup, ready whenever!<Next>
 <End>
 
@@ -1223,7 +1233,7 @@ And now you guys are leaving!<Next>
 <LB><LS God>Don't call me "stumpy"!!<Next>
 And how'dya know these idiots were going to attack us?<Next>
 <RB>Hey, cool it, pal.<Next>
-I had nowhere else to go, so I was sleeping here.<Next>
+I had nowhere left to go, so I was sleeping here.<Next>
 <RB>Anyway, that should've knocked them down a peg.<Next>
 Up next...<Next>
 <LB><LS Blank>What was all that ruckus!?<Next>
@@ -1241,7 +1251,7 @@ Up next...<Next>
 <RB><RS Robert>That voice... Isn't that that Mina girl?<Next>
 Hey, stumpy. I'll leave the rest to you.<Next>
 <LB><LS God>What!? Where are you going, you fool!?<Next>
-<RB><RS Robert>It's a whole thing, but I can't have those kids see me.<Next>
+<RB><RS Robert>It's a whole thing, but... I can't have those kids see me.<Next>
 See ya, bud!<Next>
 <End>
 
@@ -1267,7 +1277,7 @@ See ya, bud!<Next>
 <!-- <LB><LS God>ここはわしに<NL>まかせときんさい<Next> -->
 <!-- <RB><RS Donald>キュウ<Next> -->
 <!-- <End> -->
-<LB><LS God>I've gottem under control.<Next>
+<LB><LS God>I've gottim under control.<Next>
 <RB><RS Donald>Urk...<Next>
 <End>
 
@@ -1326,7 +1336,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <RB><RS Innkeeper>おぉ、ミーナちゃん<NL>一晩２０ポリゴンだが<NL>休んでいくのかな？<Next> -->
 <!-- <End> -->
-<RB><RS Innkeeper>Hey, Mina! It's 20 polygons to stay the night. What do you say?<Next>
+<RB><RS Innkeeper>Hello, Mina! It's 20 polygons to stay the night. What do you say?<Next>
 <End>
 
 
@@ -1409,7 +1419,7 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Shopkeeper>はい、どうもありがとう<NL>また、来てね<Next> -->
 <!-- <End> -->
 <RB><RS Shopkeeper>Ah, changed your mind?<Next>
-<LB><LS Mina>Yeah, maybe some other time...<Next>
+<LB><LS Mina>Yeah, maybe later...<Next>
 <RB><RS Shopkeeper>Okay, no problem! Come again.<Next>
 <End>
 
@@ -1418,7 +1428,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <LB><LS MinaShop>うん、それちょうだい<Next> -->
 <!-- <End> -->
-<LB><LS MinaShop>Yeah, I'll have one of those.<Next>
+<LB><LS MinaShop>Yup, I'll have one of those.<Next>
 <End>
 
 
@@ -1426,7 +1436,7 @@ Well, yup, I can't help being cool.<Next>
 
 <!-- <RB><RS Shopkeeper>はい、どうぞ<NL>いつもありがとう<Next> -->
 <!-- <End> -->
-<RB><RS Shopkeeper>Here you go! Pleasure doing business.<Next>
+<RB><RS Shopkeeper>Thanks, here you go!<Next>
 <End>
 
 
@@ -1436,7 +1446,7 @@ Well, yup, I can't help being cool.<Next>
 <!-- <RB><RS Shopkeeper>ううん、じゃまた今度ね<NL>どうもありがとう<Next> -->
 <!-- <End> -->
 <LB><LS MinaShop>Ah, sorry! I don't need that after all.<Next>
-<RB><RS Shopkeeper>Okay, sure, maybe some other time!<Next>
+<RB><RS Shopkeeper>Okay, sure, some other time!<Next>
 <End>
 
 
@@ -1505,6 +1515,7 @@ Evil spirits, if you will.<Next>
 <!-- <RB><RS CurryEater>やあ、おれはまうちゅ～<NL>カレーライスと<NL>カールルイスは<NL>似てるよね<Next> -->
 <!-- <LB><LS Mina>うん！<NL>そっくりっ<Next> -->
 <!-- <End> -->
+<!-- NOTE: throwing in that this guy is a Compile programmer to make it ever so slightly less WTF. -->
 <RB><RS CurryEater>Yo, I'm Mauchuu from Compile. Doesn't "curry rice" sound like "Carl Lewis"?<Next>
 <LB><LS Mina>Yeah, it totally does!<Next>
 <End>
@@ -1571,7 +1582,7 @@ Evil spirits, if you will.<Next>
 <!-- <RB><RS Otto>おねぇちゃぁん…<NL>今日はもう休もぉよぉ…<Next> -->
 <!-- <LB><LS Mina>あややや！<NL>体力が１しかない！<Next> -->
 <!-- <End> -->
-<RB><RS Otto>Sis, let's rest up for today...<Next>
+<RB><RS Otto>Sis, let's stay here for today...<Next>
 <LB><LS Mina>Eek, you're right! We're down to 1 HP.<Next>
 <End>
 
@@ -1580,7 +1591,7 @@ Evil spirits, if you will.<Next>
 
 <!-- <RB><RS Otto>あ、四つ葉のドリドリ！<NL>めずらしいなぁ！<Next> -->
 <!-- <End> -->
-<RB><RS Otto>Oh, four-leaf Doris! How rare!<Next>
+<RB><RS Otto>Oh, four-leaf Dori plants! How rare!<Next>
 <End>
 
 
@@ -1660,18 +1671,19 @@ Evil spirits, if you will.<Next>
 <LB><LS Mina>Gray!<Next>
 <RB><RS Gray>Mina! Oh, look how you've grown!<Next>
 How have you two been?<Next>
-<LB><LS Mina>Just peachy!<Next>
-Wow, you look busier than I imagined.<Next>
+<LB><LS Mina>Couldn't be better!<Next>
+...Wow, you look busier than I imagined.<Next>
 Did you ever figure out where your teacher went off to?<Next>
 <RB><RS Gray>Ah, not really...<Next>
 I'm sure he'll suddenly show up again soon.<Next>
+<!-- NOTE: Ugh, exposition much... It sounds awkward in Japanese, too. -->
 When are you heading to the fields past the western forest?<Next>
 <LB><LS Mina>First thing tomorrow!<Next>
 <RB><RS Gray>Haha, I see. Lively as always.<Next>
 Well, that area is full of Golems...<Next>
 Watch out for them.<Next>
 <LB><LS Otto>Golems...? Are those scary?<Next>
-<LB><LS Mina>You'll be fine!<Next>
+<LB><LS Mina>Nah, you'll be fine!<Next>
 They'll have to get past me!<Next>
 <End>
 
@@ -1682,7 +1694,7 @@ They'll have to get past me!<Next>
 <!-- <RB><RS Otto>うん、もうくたくただよぉ<Next> -->
 <!-- <End> -->
 <LB><LS Mina>Let's not head out there today.<Next>
-<RB><RS Otto>Yeah, I'm beat.<Next>
+<RB><RS Otto>Yeah, I'm too tired...<Next>
 <End>
 
 
@@ -1699,7 +1711,7 @@ They'll have to get past me!<Next>
 <!-- <End> -->
 <RB><RS Garriott>Don't mess with me!!<Next>
 <LB><LS MinaG>You don't have to get so angry, lady! We're just kids!<Next>
-<LB><LS OttoG>Sis, you shouldn't tell lies...<Next>
+<LB><LS OttoG>You shouldn't tell lies, though, sis...<Next>
 <LB><LS MinaG>Oh, you're right.<Next>
 Someone might actually fall for 'em.<Next>
 <RB><RS Garriott>C'mon, a purple giant? As if!<Next>
@@ -1729,7 +1741,7 @@ Someone might actually fall for 'em.<Next>
 <!-- <LB><LS Mina>ううん まだだよ<Next> -->
 <!-- <RB><RS Innkeeper>それはイカンなあ<NL>ちょっとだけでも<NL>話をしてこなきゃ<Next> -->
 <!-- <End> -->
-<RB><RS Innkeeper>Hey, Mina! Long time no see!<Next>
+<RB><RS Innkeeper>Hello, Mina! Long time no see!<Next>
 Did you go see Gray at the watch shop?<Next>
 <LB><LS Mina>We haven't, yet.<Next>
 <RB><RS Innkeeper>Well, that's no way to treat him! Go say hi, first.<Next>
@@ -1742,7 +1754,7 @@ Did you go see Gray at the watch shop?<Next>
 <!-- 散らかってるんだ<Next> -->
 <!-- <End> -->
 <RB><RS Gray>Oh, please don't go back there!<Next>
-It's an awful mess.<Next>
+...It's really messy.<Next>
 <End>
 
 
@@ -1760,7 +1772,7 @@ It's an awful mess.<Next>
 
 <!-- <RB><RS Gray>やあ… いらっしゃ…<Next> -->
 <!-- <End> -->
-<RB><RS Gray>Welcome...<Next>
+<RB><RS Gray>Welcome to...<Next>
 <End>
 
 
@@ -1777,9 +1789,9 @@ It's an awful mess.<Next>
 <LB><LS Robert>...They totally ignored me.<Next>
 <RB><RS Gray>Oh, kids will be kids.<Next>
 <LB><LS Robert>Did that girl say she's going to the fields?<Next>
-<RB><RS Gray>Uh, yes.<Next>
+<RB><RS Gray>Yeah, she did.<Next>
 <LB><LS Robert>I see...<Next>
-I see, I seeee...<Next>
+Hm, I see, I seeee...<Next>
 <RB><RS Gray>Something wrong? You look all pensive.<Next>
 <End>
 
@@ -1844,6 +1856,7 @@ And BOOM! That's when I come in.<Next>
 Save them from some big showdown!<Next>
 I can already hear the girl go, "thank you!"<Next>
 I'll be this village's guard by tomorrow.<Next>
+<!-- Translating a bit loosely around here. -->
 They'll shower me in praise! And food!<Next>
 Robert, you've done it again!<Next>
 ...Crap, I better catch up to them!<Next>
@@ -1856,7 +1869,7 @@ Robert, you've done it again!<Next>
 <!-- 気付かれてないな！？<Next> -->
 <!-- <End> -->
 <RB><RS Robert><LS Blank>Dahahahaha!<Next>
-They didn't notice me, huh!<Next>
+They still haven't noticed me!?<Next>
 <End>
 
 
@@ -1880,7 +1893,7 @@ They didn't notice me, huh!<Next>
 <!-- <End> -->
 <RB><RS Robert><LS Blank>I've really done it now.<Next>
 I climbed up a tree in a jiffy, no problem, but...<Next>
-Now how do I get down??<Next>
+How do I get down??<Next>
 <End>
 
 
@@ -1947,6 +1960,7 @@ Black Unicorn's a strange gang that's been causin' trouble all over.<Next>
 <LB>You don't have to make it extra long!!<Next>
 <RB>Well, the point is! They're usin' some kinda strange devices.<Next>
 <LB><LS Otto>Strange devices...?<Next>
+<!-- NOTE: Better to make something funny up than translate a Doraemon ref -->
 <LB><LS Mina>Like the PC-98 and stuff?<Next>
 <RB>No, you fools!!<Next>
 <End>
@@ -2010,7 +2024,7 @@ Please remember it... for the last few minutes of your lives!<Next>
 
 <!-- <RB><RS Garriott>おまえたち<NL>やっておしまい！<Next> -->
 <!-- <End> -->
-<RB><RS Garriott>Your story ends here!!<Next>
+<RB><RS Garriott>Your little adventure ends here!!<Next>
 <End>
 
 
@@ -2119,7 +2133,7 @@ That'll show you for defying Black Unicorn!<Next>
 <LB><LS Mina>Wh-wh-what...<Next>
 <RB><RS Otto>Sis, what do we do now?<Next>
 <LB>We can't go after them... they have a hostage!<Next>
-<RB>But what will Gray...<Next>
+<RB>But Gray is--<Next>
 <LB>I know, I know!<Next>
 But all we can do right now is go back.<Next>
 We gotta think about the town, too, don't we?<Next>
@@ -2148,7 +2162,7 @@ We gotta think about the town, too, don't we?<Next>
 <!-- <LB><LS Mina>い…いつのまに…<Next> -->
 <!-- <End> -->
 <RB><RS TownKid>Yay, yay! I shook hands with a soldier!<Next>
-<LB><LS Mina>When did that happen?!<Next>
+<LB><LS Mina>...When did that happen?!<Next>
 <End>
 
 
@@ -2186,7 +2200,7 @@ Eh?<Next>
 He showed up right when that Rocklizard attacked us...<Next>
 That kinda thing doesn't just happen.<Next>
 <LB><LS Otto>Sis... I don't want to believe that...<Next>
-I mean, that man saved our lives, didn't he?<Next>
+I mean, that man rescued our lives, didn't he?<Next>
 Why would he have saved us if he was with Black Unicorn?<Next>
 <End>
 
