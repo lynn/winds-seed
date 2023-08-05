@@ -14,7 +14,9 @@ ws = [
     (0x156A, "ＦＣＰファイル内に", "FCP file lacks "),  # 5b
     (0x158A, "が存在しません！！", "!!"),  # 24
     (0x159D, "致命的エラーが発生しました", "A fatal error has occurred"),  # 24
+    # (0x19F6, "\x0A\x01", "\x0A\x00"),
     (0x19F8, "ミーナ", "Mina  "),  # 01
+    # (0x1A03, "\x0A\x01", "\x0A\x00"),
     (0x1A05, "オットー", "Otto    "),  # ff
     (0x1A18, "   !／   !", "   1/    1"),
     (0x1A2D, "    !", "    1"),
@@ -58,8 +60,8 @@ ws = [
     (0x5D45, "下級兵士", "Private"),  # ff
     (0x5D53, "中級兵士", "Sergeant"),  # ff
     (0x5D61, "上級兵士", "Major"),  # ff
-    (0x5DFE, "　最初から　", "  Start"),  # ff
-    (0x5E0E, "　途中から　", "  Continue"),  # ff
+    (0x5DFE, "　最初から　", "  Start     "),  # ff
+    (0x5E0E, "　途中から　", "  Continue  "),  # ff
     (0x5E9A, "どうぐ　", "Items"),  # ff
     (0x5EA6, "つよさ　", "Status"),  # ff
     (0x5EB2, "システム", "System"),  # ff
@@ -74,6 +76,8 @@ ws = [
     (0x6258, "四つ葉のドリドリ", "Four-Leaf Dori  "),  # ff
     (0x626A, "メディヴァイン　", "Medivine        "),  # ff
     (0x627C, "超肉体玉　　　　", "Super Orb       "),  # ff # wtf is this?
+    (0x629B, "　" * 8, " " * 16),  # ff
+    (0x62C9, "　" * 8, " " * 16),  # ff
     (0x62B9, "　▲　", "  ^^  "),  # 03
     (0x62E7, "　▼　", "  vv  "),  # 03
     (0x62F5, "どちらが？", "Who?"),  # ff
@@ -135,4 +139,6 @@ ws = [
     (0x6E2F, "コール２", "Call (2)"),  # ff
     (0x6E3D, "コール３", "Call (3)"),  # ff
     (0x6E4B, "必殺技　", "SuperAtk"),  # ff
+    (0xB992, '\x03\x02ｦﾐ･** "**&ﾞ!"ﾞ!" !"ﾟ!"', "\x03\x03Lv.99 1995-01-01 01:01"),  # ff
+    (0xB9AB, "からっぽだよ～ん！　　", "Nothin' here yet!     "),  # ff
 ]
