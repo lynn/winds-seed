@@ -213,7 +213,7 @@ if __name__ == "__main__":
     blank = 0xB64A
 
     # Scroll "kanji" picture 8px to the left (rol ax,8)
-    edit(bios_patched, 0xA2D, b"\xc1\xc0\x08\x90\x90\x90")
+    edit(bios_patched, 0xA2D, bytes.fromhex("c1c008 f6c280 7405 f6d0 90 90 90"))
 
     # and these guys draw the bg?
     # edit(bios_patched, 0xa6e, b"\x90\x90\x90")
@@ -232,6 +232,14 @@ if __name__ == "__main__":
     # Don't draw the right half of the 16x16 bg
     edit(bios_patched, 0xB62, b"\x90" * 4)
     edit(bios_patched, 0xB6A, b"\x90" * 4)
+    edit(bios_patched, 0xB7E, b"\x90" * 4)
+    edit(bios_patched, 0xB82, b"\x90" * 4)
+    edit(bios_patched, 0xB8E, b"\x90" * 4)
+    edit(bios_patched, 0xB92, b"\x90" * 4)
+    edit(bios_patched, 0xBA0, b"\x90" * 5)
+    edit(bios_patched, 0xBA5, b"\x90" * 5)
+    edit(bios_patched, 0xBB4, b"\x90" * 5)
+    edit(bios_patched, 0xBB9, b"\x90" * 5)
 
     # nop out the x*=2 instruction, wrap lines at x=80
     edit(bios_patched, 0xA44, b"\x50")
