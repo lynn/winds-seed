@@ -8,7 +8,29 @@ Two average siblings embark on a yearly adventure. Supporting them in this adven
 
 # Page 2
 
-**Let Compile blow away your boring reality with a heart-warming RPG.**
+**Let Compile blow away your disheartening reality with a heart-warming RPG.**
+
+We live in an age of natural disasters and vicious crime. The hearts of the people living in such an age are surely growing jaded. This game is Compile's effort to disturb (?) such a reality.
+
+*The game's two protagonists show off a variety of poses!*
+
+*They show lots of expression during the cutscenes, too!*
+
+The relaxed atmosphere that permeates the whole work, combined with the beautiful nature backgrounds, are sure to heal the spirits of exhausted players. With high-speed scrolling action that rivals any home console title, and battle scenes featuring large moving characters, it's a work that can call itself an authentic RPG.
+
+*An action-packed, smoothly scrolling scenario. This is a serious Compile RPG!*
+
+*Large characters that move!*
+
+## Basic controls
+
+The basic controls are listed below. Sadly, this game does not support the mouse. However, you can play using a joystick. If you have a joystick you can connect to a dedicated external soundboard, you'll be able to use it without problems.
+
+* Character movement, talking, looking: arrow keys, 8462, or joystick D-pad.
+* Open or close command window: Esc, Shift, 0, or the joystick B button.
+* Command selection: up and down arrow keys, 8 and 2, or the joystick D-pad.
+* Confirm command: Space, Enter, or the joystick A button.
+* Cancel command: Esc, Shift, 0, or the joystick B button.
 
 ## The protagonists: an unusual sibling duo
 
