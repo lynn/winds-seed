@@ -15,6 +15,7 @@
 #
 
 import hashlib
+import os
 import struct
 import sys
 
@@ -45,6 +46,16 @@ if __name__ == "__main__":
     fcp = unpack_fcp(fs["WSDATA.FCP"])
     assert fs["WSDATA.FCP"] == pack_fcp(fcp)
     assert rom == pack_fdi(fs, rom)
+
+    if not os.path.isdir("fcpdump"):
+        os.mkdir("fcpdump")
+
+    for k, v in fcp.items():
+        path = os.path.join("fcpdump", k.decode("ascii").replace(" ", ""))
+        if not os.path.isfile(path):
+            print("Dumping", path)
+            with open(path, "wb") as of:
+                of.write(v)
 
     original_story = fcp[b"STORY   .DAT"]
     if "--dump-story" in sys.argv:
