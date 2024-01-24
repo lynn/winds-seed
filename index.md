@@ -35,3 +35,12 @@ Now you can load `ws-en.hdm` to play the game in English. Have fun!
 ## Manual
 
 I also translated the game's [manual](./manual) (it was published as part of a magazine).
+
+## Credits
+
+I (lynn / chordbug) did all the romhacking and translating. The code is [here](https://github.com/lynn/winds-seed/tree/main) and some feverish bullet-point notes about the process are [here](https://gist.github.com/lynn/aaab1ab4c8f6196c72735d157e2a95fb). I couldn't have done it without the help of some other folks:
+
+- hollowaytape and celcion from 46OkuMen: for [exploring](https://github.com/46OkuMen/windseed) this game and leaving helpful notes for me to start from. Thanks!
+- WILLYYYYYYY: for obtaining the Disc Station Vol.7 magazine from an auction for me to scan the manual, all so I could translate it! Thank you so much.
+- The PC-9800 Series Central Discord, for their feedback and encouragement.
+- fluidvolt: for being lovely, and playing through many weird retro games with me. "Look at this little lad!!"
