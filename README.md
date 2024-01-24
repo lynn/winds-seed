@@ -10,11 +10,11 @@ This repository contains Python scripts to translate the game to English.
 
 ## Usage
 
-Copy `Winds_Seed.FDI` to this directory, then:
+Copy `ws.hdm` to this directory, then:
 
 ```sh
-python3 main.py                 # Writes an English translation to `patched.fdi`.
-python3 main.py --dump-save     # Dumps save files from `patched.fdi`, then quits.
+python3 main.py                 # Writes an English translation to `patched.hdm`.
+python3 main.py --dump-save     # Dumps save files from `patched.hdm`, then quits.
                                 # (I'm reinserting save files while playtesting.)
 
 python3 main.py --dump-story    # Dumps the story file to `story.txt` in a human-friendly format.
