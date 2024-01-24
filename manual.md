@@ -1,4 +1,4 @@
-# Page 1
+# Page 10
 
 **Riding on a refreshing wind, a brother-sister duo sets out on a new journey!**
 
@@ -6,7 +6,7 @@ A somewhat comical feel-good RPG by Compile
 
 Two average siblings embark on a yearly adventure. Supporting them in this adventure is a cast of curious personalities. It's Compile's take on the classic, everyday (?) RPG.
 
-# Page 2
+# Page 11
 
 **Let Compile blow away your disheartening reality with a heart-warming RPG.**
 
@@ -46,7 +46,7 @@ Otto is a 12-year-old with a quiet disposition. He can talk to the earth and pla
 
 *He can get teary-eyed over the smallest thing. He often gets mistaken for a girl.*
 
-# Page 3
+# Page 12
 
 ## Introducing an RPG system with somewhat unusual battle scenes!
 
@@ -111,7 +111,7 @@ Leave the enemy behind and flee the battle. If either one of you succeeds at run
 
 *Try as you might: if your enemy has a high speed stat, you won't be able to run so easily.*
 
-# Page 4
+# Page 13
 
 ## A complete overview of the Call system
 
@@ -145,4 +145,60 @@ By using Call repeatedly, you can power up to three different levels. If you max
 
 (image)
 
+# Page 14
 
+## Off to gather praygrass with the two of us!
+
+Mina and Otto's first destination are the Western Fields. Their journey begins with a quest to gather the "praygrass" that grows there.
+
+They had intended to stop by their cousin Gray who lives in the village on the way to Star Mountain, and make it their usual relaxed outing. But this year there's an ominous atmosphere somehow...
+
+## Say hi in the village first
+
+Before you set out to pick praygrass, you can rest up in this village. All the villagers who haven't seen Mina and Otto all year will be happy to welcome them. Right when they arrive, the watchmaker Gray is being approached about something by a wandering vagrant. As he rejects the wanderer's request to become the village bodyguard, he meets Mina and Otto with the smile they've had to miss for a year. After resting up for the night at the inn, they head out for the western fields.
+
+*The town harbors all kinds of people, from average folk to weirdos.*
+
+*The three of them talking merrily while ignoring Mr. Cowboy. His stature is big but he has a small heart.*
+
+**Gray.** Works as a watch repairer in the village. He has a calm demeanor, but he can get really fired up.
+
+## Where's the praygrass?
+
+After resting up for the night, our pair finally sets off to seek the praygrass. On their way, a fierce Rock Lizard ambushes them, but the wanderer they met shows up to save them right in time. His awesome technique may remind you of the Wild Dances seen in a certain fighting game. After a fraught journey, the two arrive at the praygrass.
+
+*Our heros, frolicking on through the forest, not knowing what awaits them...*
+
+*He approaches the two from behind with an afterimage in his wake, rains down a series of punches and kicks, then delivers the final blow with a jumping uppercut!*
+
+## Enemies spotted!
+
+### Golem
+
+Tougher than they look, but a single Call will take care of them. Small fries, really.
+
+### Kotodama
+
+Their attack stat is high, so they're strong opponents early in the game.
+
+# Page 15
+
+## Black Unicorn appears... and where's Gray?
+
+When they make it back to the village, our heros find the town ransacked by an armed group called Black Unicorn. Fending off soldiers one after the other, Mina and Otto encounter Garriott, their leader. But when her lackeys are defeated, Garriott runs off. Why did Black Unicorn attack the village? Where did they take Gray? Who is Gray's watchmaking teacher? Are the earth god Gillespie and the wanderer related? If you want to see these turbulent developments, you'll have to play the rest!
+
+*Taking it easy by the lakeside. It looks like a peaceful adventure, but...*
+
+*They kidnapped Gray! But why?*
+
+*Garriott: Commander of Black Unicorn. Looks a lot like a character from a certain polygon-based fighting game.*
+
+*As Garriott is defeated, a new villain sets eye on the village. Can our heros survive the offense of such a huge weapon?*
+
+*Who's the old guy with the serious face?*
+
+*He may look tough on the outside, but this wanderer is innocent and sensitive.*
+
+## Behind the scenes
+
+When Ocarina was working on the Kikimora game I went to take a look at it and saw that it had this weird ice shooting mechanic, and I asked "why do you shoot ice?" and they were like "I dunno" and I gave advice like "you should attack with the mop, bring the mop back, also the enemies look dumb, do something about it" and went on my merry way to write the scenario for Wind's Seed until Bangan came by and was like "why is the last boss so stupid?" and I was like "I dunno" and they were like "give the boy some character growth, also the map is too complex, simplify it, also do all that in two weeks", so not to be outdone went back to Ocarina and told them "finish it in two weeks!" as well. But anyway Kikimora was completed before Wind's Seed. Why.
