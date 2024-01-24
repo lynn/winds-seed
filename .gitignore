@@ -1,5 +1,6 @@
 *.fdi
 *.FDI
+*.hdm
 dump
 __pycache__
 fcpdump

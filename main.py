@@ -20,20 +20,20 @@ import struct
 import sys
 
 from fcp import pack_fcp, unpack_fcp
-from fdi import pack_fdi, unpack_fdi
+from hdm import pack_hdm, unpack_hdm
 from x86 import Patch
 import story
 import strings
 from util import edit, translate, find_strings
 
 if __name__ == "__main__":
-    rom_name = "Winds_Seed.FDI"
+    rom_name = "ws.hdm"
     if "--dump-save" in sys.argv:
-        rom_name = "patched.fdi"
+        rom_name = "patched.hdm"
     with open(rom_name, "rb") as f:
         rom = bytearray(f.read())
 
-    fs = unpack_fdi(rom)
+    fs = unpack_hdm(rom)
 
     if "--dump-save" in sys.argv:
         exit()
@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
     fcp = unpack_fcp(fs["WSDATA.FCP"])
     assert fs["WSDATA.FCP"] == pack_fcp(fcp)
-    assert rom == pack_fdi(fs, rom)
+    assert rom == pack_hdm(fs, rom)
 
     if not os.path.isdir("fcpdump"):
         os.mkdir("fcpdump")
@@ -194,8 +194,8 @@ if __name__ == "__main__":
 
         fs["WSSAVE00.DAT"] = sav
 
-    patched = pack_fdi(fs, rom)
+    patched = pack_hdm(fs, rom)
 
-    with open("patched.fdi", "wb") as of:
-        print("Writing patched.fdi: sha1 =", hashlib.sha1(patched).hexdigest())
+    with open("patched.hdm", "wb") as of:
+        print("Writing patched.hdm: sha1 =", hashlib.sha1(patched).hexdigest())
         of.write(patched)

@@ -1,5 +1,5 @@
 """
-This file contains code to unpack all the files from the Wind's Seed .FDI floppy
+This file contains code to unpack all the files from the Wind's Seed .HDM floppy
 disk image, and to repack it and fix the FAT table (because one of the files
 will have grown).
 """
@@ -7,7 +7,7 @@ will have grown).
 import math
 import os
 
-FAT_START = 0x2400
+FAT_START = 0x1400
 
 
 def pack_fat_table(entries: list[int]) -> bytes:
@@ -24,7 +24,7 @@ def pack_fat_table(entries: list[int]) -> bytes:
     return bytes(b)
 
 
-def pack_fdi(fs: dict[bytes, any], rom: bytes) -> bytes:
+def pack_hdm(fs: dict[bytes, any], rom: bytes) -> bytes:
     b = bytearray(rom[:FAT_START])
     sector = 2
     queue = []
@@ -33,7 +33,7 @@ def pack_fdi(fs: dict[bytes, any], rom: bytes) -> bytes:
 
     for i, (name, contents) in enumerate(fs.items()):
         base, ext = name.encode().split(b".")
-        meta = rom[0x240B + 32 * i : 0x241A + 32 * i]
+        meta = rom[FAT_START + 0xB + 32 * i : FAT_START + 0x1A + 32 * i]
         if i >= 12:
             # Hack for save files
             meta = b" \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xef\xba\xfcV"
@@ -46,8 +46,8 @@ def pack_fdi(fs: dict[bytes, any], rom: bytes) -> bytes:
         fat += [*range(old + 1, sector), 0xFFF]
 
     ft = pack_fat_table(fat).ljust(0x800, b"\0")
-    b[0x1400:0x1C00] = ft
-    b[0x1C00:0x2400] = ft
+    b[0x400:0xC00] = ft
+    b[0xC00:0x1400] = ft
 
     for sector, contents in queue:
         # Copy padding from ROM
@@ -56,7 +56,7 @@ def pack_fdi(fs: dict[bytes, any], rom: bytes) -> bytes:
     return b + rom[len(b) : len(rom)]
 
 
-def unpack_fdi(rom: bytes) -> dict[bytes, any]:
+def unpack_hdm(rom: bytes) -> dict[bytes, any]:
     fs = {}
     for i in range(99):
         header = rom[FAT_START + 32 * i : FAT_START + 32 * i + 32]
