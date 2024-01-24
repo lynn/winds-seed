@@ -1,4 +1,4 @@
-# [Page 10](./manual/10.jpg)
+# [Page 10](./10.jpg)
 
 **Riding on a refreshing wind, a brother-sister duo sets out on a new journey!**
 
@@ -6,7 +6,7 @@ A somewhat comical feel-good RPG by Compile
 
 Two average siblings embark on a yearly adventure. Supporting them in this adventure is a cast of curious personalities. It's Compile's take on the classic, everyday (?) RPG.
 
-# [Page 11](./manual/11.jpg)
+# [Page 11](./11.jpg)
 
 **Let Compile blow away your disheartening reality with a heart-warming RPG.**
 
@@ -46,7 +46,7 @@ Otto is a 12-year-old with a quiet disposition. He can talk to the earth and pla
 
 _He can get teary-eyed over the smallest thing. He often gets mistaken for a girl._
 
-# [Page 12](./manual/12.jpg)
+# [Page 12](./12.jpg)
 
 ## Introducing an RPG system with somewhat unusual battle scenes!
 
@@ -111,7 +111,7 @@ Leave the enemy behind and flee the battle. If either one of you succeeds at run
 
 _Try as you might: if your enemy has a high speed stat, you won't be able to run so easily._
 
-# [Page 13](./manual/13.jpg)
+# [Page 13](./13.jpg)
 
 ## A complete overview of the Call system
 
@@ -145,7 +145,7 @@ By using Call repeatedly, you can power up to three different levels. If you max
 
 (image)
 
-# [Page 14](./manual/14.jpg)
+# [Page 14](./14.jpg)
 
 ## Off to gather praygrass with the two of us!
 
@@ -181,7 +181,7 @@ Tougher than they look, but a single Call will take care of them. Small fries, r
 
 Their attack stat is high, so they're strong opponents early in the game.
 
-# [Page 15](./manual/15.jpg)
+# [Page 15](./15.jpg)
 
 ## Black Unicorn appears... and where's Gray?
 
