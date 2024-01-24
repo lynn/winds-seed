@@ -1,6 +1,6 @@
 # Wind's Seed English patch
 
-Wind's Seed is a short JRPG for the PC-9801, released in 1995 by [Compile](<https://en.wikipedia.org/wiki/Compile_(company)>) (of Puyo Puyo fame). I translated it into English.
+Wind's Seed is a short JRPG for the PC-9801, released in 1995 by [Compile](<https://en.wikipedia.org/wiki/Compile_(company)>) (of _Puyo Puyo_ fame). I translated it into English.
 
 ![Screenshot of the game](https://github.com/lynn/winds-seed/assets/16232127/ada7591f-4772-46ae-9d57-5679994a94af)
 
@@ -14,19 +14,21 @@ Wind's Seed is a short JRPG for the PC-9801, released in 1995 by [Compile](<http
 
 3. Load `Disc Station Vol. 07 (Disk 1).hdm` in FDD1 and the blank `ws.hdm` in FDD2, and then reboot.
 
-4. Press Enter, then down to highlight the Wind's Seed installer:
+4. You should see the Disc Station launcher. Press Enter, then the down arrow key to highlight the Wind's Seed installer:
 
    ![Selecting the Wind's Seed installer](https://github.com/lynn/winds-seed/assets/16232127/79065cbe-a9d5-4ea6-818f-eaff38b4eeb5)
 
 5. Press Enter to launch it. Move the cursor down to `インストールの実行` and press Enter twice to install.
 
-6. Now your `ws.hdm` file contains Wind's Seed in Japanese! (If you eject FDD1 and reboot, you should be able to play it.)
+6. Now your `ws.hdm` file contains Wind's Seed in Japanese! Press Escape. If you eject FDD1 and reboot, the game should launch.
 
 ## Patching the game
 
 Download the patch [here](./winds-seed-english.xdelta) and apply it using [xdelta](http://xdelta.org/).
 
-Because you installed the game yourself, your `ws.hdm` has different file creation dates than the one I made the patch from, and you'll get a checksum mismatch error. You'll have to run xdelta with the `-n` flag to ignore the checksum:
+Your `ws.hdm` has different file creation dates than the one I made the patch from, so you'll get a checksum mismatch error if you try to apply the patch with something like xdeltaUI.
+
+You'll have to run the xdelta command line application with the `-n` flag to ignore the checksum:
 
     xdelta -n -d -s ws.hdm winds-seed-english.xdelta ws-en.hdm
 
@@ -38,10 +40,10 @@ I also translated the game's [manual](./manual) (it was published as part of a m
 
 ## Credits
 
-I, Lynn [@chordbug](https://twitter.com/chordbug), did all the romhacking and translating. The code is [here](https://github.com/lynn/winds-seed/tree/main), and some notes about the process are [here](https://gist.github.com/lynn/aaab1ab4c8f6196c72735d157e2a95fb). I couldn't have done it without the help of some other wonderful folks:
+I, [lynn](https://github.com/lynn), did all the romhacking and translating. The code is [here](https://github.com/lynn/winds-seed/tree/main), and some notes about the process are [here](https://gist.github.com/lynn/aaab1ab4c8f6196c72735d157e2a95fb). I couldn't have done it without the help of some other wonderful folks:
 
 - hollowaytape and celcion from 46OkuMen: for [exploring](https://github.com/46OkuMen/windseed) this game and leaving helpful notes for me to start from. Thanks!
-- WILLYYYYYYY: for obtaining the Disc Station Vol.7 magazine from an auction to scan the manual, all so I could translate it! Thank you so much.
+- WILLYYYYYYY: for obtaining the magazine from an auction and scanning it, all so I could translate it! Thank you so much.
 - The PC-9800 Series Central Discord, for their feedback and encouragement.
 - fluidvolt: for being lovely, and playing through many weird retro games with me. "Look at this little lad!!"
 
