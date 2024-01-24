@@ -98,7 +98,8 @@ if __name__ == "__main__":
 
     # Swap halves of hankaku bitmap from Kanji ROM (rol ax,8)
     # Only invert the hankaku part (not al instead of not ax)
-    edit(bios_patched, 0xA2D, bytes.fromhex("c1c008 f6c280 7405 f6d0 90 90 90"))
+    # Clear the ah part?
+    edit(bios_patched, 0xA2D, bytes.fromhex("c1c008 f6c280 7402 f6d0 b4 00 90"))
 
     # and these guys draw the bg?
     # edit(bios_patched, 0xa6e, b"\x90\x90\x90")
