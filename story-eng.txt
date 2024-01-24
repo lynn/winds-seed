@@ -1488,7 +1488,7 @@ Well, yup, I can't help being cool.<Next>
 <!-- <LB><LS Otto>バケモノ…<Next> -->
 <!-- <End> -->
 <RB><RS InnGuest>Hrmmm...<Next>
-"Golems" dwell the outskirts of this town.<Next>
+"Golems" dwell in the outskirts of this town.<Next>
 They may look like big ol' bamboo shoots, but they're monsters all the same.<Next>
 <LB><LS Otto>Monsters...<Next>
 <End>

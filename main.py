@@ -174,6 +174,14 @@ if __name__ == "__main__":
             raise e
         translate(ws_patched, addr, ja, en)
 
+    # Get rid of those @ signs?
+    ws_patched = ws_patched.replace(
+        bytes.fromhex("0302 8140"), bytes.fromhex("0302 2020")
+    )
+    ws_patched = ws_patched.replace(
+        bytes.fromhex("0300 8140"), bytes.fromhex("0300 2020")
+    )
+
     fs["DRBIOS.COM"] = bios_patched
     fs["WS.COM"] = ws_patched
     fs["WSDATA.FCP"] = pack_fcp(fcp)
