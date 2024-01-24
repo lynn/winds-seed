@@ -8,7 +8,7 @@ Wind's Seed is a short JRPG for the PC-9801, released in 1995 by Compile. I tran
 
 1. First, obtain `Disc Station Vol. 07 (Disk 1).hdm` by Compile.
 
-2. Create a new floppy disk image and call it `ws.hdm`. If you're using Neko Project, you can use "New disk" in the "Emulate" menu:
+2. Create a new floppy disk image and call it `ws.hdm`. If you're using Neko Project, you can use "New disk" in the "Emulate" menu. Make sure to select `1.25MB raw image file (*.hdm)` as the file type.
 
    ![Creating a new floppy disk image in Neko Project](https://github.com/lynn/winds-seed/assets/16232127/3295155b-07f8-4f5d-93f4-164770f37297)
 
