@@ -1,12 +1,12 @@
-# Wind's Seed
+# Wind's Seed English patch
 
-Wind's Seed is a short JRPG for the PC-9801, released in 1995 by Compile. I translated it into English.
+Wind's Seed is a short JRPG for the PC-9801, released in 1995 by [Compile](<https://en.wikipedia.org/wiki/Compile_(company)>) (of Puyo Puyo fame). I translated it into English.
 
 ![Screenshot of the game](https://github.com/lynn/winds-seed/assets/16232127/ada7591f-4772-46ae-9d57-5679994a94af)
 
 ## Installing Wind's Seed to a floppy disk image
 
-1. First, obtain `Disc Station Vol. 07 (Disk 1).hdm` by Compile.
+1. First, obtain Compile's _Disc Station Vol. 07_ from... somewhere.
 
 2. Create a new floppy disk image and call it `ws.hdm`. If you're using Neko Project, you can use "New disk" in the "Emulate" menu. Make sure to select `1.25MB raw image file (*.hdm)` as the file type.
 
@@ -26,9 +26,9 @@ Wind's Seed is a short JRPG for the PC-9801, released in 1995 by Compile. I tran
 
 Download the patch [here](./winds-seed-english.xdelta) and apply it using [xdelta](http://xdelta.org/).
 
-To apply it, I suggest you use [xdelta UI](https://www.romhacking.net/utilities/598/), but if you prefer using the command line, try:
+Because you installed the game yourself, your `ws.hdm` has different file creation dates than the one I made the patch from, and you'll get a checksum mismatch error. You'll have to run xdelta with the `-n` flag to ignore the checksum:
 
-    xdelta -d -s ws.hdm winds-seed-english.xdelta ws-en.hdm
+    xdelta -n -d -s ws.hdm winds-seed-english.xdelta ws-en.hdm
 
 Now you can load `ws-en.hdm` to play the game in English. Have fun!
 
@@ -38,9 +38,11 @@ I also translated the game's [manual](./manual) (it was published as part of a m
 
 ## Credits
 
-I (lynn / chordbug) did all the romhacking and translating. The code is [here](https://github.com/lynn/winds-seed/tree/main) and some feverish bullet-point notes about the process are [here](https://gist.github.com/lynn/aaab1ab4c8f6196c72735d157e2a95fb). I couldn't have done it without the help of some other folks:
+I, Lynn [@chordbug](https://twitter.com/chordbug), did all the romhacking and translating. The code is [here](https://github.com/lynn/winds-seed/tree/main), and some notes about the process are [here](https://gist.github.com/lynn/aaab1ab4c8f6196c72735d157e2a95fb). I couldn't have done it without the help of some other wonderful folks:
 
 - hollowaytape and celcion from 46OkuMen: for [exploring](https://github.com/46OkuMen/windseed) this game and leaving helpful notes for me to start from. Thanks!
-- WILLYYYYYYY: for obtaining the Disc Station Vol.7 magazine from an auction for me to scan the manual, all so I could translate it! Thank you so much.
+- WILLYYYYYYY: for obtaining the Disc Station Vol.7 magazine from an auction to scan the manual, all so I could translate it! Thank you so much.
 - The PC-9800 Series Central Discord, for their feedback and encouragement.
 - fluidvolt: for being lovely, and playing through many weird retro games with me. "Look at this little lad!!"
+
+![Another screenshot of the game](https://github.com/lynn/winds-seed/assets/16232127/bf3b2065-769e-4807-b6b4-a5006665129c)
